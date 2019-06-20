@@ -115,8 +115,9 @@ public class PlayerController : MonoBehaviour
                     yield return null;// new WaitForSeconds(0.2f);
                     break;
                 case State_Slime.DASH:
+                    Debug.Log(slime_Rigid.velocity.magnitude);
                     animator.SetTrigger(Dash);
-                    yield return null;// new WaitForSeconds(0.2f);
+                    yield return new WaitForSeconds(0.7f);
                     break;
             }
             yield return null;
@@ -133,11 +134,11 @@ public class PlayerController : MonoBehaviour
         {
             state_slime = State_Slime.IDLE;
         }
-        else if (0.1f < slime_Rigid.velocity.magnitude && slime_Rigid.velocity.magnitude <= 0.2f)
+        else if (0.1f < slime_Rigid.velocity.magnitude && slime_Rigid.velocity.magnitude <= 1.5f)
         {
             state_slime = State_Slime.MOVE;
         }
-        else if (0.2f < slime_Rigid.velocity.magnitude)
+        else if (10.5f < slime_Rigid.velocity.magnitude)
         {
             state_slime = State_Slime.DASH;
         }
