@@ -13,6 +13,16 @@ public enum State_Slime
 public class PlayerController : MonoBehaviour
 {
     #region parameter
+
+    public int Damage
+    {
+        get { return _damage; }
+        set
+        {
+            _damage = value;
+        }
+    }
+
     public float Charge
     {
         get { return _charge; }
@@ -23,8 +33,7 @@ public class PlayerController : MonoBehaviour
             if (_charge >= 1200.0f)
             {
                  _charge = 1200.0f;
-            }
-
+            } 
             power_bar.value = _charge / 1200.0f;
         }
     }
@@ -47,6 +56,7 @@ public class PlayerController : MonoBehaviour
     #endregion
 
     #region variable
+    public int _damage = 10;
     public float _charge = 0.0f;
     public float _hp = 100.0f;
 
@@ -178,7 +188,7 @@ public class PlayerController : MonoBehaviour
         if (state_slime != State_Slime.DASH)
         {
             moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-            slime_Rigid.velocity = moveInput.normalized * speed / chargeSpeed * Time.deltaTime;
+            slime_Rigid.velocity += moveInput.normalized * speed / chargeSpeed * Time.deltaTime;
 
             if(Input.GetAxisRaw("Horizontal") < 0.0f)
             {
@@ -211,3 +221,4 @@ public class PlayerController : MonoBehaviour
         //}
     }
 }
+
