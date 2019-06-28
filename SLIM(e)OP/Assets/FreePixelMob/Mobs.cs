@@ -34,10 +34,6 @@ public class Mobs : MonoBehaviour
 
     #endregion
 
-    void Awake()
-	{
-		_animator = GetComponentInChildren<Animator>();
-	}
 	void Start()
 	{
         EventManager.Instance.AddListener(EVENT_TYPE.HEALTH_CHANGE, OnEvent);
