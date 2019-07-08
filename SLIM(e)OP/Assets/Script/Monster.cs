@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum Monster_State
+{
+    NONE,
+    IDLE,
+    MOVE,
+    ATTACK
+}
+
 public class Monster : MonoBehaviour
 {
     #region parameter

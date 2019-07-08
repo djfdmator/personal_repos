@@ -8,17 +8,56 @@ public class Slime : Monster
     static int AnimatorWalk = Animator.StringToHash("Walk");
     static int AnimatorAttack = Animator.StringToHash("Attack");
     Animator _animator;
+
+    private Monster_State state = Monster_State.NONE;
+
+    public float action_intervalTime = 0.0f;
+
+    GameObject player;
+    public float currentDistance;
+
     #endregion
 
     void Awake()
     { 
         _animator = GetComponentInChildren<Animator>();
+
+        player = GameObject.FindGameObjectWithTag("Player");
+
+    }
+
+    private void Start()
+    {
+        Animate();
+    }
+
+    private void Update()
+    {
+        //가만 있을까? 움직일까?ㅇ..
+        switch (state)
+        {
+            case Monster_State.IDLE:
+                break;
+            case Monster_State.MOVE:
+                break;
+            case Monster_State.ATTACK:
+                break;
+
+        }
+
+        
+    }
+
+    private void FixedUpdate()
+    {
+        currentDistance = Vector2.Distance(transform.position, player.transform.position);
+        _animator.SetFloat("distanceFromPlayer", currentDistance);
     }
 
     IEnumerator Animate()
     {
         yield return new WaitForSeconds(5f);
-        while (true)
+        while (true) 
         {
             _animator.SetBool(AnimatorWalk, true);
             yield return new WaitForSeconds(1f);
@@ -32,7 +71,7 @@ public class Slime : Monster
             _animator.SetTrigger(AnimatorAttack);
             yield return new WaitForSeconds(1f);
 
-            _animator.SetTrigger(AnimatorAttack);
+            _animator.SetTrigger(AnimatorAttack); 
             yield return new WaitForSeconds(1f);
 
             _animator.SetTrigger(AnimatorAttack);

@@ -90,6 +90,8 @@ public class PlayerController : MonoBehaviour
 
     //캐릭터의 현재 상태
     public State_Slime state_slime = State_Slime.NONE;
+
+    float angle;
     #endregion
 
     private void Awake()
@@ -174,9 +176,9 @@ public class PlayerController : MonoBehaviour
         {
             //대쉬 방향 표시 회전각 계산
             DashVFX.SetActive(true);
-            float angle = Mathf.Atan2(DashWay.y, DashWay.x) * Mathf.Rad2Deg;
-            DashVFX.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-            DashVFX.transform.localScale = new Vector3(DashFoward * (_charge / 1200.0f), 0.8f, 0.0f);
+            angle = Mathf.Atan2(DashWay.y, DashWay.x) * Mathf.Rad2Deg;
+            //DashVFX.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            //DashVFX.transform.localScale = new Vector3(DashFoward * (_charge / 1200.0f), 0.8f, 0.0f);
 
             //대쉬 파워 게이지바 
             power_bar.gameObject.SetActive(true);
@@ -201,7 +203,8 @@ public class PlayerController : MonoBehaviour
                 DashFoward = 1;
             }
         }
-
+        DashVFX.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        DashVFX.transform.localScale = new Vector3(DashFoward * (_charge / 1200.0f), 0.8f, 0.0f);
         //key up Space bar - 대쉬
         if (Input.GetKeyUp(KeyCode.Space))
         {
