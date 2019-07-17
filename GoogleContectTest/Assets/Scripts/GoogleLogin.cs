@@ -12,7 +12,9 @@ public class GoogleLogin : MonoBehaviour
 {
     //DB
     public string saveData;
-
+    //테스트용
+    public UILabel label;
+    public UILabel label2;
     //로그인 UI
     public GameObject LoginUI;
 
@@ -38,6 +40,17 @@ public class GoogleLogin : MonoBehaviour
         GameCenterPlatform.ShowDefaultAchievementCompletionBanner(true);
  
 #endif
+
+    }
+
+    public void OnSaveGame()
+    {
+        SaveToCloud("kkkk");
+    }
+
+    public void OnLoadGame()
+    {
+        LoadFromCloud();
     }
 
     #region Log In & Out
@@ -54,13 +67,13 @@ public class GoogleLogin : MonoBehaviour
             {
                 // to do ...
                 // 로그인 성공 처리
-                mStatusText = "Success";
+                label.text = "Success";
             }
             else
             {
                 // to do ...
                 // 로그인 실패 처리
-                mStatusText = "Failed";
+                label.text = "Failed";
             }
         });
     }
@@ -98,19 +111,20 @@ public class GoogleLogin : MonoBehaviour
     {
         if(_status == SavedGameRequestStatus.Success)
         {
-            mStatusText = "Success";
+            label.text = "OnSavedGameOpenedToSaveSuccess";
             byte[] b = Encoding.UTF8.GetBytes(string.Format(saveData));
             SaveGame(_data, b, DateTime.Now.TimeOfDay);
         }
         else
         {
             //Fail
-            mStatusText = "Fail";
+            label.text = "OnSavedGameOpenedToSaveFail";
         }
     }
 
     void SaveGame(ISavedGameMetadata _data, byte[] _byte, TimeSpan _playTime)
     {
+        label.text = "SaveGame";
         ISavedGameClient savedGameClient = PlayGamesPlatform.Instance.SavedGame;
         SavedGameMetadataUpdate.Builder builder = new SavedGameMetadataUpdate.Builder();
 
@@ -125,12 +139,12 @@ public class GoogleLogin : MonoBehaviour
         if(_status == SavedGameRequestStatus.Success)
         {
             //Save Complete
-            mStatusText = "Save Complete";
+            label.text = "Save Complete";
         }
         else
         {
             //Save Failed
-            mStatusText = "Save Failed";
+            label.text = "Save Failed";
         }
     }
 
@@ -162,18 +176,19 @@ public class GoogleLogin : MonoBehaviour
     {
         if(_status == SavedGameRequestStatus.Success)
         {
-            mStatusText = "Success";
+            label.text = "OnSavedGameOpenedToReadSuccess";
             LoadGameData(_data);
         }
         else
         {
             //Fail
-            mStatusText = "Fail";
+            label.text = "OnSavedGameOpenedToReadFail";
         }
     }
 
     void LoadGameData(ISavedGameMetadata _data)
     {
+        label.text = "LoadGameData";
         ISavedGameClient savedGameClient = PlayGamesPlatform.Instance.SavedGame;
         savedGameClient.ReadBinaryData(_data, OnSavedGameDataRead);
     }
@@ -182,14 +197,17 @@ public class GoogleLogin : MonoBehaviour
     {
         if(_status == SavedGameRequestStatus.Success)
         {
-            mStatusText = "Load Success";
+            label.text = "Load Success";
             string data = Encoding.Default.GetString(_byte);
             //데이터 세팅
+
+            //testdata.Setdata(data);
+            label2.text = data;
         }
         else
         {
             //Load Fail
-            mStatusText = "Load Fail";
+            label.text = "Load Fail";
         }
     }
 

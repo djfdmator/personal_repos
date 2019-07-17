@@ -15,8 +15,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: 2e8f2ee9ebbd1254d8aabaed38e5a531, type: 2}
   mSprites:
   - name: btn_google_signin_dark_disabled_web
-    x: 0
-    y: 79
+    x: 570
+    y: 927
     width: 185
     height: 40
     borderLeft: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
     paddingBottom: 3
   - name: btn_google_signin_dark_focus_web
     x: 0
-    y: 120
+    y: 921
     width: 191
     height: 46
     borderLeft: 0
@@ -41,21 +41,21 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: btn_google_signin_dark_normal_web
-    x: 0
-    y: 213
+    x: 382
+    y: 924
     width: 187
     height: 43
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
+    borderLeft: 2
+    borderRight: 1
+    borderTop: 1
+    borderBottom: 1
     paddingLeft: 2
     paddingRight: 2
     paddingTop: 2
     paddingBottom: 1
   - name: btn_google_signin_dark_pressed_web
-    x: 0
-    y: 167
+    x: 192
+    y: 922
     width: 189
     height: 45
     borderLeft: 0
@@ -65,6 +65,19 @@ MonoBehaviour:
     paddingLeft: 1
     paddingRight: 1
     paddingTop: 1
+    paddingBottom: 0
+  - name: taptocreen_final
+    x: 0
+    y: 968
+    width: 1920
+    height: 1080
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
     paddingBottom: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
