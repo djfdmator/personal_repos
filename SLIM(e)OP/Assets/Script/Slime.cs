@@ -5,6 +5,7 @@ using UnityEngine;
 public class Slime : Monster
 {
     #region variable
+
     static int AnimatorWalk = Animator.StringToHash("Walk");
     static int AnimatorAttack = Animator.StringToHash("Attack");
     Animator _animator;
@@ -15,12 +16,16 @@ public class Slime : Monster
 
     GameObject player;
     public float currentDistance;
+    public int rand_IdleBehaviour = 0; // 0 = idle, 1 = move ;; animation
+    Vector2 Forward;
+    Rigidbody2D rigid;
 
     #endregion
 
     void Awake()
-    { 
-        _animator = GetComponentInChildren<Animator>();
+    {
+        _animator = GetComponent<Animator>();
+        rigid = GetComponent<Rigidbody2D>();
 
         player = GameObject.FindGameObjectWithTag("Player");
 
@@ -28,55 +33,90 @@ public class Slime : Monster
 
     private void Start()
     {
-        Animate();
-    }
-
-    private void Update()
-    {
-        //가만 있을까? 움직일까?ㅇ..
-        switch (state)
-        {
-            case Monster_State.IDLE:
-                break;
-            case Monster_State.MOVE:
-                break;
-            case Monster_State.ATTACK:
-                break;
-
-        }
-
-        
+        StartCoroutine("Animate");
     }
 
     private void FixedUpdate()
     {
         currentDistance = Vector2.Distance(transform.position, player.transform.position);
-        _animator.SetFloat("distanceFromPlayer", currentDistance);
+        _animator.SetFloat("distance", currentDistance);
+
+        if (currentDistance <= 1.0f)
+        {
+            //Attack
+            state = Monster_State.ATTACK;
+        }
+        else if (1.0f < currentDistance && currentDistance <= 2.5f)
+        {
+            //Chase
+            state = Monster_State.CHASE;
+            Vector2 forward = player.transform.position - transform.position;
+            rigid.velocity = forward * 1.2f;
+        }
+        else
+        {
+            //Idle
+            state = Monster_State.IDLE;
+            if (rand_IdleBehaviour == 0)
+            {
+                //Idle
+            }
+            else
+            {
+                //Move
+                rigid.velocity = Forward * 1.2f;
+            }
+        }
+    }
+
+    Vector2 RandomMoveForward2D()
+    {
+        //need fixed circle range;; 
+        float dir_x = Random.Range(-2, 2);
+        float dir_y = Random.Range(-2, 2);
+
+        return new Vector2(dir_x, dir_y);
     }
 
     IEnumerator Animate()
     {
-        yield return new WaitForSeconds(5f);
-        while (true) 
+
+        //가만 있을까? 움직일까?ㅇ..
+        while (true)
         {
-            _animator.SetBool(AnimatorWalk, true);
-            yield return new WaitForSeconds(1f);
+            switch (state)
+            {
+                case Monster_State.IDLE:
+                    if (rand_IdleBehaviour == 0)
+                    {
+                        //Idle
+                        _animator.SetBool("move", false);
+                        yield return new WaitForSeconds(1f);
+                    }
+                    else
+                    {
+                        //Move
+                        _animator.SetBool("move", true);
+                        yield return new WaitForSeconds(1f);
+                    }
+                    rand_IdleBehaviour = Random.Range(0, 2);
+                    Forward = RandomMoveForward2D();
+                    Debug.Log(rand_IdleBehaviour);
+                    break;
+                case Monster_State.CHASE:
+                    _animator.SetBool("move", true);
+                    yield return new WaitForSeconds(1f);
+                    break;
+                case Monster_State.ATTACK:
+                    _animator.SetBool("move", false);
+                    player.GetComponent<PlayerController>().HP -= 5.0f;
+                    yield return new WaitForSeconds(1f);
+                    break;
 
-            _animator.transform.localScale = new Vector3(-1, 1, 1);
-            yield return new WaitForSeconds(1f);
-
-            _animator.SetBool(AnimatorWalk, false);
-            yield return new WaitForSeconds(1f);
-
-            _animator.SetTrigger(AnimatorAttack);
-            yield return new WaitForSeconds(1f);
-
-            _animator.SetTrigger(AnimatorAttack); 
-            yield return new WaitForSeconds(1f);
-
-            _animator.SetTrigger(AnimatorAttack);
-            yield return new WaitForSeconds(5f);
+            }
+            yield return null;
         }
+
     }
 
 }

@@ -6,7 +6,7 @@ public enum Monster_State
 {
     NONE,
     IDLE,
-    MOVE,
+    CHASE,
     ATTACK
 }
 
