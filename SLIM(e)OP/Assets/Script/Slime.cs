@@ -91,13 +91,13 @@ public class Slime : Monster
                     {
                         //Idle
                         _animator.SetBool("move", false);
-                        yield return new WaitForSeconds(1f);
+                        yield return new WaitForSeconds(2f);
                     }
                     else
                     {
                         //Move
                         _animator.SetBool("move", true);
-                        yield return new WaitForSeconds(1f);
+                        yield return new WaitForSeconds(2f);
                     }
                     rand_IdleBehaviour = Random.Range(0, 2);
                     Forward = RandomMoveForward2D();

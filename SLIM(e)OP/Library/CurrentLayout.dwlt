@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -46
-    y: 78
-    width: 1904
-    height: 981
+    x: 0
+    y: 43
+    width: 1920
+    height: 997
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
@@ -38,10 +38,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 560
+    x: 565
     y: 0
-    width: 790
-    height: 330
+    width: 796
+    height: 337
   m_MinSize: {x: 204, y: 144}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 24}
@@ -70,9 +70,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1904
-    height: 981
-  m_MinSize: {x: 950, y: 448}
+    width: 1920
+    height: 997
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -91,7 +91,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1904
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -112,8 +112,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 961
-    width: 1904
+    y: 977
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -135,12 +135,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1904
-    height: 931
+    width: 1920
+    height: 947
   m_MinSize: {x: 713, y: 398}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 1
-  controlID: 183
+  controlID: 189
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,12 +160,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1904
-    height: 931
+    width: 1920
+    height: 947
   m_MinSize: {x: 713, y: 398}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 184
+  controlID: 190
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,12 +185,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1350
-    height: 931
+    width: 1361
+    height: 947
   m_MinSize: {x: 436, y: 398}
   m_MaxSize: {x: 14006, y: 14048}
   vertical: 1
-  controlID: 185
+  controlID: 191
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,12 +210,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1350
-    height: 601
-  m_MinSize: {x: 202, y: 124}
-  m_MaxSize: {x: 8002, y: 4024}
+    width: 1361
+    height: 610
+  m_MinSize: {x: 206, y: 124}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 186
+  controlID: 192
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,8 +233,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 987
-    height: 601
+    width: 994
+    height: 610
   m_MinSize: {x: 102, y: 124}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 18}
@@ -260,12 +260,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 987
+    x: 994
     y: 0
-    width: 363
-    height: 601
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 367
+    height: 610
+  m_MinSize: {x: 104, y: 124}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -289,13 +289,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 601
-    width: 1350
-    height: 330
+    y: 610
+    width: 1361
+    height: 337
   m_MinSize: {x: 436, y: 274}
   m_MaxSize: {x: 14006, y: 10024}
   vertical: 0
-  controlID: 106
+  controlID: 93
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -313,8 +313,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 560
-    height: 330
+    width: 565
+    height: 337
   m_MinSize: {x: 232, y: 274}
   m_MaxSize: {x: 10002, y: 10024}
   m_ActualView: {fileID: 22}
@@ -339,14 +339,14 @@ MonoBehaviour:
   - {fileID: 16}
   m_Position:
     serializedVersion: 2
-    x: 1350
+    x: 1361
     y: 0
-    width: 554
-    height: 931
+    width: 559
+    height: 947
   m_MinSize: {x: 277, y: 298}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 155
+  controlID: 147
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -364,10 +364,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 554
-    height: 528
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 559
+    height: 537
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 25}
   m_Panes:
   - {fileID: 25}
@@ -391,11 +391,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 528
-    width: 554
-    height: 403
-  m_MinSize: {x: 240, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    y: 537
+    width: 559
+    height: 410
+  m_MinSize: {x: 242, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 28}
   m_Panes:
   - {fileID: 28}
@@ -422,10 +422,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 81
-    width: 985
-    height: 581
+    x: 0
+    y: 73
+    width: 992
+    height: 590
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -458,25 +458,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 985
-      height: 564
-    m_Scale: {x: 0.734375, y: 0.734375}
-    m_Translation: {x: 492.5, y: 282}
+      width: 992
+      height: 573
+    m_Scale: {x: 0.74609375, y: 0.74609375}
+    m_Translation: {x: 496.00003, y: 286.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -670.6383
+      x: -664.79584
       y: -384
-      width: 1341.2766
+      width: 1329.5917
       height: 768
     m_MinimalGUI: 1
-  m_defaultScale: 0.734375
+  m_defaultScale: 0.74609375
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 985, y: 581}
+  m_LastWindowPixelSize: {x: 992, y: 590}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -501,10 +501,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -46
-    y: 108
-    width: 985
-    height: 581
+    x: 0
+    y: 73
+    width: 992
+    height: 590
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: de852b474006e65498517e1ea6ddaf55
   m_SceneLighting: 1
@@ -512,9 +512,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.9510136, y: 1.7331358, z: 12.394828}
+    m_Target: {x: 0.118056856, y: -0.44607523, z: -0.076179735}
     speed: 2
-    m_Value: {x: 6.9510136, y: 1.7331358, z: 12.394828}
+    m_Value: {x: 0.118056856, y: -0.44607523, z: -0.076179735}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -546,9 +546,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.398395
+    m_Target: 5.279818
     speed: 2
-    m_Value: 11.398395
+    m_Value: 5.279818
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -583,8 +583,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 1260
-    height: 572
+    width: 993
+    height: 590
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &20
 MonoBehaviour:
@@ -786,10 +786,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: fe11367ce42768b4b867c468053db097,
+  m_AnimatorController: {fileID: 9100000, guid: 70dd49483a361a84292dcd05043b5b1e,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107146851543194866, guid: fe11367ce42768b4b867c468053db097,
+  - m_Target: {fileID: 1107632527190671094, guid: 70dd49483a361a84292dcd05043b5b1e,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -824,17 +824,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 989
-    y: 22
-    width: 359
-    height: 577
+    x: 994
+    y: 73
+    width: 363
+    height: 590
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: f89dffff
       m_LastClickedID: 0
-      m_ExpandedIDs: d4fbfffffe4c0000
+      m_ExpandedIDs: 68f7ffffe263000024640000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -879,10 +879,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -46
-    y: 709
-    width: 558
-    height: 310
+    x: 0
+    y: 683
+    width: 563
+    height: 317
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -902,14 +902,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Script
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\GitHub\personal_repos\SLIM(e)OP
+  m_LastProjectPath: E:\GitHub\personal_repos\SLIM(e)OP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0a4b0000
-    m_LastClickedID: 19210
-    m_ExpandedIDs: 00000000a8280000c0280000683e0000ca48000000ca9a3b
+    m_SelectedIDs: 46630000
+    m_LastClickedID: 25414
+    m_ExpandedIDs: 00000000224100003a410000d65600000661000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -937,7 +937,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a8280000c0280000683e0000ca480000
+    m_ExpandedIDs: 00000000224100003a410000d656000006610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1038,18 +1038,18 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 562
-    y: 22
-    width: 786
-    height: 306
+    x: 565
+    y: 683
+    width: 792
+    height: 317
   m_PersistentViewDataDictionary: {fileID: 0}
-  logPanelScroll: {x: 0, y: 56}
+  logPanelScroll: {x: 0, y: 3}
   logPanelSelectedIndex: -1
   logPanelAutoScroll: 1
-  currentFrame: 468252
+  currentFrame: 537532
   logs:
-    lastGrabbedIndex: 8
-    lastGrabbedCount: 9
+    lastGrabbedIndex: 7
+    lastGrabbedCount: 8
     proEntries:
     - logType: 2
       ignore: 0
@@ -1109,10 +1109,10 @@ MonoBehaviour:
       hasSourceCode: 0
       timeStamp: 0.019999999552965164
       timeFrame: 2
-      instanceID: 9662
+      instanceID: 9664
       collapsedCount: 1
       cachedHeight: 46
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries: []
       ignoredStackEntries: []
       lastMatchedCount: 1
@@ -1120,7 +1120,7 @@ MonoBehaviour:
       - name: Warning
         isEnabled: 1
         collapsed: 1
-        itemGUID: 288f6501-b1a0-4d35-a8a9-dd8135388d94
+        itemGUID: 0e6b0bae-a14f-4f66-8469-2a1a0120b73d
         filterName: 
         mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
         isStandardFilter: 1
@@ -1148,7 +1148,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: b3ea3cc0-8c35-4a6c-bcc2-55065ce3018d
+            itemGUID: a919d6cf-bad9-4e0a-a782-66dc8327f2dc
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -1157,12 +1157,12 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 71f946aa-07da-4151-aab1-62393b5acd21
+                itemGUID: aae018c5-5b87-4bc2-86a9-7c0e253c4571
                 logType: 2
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 9b0848e1-720e-4f9d-9dd2-04d6813099be
+                itemGUID: 62129711-f208-4357-8dea-e04a13dee3b7
                 logType: 5
               selectionList: 0
               collapsable: 1
@@ -1172,7 +1172,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 42e04719-2b49-4dde-85ec-0cac00be87e6
+                itemGUID: 95b91c35-4de6-42a6-b06a-897d019f542e
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -1255,7 +1255,7 @@ MonoBehaviour:
       - name: Warning
         isEnabled: 1
         collapsed: 1
-        itemGUID: 288f6501-b1a0-4d35-a8a9-dd8135388d94
+        itemGUID: 0e6b0bae-a14f-4f66-8469-2a1a0120b73d
         filterName: 
         mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
         isStandardFilter: 1
@@ -1283,7 +1283,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: b3ea3cc0-8c35-4a6c-bcc2-55065ce3018d
+            itemGUID: a919d6cf-bad9-4e0a-a782-66dc8327f2dc
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -1292,12 +1292,12 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 71f946aa-07da-4151-aab1-62393b5acd21
+                itemGUID: aae018c5-5b87-4bc2-86a9-7c0e253c4571
                 logType: 2
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 9b0848e1-720e-4f9d-9dd2-04d6813099be
+                itemGUID: 62129711-f208-4357-8dea-e04a13dee3b7
                 logType: 5
               selectionList: 0
               collapsable: 1
@@ -1307,7 +1307,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 42e04719-2b49-4dde-85ec-0cac00be87e6
+                itemGUID: 95b91c35-4de6-42a6-b06a-897d019f542e
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -1500,52 +1500,52 @@ MonoBehaviour:
       listIndex: 1
       nativeIndex: 1
       nativeIdentifier: 0
-      originalLog: 1
-      originalStackTrace: '1
+      originalLog: 12.32736
+      originalStackTrace: '12.32736
 
         UnityEngine.Debug:Log(Object)
 
-        <Animate>d__14:MoveNext() (at Assets/Script/Slime.cs:104)
+        <Animate>d__31:MoveNext() (at Assets/Script/PlayerController.cs:130)
 
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
 '
-      nativeFileName: Assets/Script/Slime.cs
-      nativeLineNumber: 104
+      nativeFileName: Assets/Script/PlayerController.cs
+      nativeLineNumber: 130
       watchName: 
-      logText: 1
-      logTruncatedText: 1
-      logColumnText: 1
+      logText: 12.32736
+      logTruncatedText: 12.32736
+      logColumnText: 12.32736
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 1.0270750522613525
-      timeFrame: 57
+      timeStamp: 1.2688652276992798
+      timeFrame: 66
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
-      - fileName: Assets/Script/Slime.cs
-        fileNameWithoutAssets: Script/Slime.cs
-        fileNameWithoutAssetsPlusLineNumber: Script/Slime.cs:104
-        fileNameWithoutPath: Slime.cs
-        fileNameWithoutPathPlusLineNumber: Slime.cs:104
+      - fileName: Assets/Script/PlayerController.cs
+        fileNameWithoutAssets: Script/PlayerController.cs
+        fileNameWithoutAssetsPlusLineNumber: Script/PlayerController.cs:130
+        fileNameWithoutPath: PlayerController.cs
+        fileNameWithoutPathPlusLineNumber: PlayerController.cs:130
         instanceID: -1
-        className: <Animate>d__14
+        className: <Animate>d__31
         methodName: MoveNext
         namespaceName: None
-        lineNumber: 104
+        lineNumber: 130
         charNumber: 0
-        stackLabel: <Animate>d__14.MoveNext()
-        stackLabel2: '    Assets/Script/Slime.cs:104'
+        stackLabel: <Animate>d__31.MoveNext()
+        stackLabel2: '    Assets/Script/PlayerController.cs:130'
         stackLabelContent:
-          m_Text: <b><Animate>d__14.MoveNext()</b>    Assets/Script/Slime.cs:104
+          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 447
+        stackLabelWidth: 518
         stackLabelHeight: 23
         stackSourceLineHeight: 15
         sourceCode: []
@@ -1580,7 +1580,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -1608,7 +1608,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -1617,7 +1617,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -1627,7 +1627,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -1710,7 +1710,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -1738,7 +1738,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -1747,7 +1747,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -1757,7 +1757,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -1950,8 +1950,8 @@ MonoBehaviour:
       listIndex: 2
       nativeIndex: 2
       nativeIdentifier: 0
-      originalLog: 0
-      originalStackTrace: '0
+      originalLog: 1
+      originalStackTrace: '1
 
         UnityEngine.Debug:Log(Object)
 
@@ -1963,20 +1963,20 @@ MonoBehaviour:
       nativeFileName: Assets/Script/Slime.cs
       nativeLineNumber: 104
       watchName: 
-      logText: 0
-      logTruncatedText: 0
-      logColumnText: 0
+      logText: 1
+      logTruncatedText: 1
+      logColumnText: 1
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 2.0536959171295166
-      timeFrame: 119
+      timeStamp: 2.0356335639953613
+      timeFrame: 111
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
       - fileName: Assets/Script/Slime.cs
         fileNameWithoutAssets: Script/Slime.cs
@@ -2030,7 +2030,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -2058,7 +2058,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -2067,7 +2067,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -2077,7 +2077,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -2160,7 +2160,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -2188,7 +2188,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -2197,7 +2197,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -2207,7 +2207,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -2400,8 +2400,8 @@ MonoBehaviour:
       listIndex: 3
       nativeIndex: 3
       nativeIdentifier: 0
-      originalLog: 24.63576
-      originalStackTrace: '24.63576
+      originalLog: 16.90875
+      originalStackTrace: '16.90875
 
         UnityEngine.Debug:Log(Object)
 
@@ -2413,20 +2413,20 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 24.63576
-      logTruncatedText: 24.63576
-      logColumnText: 24.63576
+      logText: 16.90875
+      logTruncatedText: 16.90875
+      logColumnText: 16.90875
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 2.567277669906616
-      timeFrame: 150
+      timeStamp: 2.4986774921417236
+      timeFrame: 137
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
       - fileName: Assets/Script/PlayerController.cs
         fileNameWithoutAssets: Script/PlayerController.cs
@@ -2480,7 +2480,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -2508,7 +2508,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -2517,7 +2517,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -2527,7 +2527,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -2610,7 +2610,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -2638,7 +2638,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -2647,7 +2647,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -2657,7 +2657,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -2850,52 +2850,52 @@ MonoBehaviour:
       listIndex: 4
       nativeIndex: 4
       nativeIdentifier: 0
-      originalLog: 10.91912
-      originalStackTrace: '10.91912
+      originalLog: 0
+      originalStackTrace: '0
 
         UnityEngine.Debug:Log(Object)
 
-        <Animate>d__31:MoveNext() (at Assets/Script/PlayerController.cs:130)
+        <Animate>d__14:MoveNext() (at Assets/Script/Slime.cs:104)
 
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
 '
-      nativeFileName: Assets/Script/PlayerController.cs
-      nativeLineNumber: 130
+      nativeFileName: Assets/Script/Slime.cs
+      nativeLineNumber: 104
       watchName: 
-      logText: 10.91912
-      logTruncatedText: 10.91912
-      logColumnText: 10.91912
+      logText: 0
+      logTruncatedText: 0
+      logColumnText: 0
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 3.763286828994751
-      timeFrame: 222
+      timeStamp: 10.145281791687012
+      timeFrame: 583
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
-      - fileName: Assets/Script/PlayerController.cs
-        fileNameWithoutAssets: Script/PlayerController.cs
-        fileNameWithoutAssetsPlusLineNumber: Script/PlayerController.cs:130
-        fileNameWithoutPath: PlayerController.cs
-        fileNameWithoutPathPlusLineNumber: PlayerController.cs:130
+      - fileName: Assets/Script/Slime.cs
+        fileNameWithoutAssets: Script/Slime.cs
+        fileNameWithoutAssetsPlusLineNumber: Script/Slime.cs:104
+        fileNameWithoutPath: Slime.cs
+        fileNameWithoutPathPlusLineNumber: Slime.cs:104
         instanceID: -1
-        className: <Animate>d__31
+        className: <Animate>d__14
         methodName: MoveNext
         namespaceName: None
-        lineNumber: 130
+        lineNumber: 104
         charNumber: 0
-        stackLabel: <Animate>d__31.MoveNext()
-        stackLabel2: '    Assets/Script/PlayerController.cs:130'
+        stackLabel: <Animate>d__14.MoveNext()
+        stackLabel2: '    Assets/Script/Slime.cs:104'
         stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
+          m_Text: <b><Animate>d__14.MoveNext()</b>    Assets/Script/Slime.cs:104
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 518
+        stackLabelWidth: 447
         stackLabelHeight: 23
         stackSourceLineHeight: 15
         sourceCode: []
@@ -2930,7 +2930,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -2958,7 +2958,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -2967,7 +2967,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -2977,7 +2977,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -3060,7 +3060,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -3088,7 +3088,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -3097,7 +3097,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -3107,7 +3107,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -3300,8 +3300,8 @@ MonoBehaviour:
       listIndex: 5
       nativeIndex: 5
       nativeIdentifier: 0
-      originalLog: 18.86688
-      originalStackTrace: '18.86688
+      originalLog: 10.06949
+      originalStackTrace: '10.06949
 
         UnityEngine.Debug:Log(Object)
 
@@ -3313,20 +3313,20 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 18.86688
-      logTruncatedText: 18.86688
-      logColumnText: 18.86688
+      logText: 10.06949
+      logTruncatedText: 10.06949
+      logColumnText: 10.06949
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 10.127484321594238
-      timeFrame: 606
+      timeStamp: 13.325194358825684
+      timeFrame: 770
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
       - fileName: Assets/Script/PlayerController.cs
         fileNameWithoutAssets: Script/PlayerController.cs
@@ -3380,7 +3380,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -3408,7 +3408,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -3417,7 +3417,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -3427,7 +3427,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -3510,7 +3510,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -3538,7 +3538,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -3547,7 +3547,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -3557,7 +3557,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -3750,8 +3750,8 @@ MonoBehaviour:
       listIndex: 6
       nativeIndex: 6
       nativeIdentifier: 0
-      originalLog: 16.99146
-      originalStackTrace: '16.99146
+      originalLog: 13.64375
+      originalStackTrace: '13.64375
 
         UnityEngine.Debug:Log(Object)
 
@@ -3763,20 +3763,20 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 16.99146
-      logTruncatedText: 16.99146
-      logColumnText: 16.99146
+      logText: 13.64375
+      logTruncatedText: 13.64375
+      logColumnText: 13.64375
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 12.305035591125488
-      timeFrame: 737
+      timeStamp: 20.667882919311523
+      timeFrame: 1198
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
       - fileName: Assets/Script/PlayerController.cs
         fileNameWithoutAssets: Script/PlayerController.cs
@@ -3830,7 +3830,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -3858,7 +3858,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -3867,7 +3867,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -3877,7 +3877,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -3960,7 +3960,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -3988,7 +3988,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -3997,7 +3997,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -4007,7 +4007,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -4200,8 +4200,8 @@ MonoBehaviour:
       listIndex: 7
       nativeIndex: 7
       nativeIdentifier: 0
-      originalLog: 13.56467
-      originalStackTrace: '13.56467
+      originalLog: 20.89075
+      originalStackTrace: '20.89075
 
         UnityEngine.Debug:Log(Object)
 
@@ -4213,470 +4213,20 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 13.56467
-      logTruncatedText: 13.56467
-      logColumnText: 13.56467
-      fileName: 
-      className: 
-      namespaceName: 
-      lineCount: 1
-      hasSourceCode: 0
-      timeStamp: 16.286651611328125
-      timeFrame: 977
-      instanceID: 0
-      collapsedCount: 1
-      cachedHeight: 20
-      cachedHeightLogWidth: 742
-      stackEntries:
-      - fileName: Assets/Script/PlayerController.cs
-        fileNameWithoutAssets: Script/PlayerController.cs
-        fileNameWithoutAssetsPlusLineNumber: Script/PlayerController.cs:130
-        fileNameWithoutPath: PlayerController.cs
-        fileNameWithoutPathPlusLineNumber: PlayerController.cs:130
-        instanceID: -1
-        className: <Animate>d__31
-        methodName: MoveNext
-        namespaceName: None
-        lineNumber: 130
-        charNumber: 0
-        stackLabel: <Animate>d__31.MoveNext()
-        stackLabel2: '    Assets/Script/PlayerController.cs:130'
-        stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 518
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: None
-        fileNameWithoutAssets: None
-        fileNameWithoutAssetsPlusLineNumber: None
-        fileNameWithoutPath: None
-        fileNameWithoutPathPlusLineNumber: None
-        instanceID: -1
-        className: SetupCoroutine
-        methodName: InvokeMoveNext
-        namespaceName: UnityEngine
-        lineNumber: 0
-        charNumber: 0
-        stackLabel: SetupCoroutine.InvokeMoveNext()
-        stackLabel2: 
-        stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      ignoredStackEntries: []
-      lastMatchedCount: 1
-      belongsToFilters:
-      - name: Log
-        isEnabled: 1
-        collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 1
-        isTempFilter: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: 1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list:
-          - name: 
-            isEnabled: 1
-            collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
-            searchString: <Any>
-            searchType: 1
-            removeSearchStringFromLog: 0
-            logTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
-                logType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            columnTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
-                columnType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPLOGICON
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-      belongsToStandardFilters:
-      - name: Log
-        isEnabled: 1
-        collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 1
-        isTempFilter: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: 1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list:
-          - name: 
-            isEnabled: 1
-            collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
-            searchString: <Any>
-            searchType: 1
-            removeSearchStringFromLog: 0
-            logTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
-                logType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            columnTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
-                columnType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPLOGICON
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-      assignedTempFilter:
-        name: 
-        isEnabled: 1
-        collapsed: 0
-        itemGUID: 
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 0
-        isTempFilter: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: -1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list: []
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-    - logType: 1
-      ignore: 0
-      processed: 1
-      tempFilterProcessed: 1
-      remoteEndPoint: Local
-      logPanelVisible: 1
-      logPanelIndex: 8
-      logOutputHeight: 16
-      listIndex: 8
-      nativeIndex: 8
-      nativeIdentifier: 0
-      originalLog: 20.88148
-      originalStackTrace: '20.88148
-
-        UnityEngine.Debug:Log(Object)
-
-        <Animate>d__31:MoveNext() (at Assets/Script/PlayerController.cs:130)
-
-        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-'
-      nativeFileName: Assets/Script/PlayerController.cs
-      nativeLineNumber: 130
-      watchName: 
-      logText: 20.88148
-      logTruncatedText: 20.88148
-      logColumnText: 20.88148
+      logText: 20.89075
+      logTruncatedText: 20.89075
+      logColumnText: 20.89075
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 1
-      timeStamp: 20.461450576782227
-      timeFrame: 1229
+      timeStamp: 22.882213592529297
+      timeFrame: 1326
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
       - fileName: Assets/Script/PlayerController.cs
         fileNameWithoutAssets: Script/PlayerController.cs
@@ -4735,7 +4285,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -4763,7 +4313,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -4772,7 +4322,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -4782,7 +4332,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -4865,7 +4415,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -4893,7 +4443,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -4902,7 +4452,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -4912,7 +4462,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -5157,10 +4707,10 @@ MonoBehaviour:
       hasSourceCode: 0
       timeStamp: 0.019999999552965164
       timeFrame: 2
-      instanceID: 9662
+      instanceID: 9664
       collapsedCount: 1
       cachedHeight: 46
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries: []
       ignoredStackEntries: []
       lastMatchedCount: 1
@@ -5168,7 +4718,7 @@ MonoBehaviour:
       - name: Warning
         isEnabled: 1
         collapsed: 1
-        itemGUID: 288f6501-b1a0-4d35-a8a9-dd8135388d94
+        itemGUID: 0e6b0bae-a14f-4f66-8469-2a1a0120b73d
         filterName: 
         mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
         isStandardFilter: 1
@@ -5196,7 +4746,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: b3ea3cc0-8c35-4a6c-bcc2-55065ce3018d
+            itemGUID: a919d6cf-bad9-4e0a-a782-66dc8327f2dc
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -5205,12 +4755,12 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 71f946aa-07da-4151-aab1-62393b5acd21
+                itemGUID: aae018c5-5b87-4bc2-86a9-7c0e253c4571
                 logType: 2
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 9b0848e1-720e-4f9d-9dd2-04d6813099be
+                itemGUID: 62129711-f208-4357-8dea-e04a13dee3b7
                 logType: 5
               selectionList: 0
               collapsable: 1
@@ -5220,7 +4770,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 42e04719-2b49-4dde-85ec-0cac00be87e6
+                itemGUID: 95b91c35-4de6-42a6-b06a-897d019f542e
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -5303,7 +4853,7 @@ MonoBehaviour:
       - name: Warning
         isEnabled: 1
         collapsed: 1
-        itemGUID: 288f6501-b1a0-4d35-a8a9-dd8135388d94
+        itemGUID: 0e6b0bae-a14f-4f66-8469-2a1a0120b73d
         filterName: 
         mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
         isStandardFilter: 1
@@ -5331,7 +4881,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: b3ea3cc0-8c35-4a6c-bcc2-55065ce3018d
+            itemGUID: a919d6cf-bad9-4e0a-a782-66dc8327f2dc
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -5340,12 +4890,12 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 71f946aa-07da-4151-aab1-62393b5acd21
+                itemGUID: aae018c5-5b87-4bc2-86a9-7c0e253c4571
                 logType: 2
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 9b0848e1-720e-4f9d-9dd2-04d6813099be
+                itemGUID: 62129711-f208-4357-8dea-e04a13dee3b7
                 logType: 5
               selectionList: 0
               collapsable: 1
@@ -5355,7 +4905,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 42e04719-2b49-4dde-85ec-0cac00be87e6
+                itemGUID: 95b91c35-4de6-42a6-b06a-897d019f542e
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -5548,52 +5098,52 @@ MonoBehaviour:
       listIndex: 1
       nativeIndex: 1
       nativeIdentifier: 0
-      originalLog: 1
-      originalStackTrace: '1
+      originalLog: 12.32736
+      originalStackTrace: '12.32736
 
         UnityEngine.Debug:Log(Object)
 
-        <Animate>d__14:MoveNext() (at Assets/Script/Slime.cs:104)
+        <Animate>d__31:MoveNext() (at Assets/Script/PlayerController.cs:130)
 
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
 '
-      nativeFileName: Assets/Script/Slime.cs
-      nativeLineNumber: 104
+      nativeFileName: Assets/Script/PlayerController.cs
+      nativeLineNumber: 130
       watchName: 
-      logText: 1
-      logTruncatedText: 1
-      logColumnText: 1
+      logText: 12.32736
+      logTruncatedText: 12.32736
+      logColumnText: 12.32736
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 1.0270750522613525
-      timeFrame: 57
+      timeStamp: 1.2688652276992798
+      timeFrame: 66
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
-      - fileName: Assets/Script/Slime.cs
-        fileNameWithoutAssets: Script/Slime.cs
-        fileNameWithoutAssetsPlusLineNumber: Script/Slime.cs:104
-        fileNameWithoutPath: Slime.cs
-        fileNameWithoutPathPlusLineNumber: Slime.cs:104
+      - fileName: Assets/Script/PlayerController.cs
+        fileNameWithoutAssets: Script/PlayerController.cs
+        fileNameWithoutAssetsPlusLineNumber: Script/PlayerController.cs:130
+        fileNameWithoutPath: PlayerController.cs
+        fileNameWithoutPathPlusLineNumber: PlayerController.cs:130
         instanceID: -1
-        className: <Animate>d__14
+        className: <Animate>d__31
         methodName: MoveNext
         namespaceName: None
-        lineNumber: 104
+        lineNumber: 130
         charNumber: 0
-        stackLabel: <Animate>d__14.MoveNext()
-        stackLabel2: '    Assets/Script/Slime.cs:104'
+        stackLabel: <Animate>d__31.MoveNext()
+        stackLabel2: '    Assets/Script/PlayerController.cs:130'
         stackLabelContent:
-          m_Text: <b><Animate>d__14.MoveNext()</b>    Assets/Script/Slime.cs:104
+          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 447
+        stackLabelWidth: 518
         stackLabelHeight: 23
         stackSourceLineHeight: 15
         sourceCode: []
@@ -5628,7 +5178,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -5656,7 +5206,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -5665,7 +5215,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -5675,7 +5225,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -5758,7 +5308,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -5786,7 +5336,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -5795,7 +5345,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -5805,7 +5355,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -5998,8 +5548,8 @@ MonoBehaviour:
       listIndex: 2
       nativeIndex: 2
       nativeIdentifier: 0
-      originalLog: 0
-      originalStackTrace: '0
+      originalLog: 1
+      originalStackTrace: '1
 
         UnityEngine.Debug:Log(Object)
 
@@ -6011,20 +5561,20 @@ MonoBehaviour:
       nativeFileName: Assets/Script/Slime.cs
       nativeLineNumber: 104
       watchName: 
-      logText: 0
-      logTruncatedText: 0
-      logColumnText: 0
+      logText: 1
+      logTruncatedText: 1
+      logColumnText: 1
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 2.0536959171295166
-      timeFrame: 119
+      timeStamp: 2.0356335639953613
+      timeFrame: 111
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
       - fileName: Assets/Script/Slime.cs
         fileNameWithoutAssets: Script/Slime.cs
@@ -6078,7 +5628,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -6106,7 +5656,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -6115,7 +5665,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -6125,7 +5675,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -6208,7 +5758,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -6236,7 +5786,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -6245,7 +5795,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -6255,7 +5805,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -6448,8 +5998,8 @@ MonoBehaviour:
       listIndex: 3
       nativeIndex: 3
       nativeIdentifier: 0
-      originalLog: 24.63576
-      originalStackTrace: '24.63576
+      originalLog: 16.90875
+      originalStackTrace: '16.90875
 
         UnityEngine.Debug:Log(Object)
 
@@ -6461,20 +6011,20 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 24.63576
-      logTruncatedText: 24.63576
-      logColumnText: 24.63576
+      logText: 16.90875
+      logTruncatedText: 16.90875
+      logColumnText: 16.90875
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 2.567277669906616
-      timeFrame: 150
+      timeStamp: 2.4986774921417236
+      timeFrame: 137
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
       - fileName: Assets/Script/PlayerController.cs
         fileNameWithoutAssets: Script/PlayerController.cs
@@ -6528,7 +6078,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -6556,7 +6106,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -6565,7 +6115,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -6575,7 +6125,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -6658,7 +6208,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -6686,7 +6236,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -6695,7 +6245,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -6705,7 +6255,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -6898,52 +6448,52 @@ MonoBehaviour:
       listIndex: 4
       nativeIndex: 4
       nativeIdentifier: 0
-      originalLog: 10.91912
-      originalStackTrace: '10.91912
+      originalLog: 0
+      originalStackTrace: '0
 
         UnityEngine.Debug:Log(Object)
 
-        <Animate>d__31:MoveNext() (at Assets/Script/PlayerController.cs:130)
+        <Animate>d__14:MoveNext() (at Assets/Script/Slime.cs:104)
 
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
 '
-      nativeFileName: Assets/Script/PlayerController.cs
-      nativeLineNumber: 130
+      nativeFileName: Assets/Script/Slime.cs
+      nativeLineNumber: 104
       watchName: 
-      logText: 10.91912
-      logTruncatedText: 10.91912
-      logColumnText: 10.91912
+      logText: 0
+      logTruncatedText: 0
+      logColumnText: 0
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 3.763286828994751
-      timeFrame: 222
+      timeStamp: 10.145281791687012
+      timeFrame: 583
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
-      - fileName: Assets/Script/PlayerController.cs
-        fileNameWithoutAssets: Script/PlayerController.cs
-        fileNameWithoutAssetsPlusLineNumber: Script/PlayerController.cs:130
-        fileNameWithoutPath: PlayerController.cs
-        fileNameWithoutPathPlusLineNumber: PlayerController.cs:130
+      - fileName: Assets/Script/Slime.cs
+        fileNameWithoutAssets: Script/Slime.cs
+        fileNameWithoutAssetsPlusLineNumber: Script/Slime.cs:104
+        fileNameWithoutPath: Slime.cs
+        fileNameWithoutPathPlusLineNumber: Slime.cs:104
         instanceID: -1
-        className: <Animate>d__31
+        className: <Animate>d__14
         methodName: MoveNext
         namespaceName: None
-        lineNumber: 130
+        lineNumber: 104
         charNumber: 0
-        stackLabel: <Animate>d__31.MoveNext()
-        stackLabel2: '    Assets/Script/PlayerController.cs:130'
+        stackLabel: <Animate>d__14.MoveNext()
+        stackLabel2: '    Assets/Script/Slime.cs:104'
         stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
+          m_Text: <b><Animate>d__14.MoveNext()</b>    Assets/Script/Slime.cs:104
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 518
+        stackLabelWidth: 447
         stackLabelHeight: 23
         stackSourceLineHeight: 15
         sourceCode: []
@@ -6978,7 +6528,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -7006,7 +6556,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -7015,7 +6565,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -7025,7 +6575,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -7108,7 +6658,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -7136,7 +6686,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -7145,7 +6695,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -7155,7 +6705,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -7348,8 +6898,8 @@ MonoBehaviour:
       listIndex: 5
       nativeIndex: 5
       nativeIdentifier: 0
-      originalLog: 18.86688
-      originalStackTrace: '18.86688
+      originalLog: 10.06949
+      originalStackTrace: '10.06949
 
         UnityEngine.Debug:Log(Object)
 
@@ -7361,20 +6911,20 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 18.86688
-      logTruncatedText: 18.86688
-      logColumnText: 18.86688
+      logText: 10.06949
+      logTruncatedText: 10.06949
+      logColumnText: 10.06949
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 10.127484321594238
-      timeFrame: 606
+      timeStamp: 13.325194358825684
+      timeFrame: 770
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
       - fileName: Assets/Script/PlayerController.cs
         fileNameWithoutAssets: Script/PlayerController.cs
@@ -7428,7 +6978,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -7456,7 +7006,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -7465,7 +7015,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -7475,7 +7025,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -7558,7 +7108,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -7586,7 +7136,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -7595,7 +7145,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -7605,7 +7155,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -7798,8 +7348,8 @@ MonoBehaviour:
       listIndex: 6
       nativeIndex: 6
       nativeIdentifier: 0
-      originalLog: 16.99146
-      originalStackTrace: '16.99146
+      originalLog: 13.64375
+      originalStackTrace: '13.64375
 
         UnityEngine.Debug:Log(Object)
 
@@ -7811,20 +7361,20 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 16.99146
-      logTruncatedText: 16.99146
-      logColumnText: 16.99146
+      logText: 13.64375
+      logTruncatedText: 13.64375
+      logColumnText: 13.64375
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 12.305035591125488
-      timeFrame: 737
+      timeStamp: 20.667882919311523
+      timeFrame: 1198
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
       - fileName: Assets/Script/PlayerController.cs
         fileNameWithoutAssets: Script/PlayerController.cs
@@ -7878,7 +7428,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -7906,7 +7456,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -7915,7 +7465,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -7925,7 +7475,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -8008,7 +7558,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -8036,7 +7586,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -8045,7 +7595,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -8055,7 +7605,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -8248,8 +7798,8 @@ MonoBehaviour:
       listIndex: 7
       nativeIndex: 7
       nativeIdentifier: 0
-      originalLog: 13.56467
-      originalStackTrace: '13.56467
+      originalLog: 20.89075
+      originalStackTrace: '20.89075
 
         UnityEngine.Debug:Log(Object)
 
@@ -8261,470 +7811,20 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 13.56467
-      logTruncatedText: 13.56467
-      logColumnText: 13.56467
-      fileName: 
-      className: 
-      namespaceName: 
-      lineCount: 1
-      hasSourceCode: 0
-      timeStamp: 16.286651611328125
-      timeFrame: 977
-      instanceID: 0
-      collapsedCount: 1
-      cachedHeight: 20
-      cachedHeightLogWidth: 742
-      stackEntries:
-      - fileName: Assets/Script/PlayerController.cs
-        fileNameWithoutAssets: Script/PlayerController.cs
-        fileNameWithoutAssetsPlusLineNumber: Script/PlayerController.cs:130
-        fileNameWithoutPath: PlayerController.cs
-        fileNameWithoutPathPlusLineNumber: PlayerController.cs:130
-        instanceID: -1
-        className: <Animate>d__31
-        methodName: MoveNext
-        namespaceName: None
-        lineNumber: 130
-        charNumber: 0
-        stackLabel: <Animate>d__31.MoveNext()
-        stackLabel2: '    Assets/Script/PlayerController.cs:130'
-        stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 518
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: None
-        fileNameWithoutAssets: None
-        fileNameWithoutAssetsPlusLineNumber: None
-        fileNameWithoutPath: None
-        fileNameWithoutPathPlusLineNumber: None
-        instanceID: -1
-        className: SetupCoroutine
-        methodName: InvokeMoveNext
-        namespaceName: UnityEngine
-        lineNumber: 0
-        charNumber: 0
-        stackLabel: SetupCoroutine.InvokeMoveNext()
-        stackLabel2: 
-        stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      ignoredStackEntries: []
-      lastMatchedCount: 1
-      belongsToFilters:
-      - name: Log
-        isEnabled: 1
-        collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 1
-        isTempFilter: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: 1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list:
-          - name: 
-            isEnabled: 1
-            collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
-            searchString: <Any>
-            searchType: 1
-            removeSearchStringFromLog: 0
-            logTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
-                logType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            columnTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
-                columnType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPLOGICON
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-      belongsToStandardFilters:
-      - name: Log
-        isEnabled: 1
-        collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 1
-        isTempFilter: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: 1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list:
-          - name: 
-            isEnabled: 1
-            collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
-            searchString: <Any>
-            searchType: 1
-            removeSearchStringFromLog: 0
-            logTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
-                logType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            columnTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
-                columnType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPLOGICON
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-      assignedTempFilter:
-        name: 
-        isEnabled: 1
-        collapsed: 0
-        itemGUID: 
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 0
-        isTempFilter: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: -1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list: []
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-    - logType: 1
-      ignore: 0
-      processed: 1
-      tempFilterProcessed: 1
-      remoteEndPoint: Local
-      logPanelVisible: 1
-      logPanelIndex: 8
-      logOutputHeight: 16
-      listIndex: 8
-      nativeIndex: 8
-      nativeIdentifier: 0
-      originalLog: 20.88148
-      originalStackTrace: '20.88148
-
-        UnityEngine.Debug:Log(Object)
-
-        <Animate>d__31:MoveNext() (at Assets/Script/PlayerController.cs:130)
-
-        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-'
-      nativeFileName: Assets/Script/PlayerController.cs
-      nativeLineNumber: 130
-      watchName: 
-      logText: 20.88148
-      logTruncatedText: 20.88148
-      logColumnText: 20.88148
+      logText: 20.89075
+      logTruncatedText: 20.89075
+      logColumnText: 20.89075
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 1
-      timeStamp: 20.461450576782227
-      timeFrame: 1229
+      timeStamp: 22.882213592529297
+      timeFrame: 1326
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
-      cachedHeightLogWidth: 742
+      cachedHeightLogWidth: 748
       stackEntries:
       - fileName: Assets/Script/PlayerController.cs
         fileNameWithoutAssets: Script/PlayerController.cs
@@ -8783,7 +7883,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -8811,7 +7911,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -8820,7 +7920,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -8830,7 +7930,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -8913,7 +8013,7 @@ MonoBehaviour:
       - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: e1cbfe5f-9efc-472f-af12-b5ec04907b0d
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
         filterName: 
         mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
@@ -8941,7 +8041,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 3a9fb054-453e-464d-8d65-687cb2e9ebf7
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -8950,7 +8050,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 8e721494-d0bf-4444-ae68-1925713c7eca
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
                 logType: 1
               selectionList: 0
               collapsable: 1
@@ -8960,7 +8060,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 7ecbb9c7-f803-4a11-90a9-f06f4b35f5d3
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -9163,10 +8263,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2
-    y: 22
-    width: 552
-    height: 504
+    x: 1361
+    y: 73
+    width: 557
+    height: 517
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -9254,10 +8354,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2
-    y: 550
-    width: 552
-    height: 379
+    x: 1361
+    y: 610
+    width: 557
+    height: 390
   m_PersistentViewDataDictionary: {fileID: 0}
   m_PreviewResizer:
     m_CachedPref: -126

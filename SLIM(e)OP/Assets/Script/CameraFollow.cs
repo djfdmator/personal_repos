@@ -6,11 +6,84 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform player;
 
+
+    public Transform map_Size;
+
+    private bool west = false;
+    private bool east = false;
+    private bool north = false;
+    private bool south = false;
+
+    private float posX;
+    float posY;
+
     void LateUpdate()
     {
-        transform.localPosition = new Vector3(player.localPosition.x, player.localPosition.y, transform.localPosition.z);
+        float prePosX = posX;
+        float prePosY = posY;
+        posX = player.localPosition.x;
+        posY = player.localPosition.y;
+
+        if (west == true && (prePosX - posX) > 0.0f)
+        {
+            posX = prePosX;
+        }
+        if (east == true && (prePosX - posX) < 0.0f)
+        {
+            posX = prePosX;
+        }
+        if (north == true && (prePosY - posY) < 0.0f)
+        {
+            posY = prePosY;
+        }
+        if (south == true && (prePosY - posY) > 0.0f)
+        {
+            posY = prePosY;
+        }
+
+        transform.localPosition = new Vector3(posX, posY, transform.localPosition.z);
         //Camera.main.transform.Translate(player.position);
         //transform = player.position;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "west")
+        {
+            west = true;
+        }
+        if (collision.tag == "east")
+        {
+            east = true;
+        }
+        if (collision.tag == "north")
+        {
+            north = true;
+        }
+        if (collision.tag == "south")
+        {
+            south = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag == "west")
+        {
+            west = false;
+        }
+        if (collision.tag == "east")
+        {
+            east = false;
+        }
+        if (collision.tag == "north")
+        {
+            north = false;
+        }
+        if (collision.tag == "south")
+        {
+            south = false;
+        }
     }
     ////---------------------------------------------------------------
     ////Follow target
