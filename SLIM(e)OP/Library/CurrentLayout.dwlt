@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 398}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 1
-  controlID: 189
+  controlID: 120
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 398}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 190
+  controlID: 121
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 398}
   m_MaxSize: {x: 14006, y: 14048}
   vertical: 1
-  controlID: 191
+  controlID: 122
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_MinSize: {x: 206, y: 124}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 192
+  controlID: 123
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 274}
   m_MaxSize: {x: 14006, y: 10024}
   vertical: 0
-  controlID: 93
+  controlID: 68
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,7 +346,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 298}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 147
+  controlID: 191
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -512,9 +512,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.118056856, y: -0.44607523, z: -0.076179735}
+    m_Target: {x: 12.400442, y: -0.7520165, z: -0.24609375}
     speed: 2
-    m_Value: {x: 0.118056856, y: -0.44607523, z: -0.076179735}
+    m_Value: {x: 12.400442, y: -0.7520165, z: -0.24609375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -546,9 +546,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.279818
+    m_Target: 21.600046
     speed: 2
-    m_Value: 5.279818
+    m_Value: 21.600046
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -832,23 +832,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f89dffff
-      m_LastClickedID: 0
-      m_ExpandedIDs: 68f7ffffe263000024640000
+      m_SelectedIDs: fc4c0000
+      m_LastClickedID: 19708
+      m_ExpandedIDs: d6fbfffff4ffffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: east
+        m_OriginalName: east
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 19824
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 11}
       m_SearchString: 
@@ -896,20 +896,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Script
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\GitHub\personal_repos\SLIM(e)OP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 46630000
-    m_LastClickedID: 25414
-    m_ExpandedIDs: 00000000224100003a410000d65600000661000000ca9a3b
+    m_SelectedIDs: ac520000
+    m_LastClickedID: 21164
+    m_ExpandedIDs: 00000000aa280000c22800006a3e0000cc48000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -937,7 +937,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000224100003a410000d656000006610000
+    m_ExpandedIDs: 00000000aa280000c22800006a3e0000cc480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -968,18 +968,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000e03400002a340000c42a000018370000542c0000ac420000242a0000e22b0000a84f00007c470000c65600007a340000782c0000a82c000062370000942a000000000000943a0000483a00001c5200002a370000f27e000090420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Prefabs
+      m_OriginalName: Prefabs
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 21164
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:
@@ -1043,13 +1043,13 @@ MonoBehaviour:
     width: 792
     height: 317
   m_PersistentViewDataDictionary: {fileID: 0}
-  logPanelScroll: {x: 0, y: 3}
+  logPanelScroll: {x: 0, y: 43}
   logPanelSelectedIndex: -1
   logPanelAutoScroll: 1
-  currentFrame: 537532
+  currentFrame: 549840
   logs:
-    lastGrabbedIndex: 7
-    lastGrabbedCount: 8
+    lastGrabbedIndex: 9
+    lastGrabbedCount: 10
     proEntries:
     - logType: 2
       ignore: 0
@@ -1058,7 +1058,7 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 0
-      logOutputHeight: 42
+      logOutputHeight: -1
       listIndex: 0
       nativeIndex: 0
       nativeIdentifier: 0
@@ -1107,10 +1107,10 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 3
       hasSourceCode: 0
-      timeStamp: 0.019999999552965164
-      timeFrame: 2
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 9664
-      collapsedCount: 1
+      collapsedCount: 6
       cachedHeight: 46
       cachedHeightLogWidth: 748
       stackEntries: []
@@ -1496,12 +1496,12 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 1
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 1
       nativeIndex: 1
       nativeIdentifier: 0
-      originalLog: 12.32736
-      originalStackTrace: '12.32736
+      originalLog: 12.90163
+      originalStackTrace: '12.90163
 
         UnityEngine.Debug:Log(Object)
 
@@ -1513,16 +1513,16 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 12.32736
-      logTruncatedText: 12.32736
-      logColumnText: 12.32736
+      logText: 12.90163
+      logTruncatedText: 12.90163
+      logColumnText: 12.90163
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 1.2688652276992798
-      timeFrame: 66
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
@@ -1542,12 +1542,12 @@ MonoBehaviour:
         stackLabel: <Animate>d__31.MoveNext()
         stackLabel2: '    Assets/Script/PlayerController.cs:130'
         stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 518
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -1565,12 +1565,12 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -1946,12 +1946,12 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 2
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 2
       nativeIndex: 2
       nativeIdentifier: 0
-      originalLog: 1
-      originalStackTrace: '1
+      originalLog: 0
+      originalStackTrace: '0
 
         UnityEngine.Debug:Log(Object)
 
@@ -1963,18 +1963,18 @@ MonoBehaviour:
       nativeFileName: Assets/Script/Slime.cs
       nativeLineNumber: 104
       watchName: 
-      logText: 1
-      logTruncatedText: 1
-      logColumnText: 1
+      logText: 0
+      logTruncatedText: 0
+      logColumnText: 0
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 2.0356335639953613
-      timeFrame: 111
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
-      collapsedCount: 1
+      collapsedCount: 3
       cachedHeight: 20
       cachedHeightLogWidth: 748
       stackEntries:
@@ -1992,12 +1992,12 @@ MonoBehaviour:
         stackLabel: <Animate>d__14.MoveNext()
         stackLabel2: '    Assets/Script/Slime.cs:104'
         stackLabelContent:
-          m_Text: <b><Animate>d__14.MoveNext()</b>    Assets/Script/Slime.cs:104
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 447
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -2015,12 +2015,12 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -2396,58 +2396,58 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 3
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 3
       nativeIndex: 3
       nativeIdentifier: 0
-      originalLog: 16.90875
-      originalStackTrace: '16.90875
+      originalLog: 1
+      originalStackTrace: '1
 
         UnityEngine.Debug:Log(Object)
 
-        <Animate>d__31:MoveNext() (at Assets/Script/PlayerController.cs:130)
+        <Animate>d__14:MoveNext() (at Assets/Script/Slime.cs:104)
 
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
 '
-      nativeFileName: Assets/Script/PlayerController.cs
-      nativeLineNumber: 130
+      nativeFileName: Assets/Script/Slime.cs
+      nativeLineNumber: 104
       watchName: 
-      logText: 16.90875
-      logTruncatedText: 16.90875
-      logColumnText: 16.90875
+      logText: 1
+      logTruncatedText: 1
+      logColumnText: 1
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 2.4986774921417236
-      timeFrame: 137
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
-      collapsedCount: 1
+      collapsedCount: 4
       cachedHeight: 20
       cachedHeightLogWidth: 748
       stackEntries:
-      - fileName: Assets/Script/PlayerController.cs
-        fileNameWithoutAssets: Script/PlayerController.cs
-        fileNameWithoutAssetsPlusLineNumber: Script/PlayerController.cs:130
-        fileNameWithoutPath: PlayerController.cs
-        fileNameWithoutPathPlusLineNumber: PlayerController.cs:130
+      - fileName: Assets/Script/Slime.cs
+        fileNameWithoutAssets: Script/Slime.cs
+        fileNameWithoutAssetsPlusLineNumber: Script/Slime.cs:104
+        fileNameWithoutPath: Slime.cs
+        fileNameWithoutPathPlusLineNumber: Slime.cs:104
         instanceID: -1
-        className: <Animate>d__31
+        className: <Animate>d__14
         methodName: MoveNext
         namespaceName: None
-        lineNumber: 130
+        lineNumber: 104
         charNumber: 0
-        stackLabel: <Animate>d__31.MoveNext()
-        stackLabel2: '    Assets/Script/PlayerController.cs:130'
+        stackLabel: <Animate>d__14.MoveNext()
+        stackLabel2: '    Assets/Script/Slime.cs:104'
         stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 518
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -2465,12 +2465,12 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -2846,58 +2846,58 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 4
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 4
       nativeIndex: 4
       nativeIdentifier: 0
-      originalLog: 0
-      originalStackTrace: '0
+      originalLog: 17.35369
+      originalStackTrace: '17.35369
 
         UnityEngine.Debug:Log(Object)
 
-        <Animate>d__14:MoveNext() (at Assets/Script/Slime.cs:104)
+        <Animate>d__31:MoveNext() (at Assets/Script/PlayerController.cs:130)
 
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
 '
-      nativeFileName: Assets/Script/Slime.cs
-      nativeLineNumber: 104
+      nativeFileName: Assets/Script/PlayerController.cs
+      nativeLineNumber: 130
       watchName: 
-      logText: 0
-      logTruncatedText: 0
-      logColumnText: 0
+      logText: 17.35369
+      logTruncatedText: 17.35369
+      logColumnText: 17.35369
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 10.145281791687012
-      timeFrame: 583
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
       cachedHeightLogWidth: 748
       stackEntries:
-      - fileName: Assets/Script/Slime.cs
-        fileNameWithoutAssets: Script/Slime.cs
-        fileNameWithoutAssetsPlusLineNumber: Script/Slime.cs:104
-        fileNameWithoutPath: Slime.cs
-        fileNameWithoutPathPlusLineNumber: Slime.cs:104
+      - fileName: Assets/Script/PlayerController.cs
+        fileNameWithoutAssets: Script/PlayerController.cs
+        fileNameWithoutAssetsPlusLineNumber: Script/PlayerController.cs:130
+        fileNameWithoutPath: PlayerController.cs
+        fileNameWithoutPathPlusLineNumber: PlayerController.cs:130
         instanceID: -1
-        className: <Animate>d__14
+        className: <Animate>d__31
         methodName: MoveNext
         namespaceName: None
-        lineNumber: 104
+        lineNumber: 130
         charNumber: 0
-        stackLabel: <Animate>d__14.MoveNext()
-        stackLabel2: '    Assets/Script/Slime.cs:104'
+        stackLabel: <Animate>d__31.MoveNext()
+        stackLabel2: '    Assets/Script/PlayerController.cs:130'
         stackLabelContent:
-          m_Text: <b><Animate>d__14.MoveNext()</b>    Assets/Script/Slime.cs:104
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 447
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -2915,12 +2915,12 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -3296,12 +3296,12 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 5
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 5
       nativeIndex: 5
       nativeIdentifier: 0
-      originalLog: 10.06949
-      originalStackTrace: '10.06949
+      originalLog: 15.93693
+      originalStackTrace: '15.93693
 
         UnityEngine.Debug:Log(Object)
 
@@ -3313,16 +3313,16 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 10.06949
-      logTruncatedText: 10.06949
-      logColumnText: 10.06949
+      logText: 15.93693
+      logTruncatedText: 15.93693
+      logColumnText: 15.93693
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 13.325194358825684
-      timeFrame: 770
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
@@ -3342,12 +3342,12 @@ MonoBehaviour:
         stackLabel: <Animate>d__31.MoveNext()
         stackLabel2: '    Assets/Script/PlayerController.cs:130'
         stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 518
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -3365,12 +3365,12 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -3746,12 +3746,12 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 6
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 6
       nativeIndex: 6
       nativeIdentifier: 0
-      originalLog: 13.64375
-      originalStackTrace: '13.64375
+      originalLog: 22.56862
+      originalStackTrace: '22.56862
 
         UnityEngine.Debug:Log(Object)
 
@@ -3763,16 +3763,16 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 13.64375
-      logTruncatedText: 13.64375
-      logColumnText: 13.64375
+      logText: 22.56862
+      logTruncatedText: 22.56862
+      logColumnText: 22.56862
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 20.667882919311523
-      timeFrame: 1198
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
@@ -3792,12 +3792,12 @@ MonoBehaviour:
         stackLabel: <Animate>d__31.MoveNext()
         stackLabel2: '    Assets/Script/PlayerController.cs:130'
         stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 518
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -3815,12 +3815,12 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -4196,12 +4196,12 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 7
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 7
       nativeIndex: 7
       nativeIdentifier: 0
-      originalLog: 20.89075
-      originalStackTrace: '20.89075
+      originalLog: 20.38623
+      originalStackTrace: '20.38623
 
         UnityEngine.Debug:Log(Object)
 
@@ -4213,16 +4213,16 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 20.89075
-      logTruncatedText: 20.89075
-      logColumnText: 20.89075
+      logText: 20.38623
+      logTruncatedText: 20.38623
+      logColumnText: 20.38623
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
-      hasSourceCode: 1
-      timeStamp: 22.882213592529297
-      timeFrame: 1326
+      hasSourceCode: 0
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
@@ -4242,19 +4242,14 @@ MonoBehaviour:
         stackLabel: <Animate>d__31.MoveNext()
         stackLabel2: '    Assets/Script/PlayerController.cs:130'
         stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 518
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
-        sourceCode:
-        - '128:       break;'
-        - '129:   case State_Slime.DASH:'
-        - '130:       Debug.Log(slime_Rigid.velocity.magnitude);'
-        - '131:       animator.SetTrigger(Dash);'
-        - '132:       yield return new WaitForSeconds(0.7f);'
-        sourceCodeUpdated: 1
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
         showSource: 1
       - fileName: None
         fileNameWithoutAssets: None
@@ -4270,14 +4265,14 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
-        sourceCodeUpdated: 1
+        sourceCodeUpdated: 0
         showSource: 1
       ignoredStackEntries: []
       lastMatchedCount: 1
@@ -4516,6 +4511,900 @@ MonoBehaviour:
           useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
           iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      assignedTempFilter:
+        name: 
+        isEnabled: 1
+        collapsed: 0
+        itemGUID: 
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 0
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: -1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list: []
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+    - logType: 1
+      ignore: 0
+      processed: 1
+      tempFilterProcessed: 1
+      remoteEndPoint: Local
+      logPanelVisible: 1
+      logPanelIndex: 8
+      logOutputHeight: -1
+      listIndex: 8
+      nativeIndex: 8
+      nativeIdentifier: 0
+      originalLog: 15.87668
+      originalStackTrace: '15.87668
+
+        UnityEngine.Debug:Log(Object)
+
+        <Animate>d__31:MoveNext() (at Assets/Script/PlayerController.cs:130)
+
+        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+'
+      nativeFileName: Assets/Script/PlayerController.cs
+      nativeLineNumber: 130
+      watchName: 
+      logText: 15.87668
+      logTruncatedText: 15.87668
+      logColumnText: 15.87668
+      fileName: 
+      className: 
+      namespaceName: 
+      lineCount: 1
+      hasSourceCode: 0
+      timeStamp: -1
+      timeFrame: -1
+      instanceID: 0
+      collapsedCount: 1
+      cachedHeight: 20
+      cachedHeightLogWidth: 748
+      stackEntries:
+      - fileName: Assets/Script/PlayerController.cs
+        fileNameWithoutAssets: Script/PlayerController.cs
+        fileNameWithoutAssetsPlusLineNumber: Script/PlayerController.cs:130
+        fileNameWithoutPath: PlayerController.cs
+        fileNameWithoutPathPlusLineNumber: PlayerController.cs:130
+        instanceID: -1
+        className: <Animate>d__31
+        methodName: MoveNext
+        namespaceName: None
+        lineNumber: 130
+        charNumber: 0
+        stackLabel: <Animate>d__31.MoveNext()
+        stackLabel2: '    Assets/Script/PlayerController.cs:130'
+        stackLabelContent:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: None
+        fileNameWithoutAssets: None
+        fileNameWithoutAssetsPlusLineNumber: None
+        fileNameWithoutPath: None
+        fileNameWithoutPathPlusLineNumber: None
+        instanceID: -1
+        className: SetupCoroutine
+        methodName: InvokeMoveNext
+        namespaceName: UnityEngine
+        lineNumber: 0
+        charNumber: 0
+        stackLabel: SetupCoroutine.InvokeMoveNext()
+        stackLabel2: 
+        stackLabelContent:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      ignoredStackEntries: []
+      lastMatchedCount: 1
+      belongsToFilters:
+      - name: Log
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 1
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
+                logType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      belongsToStandardFilters:
+      - name: Log
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 1
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
+                logType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      assignedTempFilter:
+        name: 
+        isEnabled: 1
+        collapsed: 0
+        itemGUID: 
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 0
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: -1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list: []
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+    - logType: 5
+      ignore: 0
+      processed: 1
+      tempFilterProcessed: 1
+      remoteEndPoint: Local
+      logPanelVisible: 1
+      logPanelIndex: 9
+      logOutputHeight: 16
+      listIndex: 9
+      nativeIndex: 9
+      nativeIdentifier: -2410
+      originalLog: 'Assets\FreePixelMob\Mobs.cs(33,11): warning CS0649: Field ''Mobs._animator''
+        is never assigned to, and will always have its default value null
+
+'
+      originalStackTrace: 'Assets\FreePixelMob\Mobs.cs(33,11): warning CS0649: Field
+        ''Mobs._animator'' is never assigned to, and will always have its default
+        value null
+
+'
+      nativeFileName: Assets\FreePixelMob\Mobs.cs
+      nativeLineNumber: 33
+      watchName: 
+      logText: '[CS0649] Field ''Mobs._animator'' is never assigned to, and will always
+        have its default value null'
+      logTruncatedText: '[CS0649] Field ''Mobs._animator'' is never assigned to, and
+        will always have its default value null'
+      logColumnText: '[CS0649] Field ''Mobs._animator'' is never assigned to, and
+        will always have its default value null'
+      fileName: 
+      className: 
+      namespaceName: 
+      lineCount: 1
+      hasSourceCode: 1
+      timeStamp: -1
+      timeFrame: -1
+      instanceID: 10216
+      collapsedCount: 1
+      cachedHeight: 20
+      cachedHeightLogWidth: 748
+      stackEntries:
+      - fileName: Assets\FreePixelMob\Mobs.cs
+        fileNameWithoutAssets: Assets\FreePixelMob\Mobs.cs
+        fileNameWithoutAssetsPlusLineNumber: Assets\FreePixelMob\Mobs.cs:33
+        fileNameWithoutPath: Mobs.cs
+        fileNameWithoutPathPlusLineNumber: Mobs.cs:33
+        instanceID: -1
+        className: Compiler
+        methodName: Compiler
+        namespaceName: 
+        lineNumber: 33
+        charNumber: 11
+        stackLabel: Compiler Warning
+        stackLabel2: ' at Assets\FreePixelMob\Mobs.cs:33 column 11'
+        stackLabelContent:
+          m_Text: <b>Compiler Warning</b> at Assets\FreePixelMob\Mobs.cs:33 column
+            11
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabelWidth: 486
+        stackLabelHeight: 23
+        stackSourceLineHeight: 15
+        sourceCode:
+        - '31:       static int AnimatorWalk = Animator.StringToHash("Walk");'
+        - '32:   static int AnimatorAttack = Animator.StringToHash("Attack");'
+        - '33:   Animator _animator;'
+        - '35:       #endregion'
+        sourceCodeUpdated: 1
+        showSource: 1
+      ignoredStackEntries: []
+      lastMatchedCount: 1
+      belongsToFilters:
+      - name: Warning
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 0e6b0bae-a14f-4f66-8469-2a1a0120b73d
+        filterName: 
+        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        isStandardFilter: 1
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 1
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: a919d6cf-bad9-4e0a-a782-66dc8327f2dc
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: aae018c5-5b87-4bc2-86a9-7c0e253c4571
+                logType: 2
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 62129711-f208-4357-8dea-e04a13dee3b7
+                logType: 5
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 95b91c35-4de6-42a6-b06a-897d019f542e
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 3
+          iconType2: 1
+          iconText: '!'
+          useIconTextFirstLetter: 0
+          useIconLogColor: 0
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 2}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 7
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      belongsToStandardFilters:
+      - name: Warning
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 0e6b0bae-a14f-4f66-8469-2a1a0120b73d
+        filterName: 
+        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        isStandardFilter: 1
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 1
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: a919d6cf-bad9-4e0a-a782-66dc8327f2dc
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: aae018c5-5b87-4bc2-86a9-7c0e253c4571
+                logType: 2
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 62129711-f208-4357-8dea-e04a13dee3b7
+                logType: 5
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 95b91c35-4de6-42a6-b06a-897d019f542e
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 3
+          iconType2: 1
+          iconText: '!'
+          useIconTextFirstLetter: 0
+          useIconLogColor: 0
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 2}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 7
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
           iconTextureGUID: 
           useIconShadow: 1
           iconOffset: {x: 0, y: 0}
@@ -4656,7 +5545,7 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 0
-      logOutputHeight: 42
+      logOutputHeight: -1
       listIndex: 0
       nativeIndex: 0
       nativeIdentifier: 0
@@ -4705,10 +5594,10 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 3
       hasSourceCode: 0
-      timeStamp: 0.019999999552965164
-      timeFrame: 2
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 9664
-      collapsedCount: 1
+      collapsedCount: 6
       cachedHeight: 46
       cachedHeightLogWidth: 748
       stackEntries: []
@@ -5094,12 +5983,12 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 1
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 1
       nativeIndex: 1
       nativeIdentifier: 0
-      originalLog: 12.32736
-      originalStackTrace: '12.32736
+      originalLog: 12.90163
+      originalStackTrace: '12.90163
 
         UnityEngine.Debug:Log(Object)
 
@@ -5111,16 +6000,16 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 12.32736
-      logTruncatedText: 12.32736
-      logColumnText: 12.32736
+      logText: 12.90163
+      logTruncatedText: 12.90163
+      logColumnText: 12.90163
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 1.2688652276992798
-      timeFrame: 66
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
@@ -5140,12 +6029,12 @@ MonoBehaviour:
         stackLabel: <Animate>d__31.MoveNext()
         stackLabel2: '    Assets/Script/PlayerController.cs:130'
         stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 518
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -5163,12 +6052,12 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -5544,12 +6433,12 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 2
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 2
       nativeIndex: 2
       nativeIdentifier: 0
-      originalLog: 1
-      originalStackTrace: '1
+      originalLog: 0
+      originalStackTrace: '0
 
         UnityEngine.Debug:Log(Object)
 
@@ -5561,18 +6450,18 @@ MonoBehaviour:
       nativeFileName: Assets/Script/Slime.cs
       nativeLineNumber: 104
       watchName: 
-      logText: 1
-      logTruncatedText: 1
-      logColumnText: 1
+      logText: 0
+      logTruncatedText: 0
+      logColumnText: 0
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 2.0356335639953613
-      timeFrame: 111
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
-      collapsedCount: 1
+      collapsedCount: 3
       cachedHeight: 20
       cachedHeightLogWidth: 748
       stackEntries:
@@ -5590,12 +6479,12 @@ MonoBehaviour:
         stackLabel: <Animate>d__14.MoveNext()
         stackLabel2: '    Assets/Script/Slime.cs:104'
         stackLabelContent:
-          m_Text: <b><Animate>d__14.MoveNext()</b>    Assets/Script/Slime.cs:104
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 447
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -5613,12 +6502,12 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -5994,58 +6883,58 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 3
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 3
       nativeIndex: 3
       nativeIdentifier: 0
-      originalLog: 16.90875
-      originalStackTrace: '16.90875
+      originalLog: 1
+      originalStackTrace: '1
 
         UnityEngine.Debug:Log(Object)
 
-        <Animate>d__31:MoveNext() (at Assets/Script/PlayerController.cs:130)
+        <Animate>d__14:MoveNext() (at Assets/Script/Slime.cs:104)
 
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
 '
-      nativeFileName: Assets/Script/PlayerController.cs
-      nativeLineNumber: 130
+      nativeFileName: Assets/Script/Slime.cs
+      nativeLineNumber: 104
       watchName: 
-      logText: 16.90875
-      logTruncatedText: 16.90875
-      logColumnText: 16.90875
+      logText: 1
+      logTruncatedText: 1
+      logColumnText: 1
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 2.4986774921417236
-      timeFrame: 137
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
-      collapsedCount: 1
+      collapsedCount: 4
       cachedHeight: 20
       cachedHeightLogWidth: 748
       stackEntries:
-      - fileName: Assets/Script/PlayerController.cs
-        fileNameWithoutAssets: Script/PlayerController.cs
-        fileNameWithoutAssetsPlusLineNumber: Script/PlayerController.cs:130
-        fileNameWithoutPath: PlayerController.cs
-        fileNameWithoutPathPlusLineNumber: PlayerController.cs:130
+      - fileName: Assets/Script/Slime.cs
+        fileNameWithoutAssets: Script/Slime.cs
+        fileNameWithoutAssetsPlusLineNumber: Script/Slime.cs:104
+        fileNameWithoutPath: Slime.cs
+        fileNameWithoutPathPlusLineNumber: Slime.cs:104
         instanceID: -1
-        className: <Animate>d__31
+        className: <Animate>d__14
         methodName: MoveNext
         namespaceName: None
-        lineNumber: 130
+        lineNumber: 104
         charNumber: 0
-        stackLabel: <Animate>d__31.MoveNext()
-        stackLabel2: '    Assets/Script/PlayerController.cs:130'
+        stackLabel: <Animate>d__14.MoveNext()
+        stackLabel2: '    Assets/Script/Slime.cs:104'
         stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 518
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -6063,12 +6952,12 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -6444,58 +7333,58 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 4
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 4
       nativeIndex: 4
       nativeIdentifier: 0
-      originalLog: 0
-      originalStackTrace: '0
+      originalLog: 17.35369
+      originalStackTrace: '17.35369
 
         UnityEngine.Debug:Log(Object)
 
-        <Animate>d__14:MoveNext() (at Assets/Script/Slime.cs:104)
+        <Animate>d__31:MoveNext() (at Assets/Script/PlayerController.cs:130)
 
         UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 
 '
-      nativeFileName: Assets/Script/Slime.cs
-      nativeLineNumber: 104
+      nativeFileName: Assets/Script/PlayerController.cs
+      nativeLineNumber: 130
       watchName: 
-      logText: 0
-      logTruncatedText: 0
-      logColumnText: 0
+      logText: 17.35369
+      logTruncatedText: 17.35369
+      logColumnText: 17.35369
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 10.145281791687012
-      timeFrame: 583
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
       cachedHeightLogWidth: 748
       stackEntries:
-      - fileName: Assets/Script/Slime.cs
-        fileNameWithoutAssets: Script/Slime.cs
-        fileNameWithoutAssetsPlusLineNumber: Script/Slime.cs:104
-        fileNameWithoutPath: Slime.cs
-        fileNameWithoutPathPlusLineNumber: Slime.cs:104
+      - fileName: Assets/Script/PlayerController.cs
+        fileNameWithoutAssets: Script/PlayerController.cs
+        fileNameWithoutAssetsPlusLineNumber: Script/PlayerController.cs:130
+        fileNameWithoutPath: PlayerController.cs
+        fileNameWithoutPathPlusLineNumber: PlayerController.cs:130
         instanceID: -1
-        className: <Animate>d__14
+        className: <Animate>d__31
         methodName: MoveNext
         namespaceName: None
-        lineNumber: 104
+        lineNumber: 130
         charNumber: 0
-        stackLabel: <Animate>d__14.MoveNext()
-        stackLabel2: '    Assets/Script/Slime.cs:104'
+        stackLabel: <Animate>d__31.MoveNext()
+        stackLabel2: '    Assets/Script/PlayerController.cs:130'
         stackLabelContent:
-          m_Text: <b><Animate>d__14.MoveNext()</b>    Assets/Script/Slime.cs:104
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 447
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -6513,12 +7402,12 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -6894,12 +7783,12 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 5
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 5
       nativeIndex: 5
       nativeIdentifier: 0
-      originalLog: 10.06949
-      originalStackTrace: '10.06949
+      originalLog: 15.93693
+      originalStackTrace: '15.93693
 
         UnityEngine.Debug:Log(Object)
 
@@ -6911,16 +7800,16 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 10.06949
-      logTruncatedText: 10.06949
-      logColumnText: 10.06949
+      logText: 15.93693
+      logTruncatedText: 15.93693
+      logColumnText: 15.93693
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 13.325194358825684
-      timeFrame: 770
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
@@ -6940,12 +7829,12 @@ MonoBehaviour:
         stackLabel: <Animate>d__31.MoveNext()
         stackLabel2: '    Assets/Script/PlayerController.cs:130'
         stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 518
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -6963,12 +7852,12 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -7344,12 +8233,12 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 6
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 6
       nativeIndex: 6
       nativeIdentifier: 0
-      originalLog: 13.64375
-      originalStackTrace: '13.64375
+      originalLog: 22.56862
+      originalStackTrace: '22.56862
 
         UnityEngine.Debug:Log(Object)
 
@@ -7361,16 +8250,16 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 13.64375
-      logTruncatedText: 13.64375
-      logColumnText: 13.64375
+      logText: 22.56862
+      logTruncatedText: 22.56862
+      logColumnText: 22.56862
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 20.667882919311523
-      timeFrame: 1198
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
@@ -7390,12 +8279,12 @@ MonoBehaviour:
         stackLabel: <Animate>d__31.MoveNext()
         stackLabel2: '    Assets/Script/PlayerController.cs:130'
         stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 518
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -7413,12 +8302,12 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
@@ -7794,12 +8683,12 @@ MonoBehaviour:
       remoteEndPoint: Local
       logPanelVisible: 1
       logPanelIndex: 7
-      logOutputHeight: 16
+      logOutputHeight: -1
       listIndex: 7
       nativeIndex: 7
       nativeIdentifier: 0
-      originalLog: 20.89075
-      originalStackTrace: '20.89075
+      originalLog: 20.38623
+      originalStackTrace: '20.38623
 
         UnityEngine.Debug:Log(Object)
 
@@ -7811,16 +8700,16 @@ MonoBehaviour:
       nativeFileName: Assets/Script/PlayerController.cs
       nativeLineNumber: 130
       watchName: 
-      logText: 20.89075
-      logTruncatedText: 20.89075
-      logColumnText: 20.89075
+      logText: 20.38623
+      logTruncatedText: 20.38623
+      logColumnText: 20.38623
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
-      hasSourceCode: 1
-      timeStamp: 22.882213592529297
-      timeFrame: 1326
+      hasSourceCode: 0
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 0
       collapsedCount: 1
       cachedHeight: 20
@@ -7840,19 +8729,14 @@ MonoBehaviour:
         stackLabel: <Animate>d__31.MoveNext()
         stackLabel2: '    Assets/Script/PlayerController.cs:130'
         stackLabelContent:
-          m_Text: <b><Animate>d__31.MoveNext()</b>    Assets/Script/PlayerController.cs:130
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 518
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
-        sourceCode:
-        - '128:       break;'
-        - '129:   case State_Slime.DASH:'
-        - '130:       Debug.Log(slime_Rigid.velocity.magnitude);'
-        - '131:       animator.SetTrigger(Dash);'
-        - '132:       yield return new WaitForSeconds(0.7f);'
-        sourceCodeUpdated: 1
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
         showSource: 1
       - fileName: None
         fileNameWithoutAssets: None
@@ -7868,14 +8752,14 @@ MonoBehaviour:
         stackLabel: SetupCoroutine.InvokeMoveNext()
         stackLabel2: 
         stackLabelContent:
-          m_Text: <b>SetupCoroutine.InvokeMoveNext()</b>
+          m_Text: 
           m_Image: {fileID: 0}
           m_Tooltip: 
-        stackLabelWidth: 286
-        stackLabelHeight: 23
-        stackSourceLineHeight: 15
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
         sourceCode: []
-        sourceCodeUpdated: 1
+        sourceCodeUpdated: 0
         showSource: 1
       ignoredStackEntries: []
       lastMatchedCount: 1
@@ -8114,6 +8998,900 @@ MonoBehaviour:
           useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
           iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      assignedTempFilter:
+        name: 
+        isEnabled: 1
+        collapsed: 0
+        itemGUID: 
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 0
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: -1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list: []
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+    - logType: 1
+      ignore: 0
+      processed: 1
+      tempFilterProcessed: 1
+      remoteEndPoint: Local
+      logPanelVisible: 1
+      logPanelIndex: 8
+      logOutputHeight: -1
+      listIndex: 8
+      nativeIndex: 8
+      nativeIdentifier: 0
+      originalLog: 15.87668
+      originalStackTrace: '15.87668
+
+        UnityEngine.Debug:Log(Object)
+
+        <Animate>d__31:MoveNext() (at Assets/Script/PlayerController.cs:130)
+
+        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+'
+      nativeFileName: Assets/Script/PlayerController.cs
+      nativeLineNumber: 130
+      watchName: 
+      logText: 15.87668
+      logTruncatedText: 15.87668
+      logColumnText: 15.87668
+      fileName: 
+      className: 
+      namespaceName: 
+      lineCount: 1
+      hasSourceCode: 0
+      timeStamp: -1
+      timeFrame: -1
+      instanceID: 0
+      collapsedCount: 1
+      cachedHeight: 20
+      cachedHeightLogWidth: 748
+      stackEntries:
+      - fileName: Assets/Script/PlayerController.cs
+        fileNameWithoutAssets: Script/PlayerController.cs
+        fileNameWithoutAssetsPlusLineNumber: Script/PlayerController.cs:130
+        fileNameWithoutPath: PlayerController.cs
+        fileNameWithoutPathPlusLineNumber: PlayerController.cs:130
+        instanceID: -1
+        className: <Animate>d__31
+        methodName: MoveNext
+        namespaceName: None
+        lineNumber: 130
+        charNumber: 0
+        stackLabel: <Animate>d__31.MoveNext()
+        stackLabel2: '    Assets/Script/PlayerController.cs:130'
+        stackLabelContent:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: None
+        fileNameWithoutAssets: None
+        fileNameWithoutAssetsPlusLineNumber: None
+        fileNameWithoutPath: None
+        fileNameWithoutPathPlusLineNumber: None
+        instanceID: -1
+        className: SetupCoroutine
+        methodName: InvokeMoveNext
+        namespaceName: UnityEngine
+        lineNumber: 0
+        charNumber: 0
+        stackLabel: SetupCoroutine.InvokeMoveNext()
+        stackLabel2: 
+        stackLabelContent:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabelWidth: 0
+        stackLabelHeight: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      ignoredStackEntries: []
+      lastMatchedCount: 1
+      belongsToFilters:
+      - name: Log
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 1
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
+                logType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      belongsToStandardFilters:
+      - name: Log
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 24ec6e8e-4acd-4a9f-ad13-486d8f0d1517
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 1
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: eb7973bd-a917-4fd4-9dd0-f864e886a5ab
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: a18cbb53-fa81-4b07-8b93-8bc17343dde6
+                logType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: b38dd26d-3671-43e0-bba4-f55c8a51ea5d
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      assignedTempFilter:
+        name: 
+        isEnabled: 1
+        collapsed: 0
+        itemGUID: 
+        filterName: 
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
+        isStandardFilter: 0
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 0
+        useIconTexture: 0
+        filterFormatVersion: -1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list: []
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+    - logType: 5
+      ignore: 0
+      processed: 1
+      tempFilterProcessed: 1
+      remoteEndPoint: Local
+      logPanelVisible: 1
+      logPanelIndex: 9
+      logOutputHeight: 16
+      listIndex: 9
+      nativeIndex: 9
+      nativeIdentifier: -2410
+      originalLog: 'Assets\FreePixelMob\Mobs.cs(33,11): warning CS0649: Field ''Mobs._animator''
+        is never assigned to, and will always have its default value null
+
+'
+      originalStackTrace: 'Assets\FreePixelMob\Mobs.cs(33,11): warning CS0649: Field
+        ''Mobs._animator'' is never assigned to, and will always have its default
+        value null
+
+'
+      nativeFileName: Assets\FreePixelMob\Mobs.cs
+      nativeLineNumber: 33
+      watchName: 
+      logText: '[CS0649] Field ''Mobs._animator'' is never assigned to, and will always
+        have its default value null'
+      logTruncatedText: '[CS0649] Field ''Mobs._animator'' is never assigned to, and
+        will always have its default value null'
+      logColumnText: '[CS0649] Field ''Mobs._animator'' is never assigned to, and
+        will always have its default value null'
+      fileName: 
+      className: 
+      namespaceName: 
+      lineCount: 1
+      hasSourceCode: 1
+      timeStamp: -1
+      timeFrame: -1
+      instanceID: 10216
+      collapsedCount: 1
+      cachedHeight: 20
+      cachedHeightLogWidth: 748
+      stackEntries:
+      - fileName: Assets\FreePixelMob\Mobs.cs
+        fileNameWithoutAssets: Assets\FreePixelMob\Mobs.cs
+        fileNameWithoutAssetsPlusLineNumber: Assets\FreePixelMob\Mobs.cs:33
+        fileNameWithoutPath: Mobs.cs
+        fileNameWithoutPathPlusLineNumber: Mobs.cs:33
+        instanceID: -1
+        className: Compiler
+        methodName: Compiler
+        namespaceName: 
+        lineNumber: 33
+        charNumber: 11
+        stackLabel: Compiler Warning
+        stackLabel2: ' at Assets\FreePixelMob\Mobs.cs:33 column 11'
+        stackLabelContent:
+          m_Text: <b>Compiler Warning</b> at Assets\FreePixelMob\Mobs.cs:33 column
+            11
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabelWidth: 486
+        stackLabelHeight: 23
+        stackSourceLineHeight: 15
+        sourceCode:
+        - '31:       static int AnimatorWalk = Animator.StringToHash("Walk");'
+        - '32:   static int AnimatorAttack = Animator.StringToHash("Attack");'
+        - '33:   Animator _animator;'
+        - '35:       #endregion'
+        sourceCodeUpdated: 1
+        showSource: 1
+      ignoredStackEntries: []
+      lastMatchedCount: 1
+      belongsToFilters:
+      - name: Warning
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 0e6b0bae-a14f-4f66-8469-2a1a0120b73d
+        filterName: 
+        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        isStandardFilter: 1
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 1
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: a919d6cf-bad9-4e0a-a782-66dc8327f2dc
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: aae018c5-5b87-4bc2-86a9-7c0e253c4571
+                logType: 2
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 62129711-f208-4357-8dea-e04a13dee3b7
+                logType: 5
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 95b91c35-4de6-42a6-b06a-897d019f542e
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 3
+          iconType2: 1
+          iconText: '!'
+          useIconTextFirstLetter: 0
+          useIconLogColor: 0
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 2}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 7
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconTexture:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        showInToolbar: 1
+        hideLabelInToolbar: 0
+        hideWhenNoMatches: 0
+      belongsToStandardFilters:
+      - name: Warning
+        isEnabled: 1
+        collapsed: 1
+        itemGUID: 0e6b0bae-a14f-4f66-8469-2a1a0120b73d
+        filterName: 
+        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        isStandardFilter: 1
+        isTempFilter: 0
+        useAdvancedColors: 0
+        customTextColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        swallowStandard: 1
+        standardCanSwallow: 0
+        overrideStandardColors: 1
+        overrideStandardIcon: 1
+        collapseIconBackground: 0
+        collapseIconSymbol: 0
+        collapseIconLetter: 0
+        collapseIconTexture: 0
+        useIconBackground: 1
+        useIconSymbol: 0
+        useIconLetter: 1
+        useIconTexture: 0
+        filterFormatVersion: 1
+        iconColorize: 0
+        useAndOpForSearchList: 0
+        searchList:
+          list:
+          - name: 
+            isEnabled: 1
+            collapsed: 0
+            itemGUID: a919d6cf-bad9-4e0a-a782-66dc8327f2dc
+            searchString: <Any>
+            searchType: 1
+            removeSearchStringFromLog: 0
+            logTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: aae018c5-5b87-4bc2-86a9-7c0e253c4571
+                logType: 2
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 62129711-f208-4357-8dea-e04a13dee3b7
+                logType: 5
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+            columnTypeList:
+              list:
+              - name: 
+                isEnabled: 1
+                collapsed: 0
+                itemGUID: 95b91c35-4de6-42a6-b06a-897d019f542e
+                columnType: 1
+              selectionList: 0
+              collapsable: 1
+              collapsed: 0
+          selectionList: 0
+          collapsable: 1
+          collapsed: 0
+        iconLetter:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 3
+          iconType2: 1
+          iconText: '!'
+          useIconTextFirstLetter: 0
+          useIconLogColor: 0
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 2}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 7
+        iconSymbol:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconTextureGUID: 
+          useIconShadow: 1
+          iconOffset: {x: 0, y: 0}
+          iconShadowOffset: {x: 0.5, y: 0.5}
+          iconSize: 13
+        iconBackground:
+          name: 
+          isEnabled: 1
+          collapsed: 0
+          itemGUID: 
+          iconType: 1
+          iconType2: 1
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
+          iconColor: {r: 1, g: 1, b: 1, a: 1}
+          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
           iconTextureGUID: 
           useIconShadow: 1
           iconOffset: {x: 0, y: 0}

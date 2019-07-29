@@ -6,16 +6,13 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform player;
 
-
-    public Transform map_Size;
-
     private bool west = false;
     private bool east = false;
     private bool north = false;
     private bool south = false;
 
     private float posX;
-    float posY;
+    private float posY;
 
     void LateUpdate()
     {
@@ -42,8 +39,6 @@ public class CameraFollow : MonoBehaviour
         }
 
         transform.localPosition = new Vector3(posX, posY, transform.localPosition.z);
-        //Camera.main.transform.Translate(player.position);
-        //transform = player.position;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
