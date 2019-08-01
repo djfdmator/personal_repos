@@ -43,6 +43,12 @@ public class PlayerController : MonoBehaviour
         get { return _hp; }
         set
         {
+            if(_hp > value)
+            {
+                //데미지 이펙트 : hp_bar shake
+                StartCoroutine(DamageEffect(value));
+            }
+
             _hp = value;
             hp_bar.value = _hp / 100.0f;
 
@@ -90,6 +96,10 @@ public class PlayerController : MonoBehaviour
 
     //캐릭터의 현재 상태
     public State_Slime state_slime = State_Slime.NONE;
+
+    //임시
+    public Transform temp;
+
 
     float angle;
     #endregion
@@ -160,8 +170,16 @@ public class PlayerController : MonoBehaviour
     {
         //게임상에서 마우스의 위치를 계산한다.
         mouse = Input.mousePosition;
-        Ray castPoint = Camera.main.ScreenPointToRay(mouse);
-        DashWay = castPoint.origin-transform.position;
+        Vector2 castPoint = Camera.main.ScreenToWorldPoint(mouse);
+        RaycastHit2D hit = Physics2D.Raycast(castPoint, Vector2.zero);
+        //hit.point.x
+        if(hit.collider != null)
+        {
+            temp = hit.collider.transform;
+            Debug.Log(hit.point.x);
+        }
+
+        DashWay = castPoint - new Vector2(transform.position.x, transform.position.y);
 
         chargeSpeed = 1.0f;
 
@@ -185,6 +203,14 @@ public class PlayerController : MonoBehaviour
             Charge += 20.0f;
             chargeSpeed = 2.0f;
         }
+        //key up Space bar - 대쉬
+        else //(Input.GetKeyUp(KeyCode.Space))
+        {
+            DashVFX.SetActive(false);
+            power_bar.gameObject.SetActive(false);
+            slime_Rigid.AddForce(DashWay.normalized * _charge, ForceMode2D.Force);
+            Charge = 0.0f;
+        }
 
         // key == WASD
         if (state_slime != State_Slime.DASH)
@@ -205,14 +231,15 @@ public class PlayerController : MonoBehaviour
         }
         DashVFX.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         DashVFX.transform.localScale = new Vector3(DashFoward * (_charge / 1200.0f), 0.8f, 0.0f);
-        //key up Space bar - 대쉬
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            DashVFX.SetActive(false);
-            power_bar.gameObject.SetActive(false);
-            slime_Rigid.AddForce(DashWay.normalized * _charge, ForceMode2D.Force);
-            Charge = 0.0f;
-        }
+
+
+        //if (Input.GetKeyUp(KeyCode.Space))
+        //{
+        //    DashVFX.SetActive(false);
+        //    power_bar.gameObject.SetActive(false);
+        //    slime_Rigid.AddForce(DashWay.normalized * _charge, ForceMode2D.Force);
+        //    Charge = 0.0f;
+        //}
 
         //이동을 천천히 멈춘다.
         slime_Rigid.velocity = Vector3.Slerp(slime_Rigid.velocity, Vector2.zero, 5.0f * Time.deltaTime);
@@ -222,6 +249,14 @@ public class PlayerController : MonoBehaviour
         //{
         //    slime_Rigid.velocity = Vector2.zero;
         //}
+    }
+
+    IEnumerator DamageEffect(float _damage)
+    {
+        for (int i = 0; i < _damage; i++)
+        {
+            yield return new WaitForFixedUpdate();
+        }
     }
 }
 
