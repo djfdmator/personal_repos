@@ -232,6 +232,7 @@
     <Compile Include="Assets\Script\ButtonManager.cs" />
     <Compile Include="Assets\Script\CameraFollow.cs" />
     <Compile Include="Assets\Script\DamageEffect.cs" />
+    <Compile Include="Assets\Script\EndingSceneManager.cs" />
     <Compile Include="Assets\Script\EventManager.cs" />
     <Compile Include="Assets\Script\MonoSingleton.cs" />
     <Compile Include="Assets\Script\Monster.cs" />

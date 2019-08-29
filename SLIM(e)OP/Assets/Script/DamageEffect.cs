@@ -65,4 +65,9 @@ public class DamageEffect : MonoBehaviour
         temp.gameObject.SetActive(false);
         StopCoroutine(OnEffect(null));
     }
+
+    public void OnFinish()
+    {
+        //this.gameObject.SetActive(false);
+    }
 }

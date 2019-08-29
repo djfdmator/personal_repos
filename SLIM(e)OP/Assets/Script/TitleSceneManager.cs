@@ -7,13 +7,15 @@ public class TitleSceneManager : MonoBehaviour
 {
 
     // Start is called before the first frame update
-    void Start()
-    {
-        //SceneManager.LoadSceneAsync("Main");
-    }
 
     public void GameStart()
     {
         ButtonManager.Inst.GameStartButton();
     }
+
+    public void Exit()
+    {
+        ButtonManager.Inst.Exit();
+    }
 }
+

@@ -9,4 +9,19 @@ public class ButtonManager : MonoSingleton<ButtonManager>
     {
         SceneManager.LoadScene("Main");
     }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene("Main");
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
+
+    public void Die()
+    {
+        SceneManager.LoadScene("Ending");
+    }
 }

@@ -57,6 +57,7 @@ public class PlayerController : MonoBehaviour
             if (_hp <= 0.0f)
             {
                 gameObject.SetActive(false);
+                ButtonManager.Inst.Die();
             }
         }
     }
