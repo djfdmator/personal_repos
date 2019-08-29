@@ -14,15 +14,19 @@ public class Monster : MonoBehaviour
 {
     #region parameter
 
-    public int Health
+    public float Health
     {
         get { return _health; }
         set
         {
+            if (!firstHit)
+            {
+                hpBar.parent.gameObject.SetActive(true);
+                firstHit = true;
+            }
             //Clamp health between 0-100
             _health = Mathf.Clamp(value, 0, _health);
 
-            //Post notification - health has been changed
             EventManager.Instance.PostNotification(EVENT_TYPE.HEALTH_CHANGE, this, _health);
             if (_health == 0)
             {
@@ -34,12 +38,23 @@ public class Monster : MonoBehaviour
     #endregion
 
     #region variables
-    public int _health = 100;
+    public float _health = 100;
+    private float maxHealth;
 
+    private bool firstHit = false;
+    private Transform hpBar;
+    public bool isGroggy = false;
+
+    private DamageEffect damageEffect;
     #endregion
 
-    void Start()
+    public virtual void Start()
     {
+        damageEffect = GameObject.FindGameObjectWithTag("damage").GetComponent<DamageEffect>();
+        hpBar = transform.Find("HpBar").Find("bar");
+        hpBar.parent.gameObject.SetActive(false);
+
+        maxHealth = Health;
         EventManager.Instance.AddListener(EVENT_TYPE.HEALTH_CHANGE, OnEvent);
         EventManager.Instance.AddListener(EVENT_TYPE.DEAD, OnEvent);
     }
@@ -52,27 +67,29 @@ public class Monster : MonoBehaviour
         switch (Event_Type)
         {
             case EVENT_TYPE.HEALTH_CHANGE:
-                OnHealthChange(Sender, (int)Param);
+                OnHealthChange(Sender, (float)Param);
                 break;
             case EVENT_TYPE.DEAD:
-                OnDead(Sender, (int)Param);
+                OnDead(Sender, (float)Param);
                 break;
         }
     }
     //-------------------------------------------------------
     //Function called when health changes
-    void OnHealthChange(Component Enemy, int NewHealth)
+    void OnHealthChange(Component Enemy, float NewHealth)
     {
         //If health has changed of this object
         if (this.GetInstanceID() != Enemy.GetInstanceID()) return;
-
-
+        float ScaleX = _health / maxHealth;
+        hpBar.localScale = new Vector3(ScaleX, 1.0f, 1.0f);
+        isGroggy = true;
+        damageEffect.OnDamageEffect(transform.position, 10.0f);
         Debug.Log("Object: " + gameObject.name + " Health is: " + NewHealth.ToString());
     }
     //-------------------------------------------------------
     //-------------------------------------------------------
     //Function called when dead
-    void OnDead(Component Enemy, int NewHealth)
+    void OnDead(Component Enemy, float NewHealth)
     {
         //If health has changed of this object
         if (this.GetInstanceID() != Enemy.GetInstanceID()) return;

@@ -11,6 +11,7 @@ TagManager:
   - north
   - axisX
   - axisY
+  - damage
   layers:
   - Default
   - TransparentFX

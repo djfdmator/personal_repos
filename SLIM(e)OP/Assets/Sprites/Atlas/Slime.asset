@@ -66,6 +66,32 @@ MonoBehaviour:
     paddingRight: 81
     paddingTop: 230
     paddingBottom: 265
+  - name: kenvector_future
+    x: 1915
+    y: 1792
+    width: 128
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kenvector_future_thin
+    x: 1911
+    y: 1921
+    width: 128
+    height: 127
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 0
   - name: kisspng-health-minecraft-pixel-art-video-game-health-bar-5b3f5cbb520a72.5150139215308791633361
     x: 810
     y: 1612

@@ -31,51 +31,63 @@ public class Slime : Monster
 
     }
 
-    private void Start()
+    public override void Start()
     {
+        base.Start();
         StartCoroutine("Animate");
     }
 
     private void FixedUpdate()
     {
-        currentDistance = Vector2.Distance(transform.position, player.transform.position);
-        _animator.SetFloat("distance", currentDistance);
+        if (!isGroggy)
+        {
+            currentDistance = Vector2.Distance(transform.position, player.transform.position);
+            _animator.SetFloat("distance", currentDistance);
 
-        if (currentDistance <= 1.0f)
-        {
-            //Attack
-            state = Monster_State.ATTACK;
-        }
-        else if (1.0f < currentDistance && currentDistance <= 2.5f)
-        {
-            //Chase
-            state = Monster_State.CHASE;
-            Vector2 forward = player.transform.position - transform.position;
-            rigid.velocity = forward * 1.2f;
-        }
-        else
-        {
-            //Idle
-            state = Monster_State.IDLE;
-            if (rand_IdleBehaviour == 0)
+            if (currentDistance <= 1.0f)
             {
-                //Idle
+                //Attack
+                state = Monster_State.ATTACK;
+            }
+            else if (1.0f < currentDistance && currentDistance <= 2.5f)
+            {
+                //Chase
+                state = Monster_State.CHASE;
+                Vector2 forward = player.transform.position - transform.position;
+                rigid.velocity = forward * 1.2f;
             }
             else
             {
-                //Move
-                rigid.velocity = Forward * 1.2f;
+                //Idle
+                state = Monster_State.IDLE;
+                if (rand_IdleBehaviour == 0)
+                {
+                    //Idle
+                }
+                else
+                {
+                    //Move
+                    rigid.velocity = Forward * 1.2f;
+                }
             }
         }
+        else
+        {
+            StartCoroutine(OnGroggy());
+        }
+    }
+
+    IEnumerator OnGroggy()
+    {
+        yield return new WaitForSeconds(2.0f);
+
+        isGroggy = false;
+        StopCoroutine(OnGroggy());
     }
 
     Vector2 RandomMoveForward2D()
     {
-        //need fixed circle range;; 
-        float dir_x = Random.Range(-2, 2);
-        float dir_y = Random.Range(-2, 2);
-
-        return new Vector2(dir_x, dir_y);
+        return Random.insideUnitCircle * 2.0f;
     }
 
     IEnumerator Animate()
@@ -84,35 +96,37 @@ public class Slime : Monster
         //가만 있을까? 움직일까?ㅇ..
         while (true)
         {
-            switch (state)
+            if (!isGroggy)
             {
-                case Monster_State.IDLE:
-                    if (rand_IdleBehaviour == 0)
-                    {
-                        //Idle
-                        _animator.SetBool("move", false);
-                        yield return new WaitForSeconds(2f);
-                    }
-                    else
-                    {
-                        //Move
+                switch (state)
+                {
+                    case Monster_State.IDLE:
+                        if (rand_IdleBehaviour == 0)
+                        {
+                            //Idle
+                            _animator.SetBool("move", false);
+                            yield return new WaitForSeconds(2f);
+                        }
+                        else
+                        {
+                            //Move
+                            _animator.SetBool("move", true);
+                            yield return new WaitForSeconds(2f);
+                        }
+                        rand_IdleBehaviour = Random.Range(0, 2);
+                        Forward = RandomMoveForward2D();
+                        break;
+                    case Monster_State.CHASE:
                         _animator.SetBool("move", true);
-                        yield return new WaitForSeconds(2f);
-                    }
-                    rand_IdleBehaviour = Random.Range(0, 2);
-                    Forward = RandomMoveForward2D();
-                    Debug.Log(rand_IdleBehaviour);
-                    break;
-                case Monster_State.CHASE:
-                    _animator.SetBool("move", true);
-                    yield return new WaitForSeconds(1f);
-                    break;
-                case Monster_State.ATTACK:
-                    _animator.SetBool("move", false);
-                    player.GetComponent<PlayerController>().HP -= 5.0f;
-                    yield return new WaitForSeconds(1f);
-                    break;
+                        yield return new WaitForSeconds(1f);
+                        break;
+                    case Monster_State.ATTACK:
+                        _animator.SetBool("move", false);
+                        player.GetComponent<PlayerController>().HP -= 5.0f;
+                        yield return new WaitForSeconds(1f);
+                        break;
 
+                }
             }
             yield return null;
         }

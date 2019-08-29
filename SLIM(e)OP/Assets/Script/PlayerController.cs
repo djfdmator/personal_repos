@@ -32,8 +32,8 @@ public class PlayerController : MonoBehaviour
 
             if (_charge >= 1200.0f)
             {
-                 _charge = 1200.0f;
-            } 
+                _charge = 1200.0f;
+            }
             power_bar.value = _charge / 1200.0f;
         }
     }
@@ -43,18 +43,20 @@ public class PlayerController : MonoBehaviour
         get { return _hp; }
         set
         {
-            if(_hp > value)
+            if (_hp > value)
             {
                 //데미지 이펙트 : hp_bar shake
-                StartCoroutine(DamageEffect(value));
+                StopCoroutine(DamageEffect());
+                StartCoroutine(DamageEffect());
             }
 
+            damageEffect.OnDamageEffect(transform.position, 5.0f);
             _hp = value;
             hp_bar.value = _hp / 100.0f;
 
             if (_hp <= 0.0f)
             {
-                Debug.Log("Die");
+                gameObject.SetActive(false);
             }
         }
     }
@@ -84,7 +86,9 @@ public class PlayerController : MonoBehaviour
     public Vector3 mouse;
     public Vector2 DashWay;
     public GameObject DashVFX;
+    bool isObject;
     public int DashFoward = 1;
+    public Vector3 HitObjectPosition;
 
     //animator 관련 변수
     int Walk = Animator.StringToHash("Walk");
@@ -94,8 +98,16 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D slime_Rigid;
     private Animator animator;
 
+    //hpbar - shake
+    Vector2 position;
+    public float shakeAmount = 0.5f;
+    public float shakeSpeed = 1.0f;
+
     //캐릭터의 현재 상태
     public State_Slime state_slime = State_Slime.NONE;
+
+    //damageEffect
+    private DamageEffect damageEffect;
 
     //임시
     public Transform temp;
@@ -110,7 +122,7 @@ public class PlayerController : MonoBehaviour
         slime_Rigid = GetComponent<Rigidbody2D>();
         player_anime = GetComponent<Animator>();
         DashVFX = transform.GetChild(0).gameObject;
-        
+
         hp_bar.value = 1.0f;
         power_bar.value = 0.0f;
         power_bar.gameObject.SetActive(false);
@@ -118,7 +130,10 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        damageEffect = GameObject.FindGameObjectWithTag("damage").GetComponent<DamageEffect>();
         StartCoroutine(Animate());
+        position = hp_bar.GetComponent<Transform>().localPosition;
+        Debug.Log(position);
     }
 
     //애니메이션 작동
@@ -171,15 +186,19 @@ public class PlayerController : MonoBehaviour
         //게임상에서 마우스의 위치를 계산한다.
         mouse = Input.mousePosition;
         Vector2 castPoint = Camera.main.ScreenToWorldPoint(mouse);
-        RaycastHit2D hit = Physics2D.Raycast(castPoint, Vector2.zero);
-        //hit.point.x
-        if(hit.collider != null)
-        {
-            temp = hit.collider.transform;
-            Debug.Log(hit.point.x);
-        }
+        DashWay = castPoint - new Vector2(transform.position.x, transform.position.y); //direction
+        //RaycastHit2D[] hit = Physics2D.RaycastAll(transform.position, DashWay, DashWay.magnitude);
 
-        DashWay = castPoint - new Vector2(transform.position.x, transform.position.y);
+        //RaycastHit2D temp_hit = hit[2];
+        ////hit.point.x
+        //isObject = false;
+        //if (temp_hit.collider != null)
+        //{
+        //    HitObjectPosition = temp_hit.transform.position - transform.position; 
+        //    isObject = true;
+        //    Debug.DrawRay(transform.position, DashWay, Color.red);
+        //    Debug.Log(temp_hit.transform.name);
+        //}
 
         chargeSpeed = 1.0f;
 
@@ -218,12 +237,12 @@ public class PlayerController : MonoBehaviour
             moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             slime_Rigid.velocity += moveInput.normalized * speed / chargeSpeed * Time.deltaTime;
 
-            if(Input.GetAxisRaw("Horizontal") < 0.0f)
+            if (Input.GetAxisRaw("Horizontal") < 0.0f)
             {
                 transform.localScale = new Vector3(-1.0f, 1.0f, 0.0f);
                 DashFoward = -1;
             }
-            else if(Input.GetAxisRaw("Horizontal") > 0.0f)
+            else if (Input.GetAxisRaw("Horizontal") > 0.0f)
             {
                 transform.localScale = new Vector3(1.0f, 1.0f, 0.0f);
                 DashFoward = 1;
@@ -231,7 +250,17 @@ public class PlayerController : MonoBehaviour
         }
         DashVFX.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         DashVFX.transform.localScale = new Vector3(DashFoward * (_charge / 1200.0f), 0.8f, 0.0f);
-
+        //if (isObject)
+        //{
+        //    if(2.77f > HitObjectPosition.magnitude)
+        //    {
+        //        DashVFX.transform.localScale = new Vector3(DashFoward * temp.position.magnitude, 0.8f, 0.0f);
+        //    }
+        //}
+        //else
+        //{
+        //    DashVFX.transform.localScale = new Vector3(DashFoward * (_charge / 1200.0f), 0.8f, 0.0f);
+        //}
 
         //if (Input.GetKeyUp(KeyCode.Space))
         //{
@@ -251,12 +280,30 @@ public class PlayerController : MonoBehaviour
         //}
     }
 
-    IEnumerator DamageEffect(float _damage)
+    IEnumerator DamageEffect()
     {
-        for (int i = 0; i < _damage; i++)
+        //Vector2 position = hp_bar.GetComponent<Transform>().position;
+        //shake time
+        float effectTime = 0.5f;
+        Debug.Log(effectTime);
+
+        float time = 0.0f;
+        Debug.Log("Time:"+time);
+
+        while(time < effectTime)
         {
-            yield return new WaitForFixedUpdate();
+            Vector2 randomPoint = position + Random.insideUnitCircle * shakeAmount;
+           // Debug.Log(randomPoint);
+            //Debug.Log(hp_bar.GetComponent<Transform>().localPosition);
+            hp_bar.GetComponent<Transform>().localPosition = randomPoint;
+
+            yield return null;
+
+            time += Time.deltaTime;
         }
+
+        hp_bar.GetComponent<Transform>().localPosition = position;
+        StopCoroutine(DamageEffect());
     }
 }
 
