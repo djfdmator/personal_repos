@@ -1,0 +1,32 @@
+﻿AN^Name^MpCost^AD^AT^AC^CT^Image Name^Description
+0^Power hit^0^0^None^0^0^Pohi_Act_1^None
+1^Double shot^0^0^None^0^0^Dosh_Act_1^None
+2^Energy ball^0^0^None^0^0^Enba_Act_1^None
+3^Swing hit^0^0^None^0^0^Swhi_Act_1^None
+4^Strike down^0^0^None^0^0^Stdo_Act_1^None
+5^Triple shot^0^0^None^0^0^Trsh_Act_1^None
+6^Power shot^0^0^None^0^0^Posh_Act_1^None
+7^Fire ball^0^0^None^0^0^Fiba_Act_1^None
+8^Wind missile^0^0^None^0^0^Wimi_Act_1^None
+9^Empty^0^0^None^0^0^Empty^None
+10^Empty^0^0^None^0^0^Empty^None
+11^Empty^0^0^None^0^0^Empty^None
+12^Empty^0^0^None^0^0^Empty^None
+13^Empty^0^0^None^0^0^Empty^None
+14^Empty^0^0^None^0^0^Empty^None
+15^Empty^0^0^None^0^0^Empty^None
+16^Empty^0^0^None^0^0^Empty^None
+17^Empty^0^0^None^0^0^Empty^None
+18^Empty^0^0^None^0^0^Empty^None
+19^Empty^0^0^None^0^0^Empty^None
+20^Empty^0^0^None^0^0^Empty^None
+21^Empty^0^0^None^0^0^Empty^None
+22^Empty^0^0^None^0^0^Empty^None
+23^Empty^0^0^None^0^0^Empty^None
+^^^^^^^^
+^^^^^^^^
+^^^^^^^^
+^^^^^^^^
+^^^^^^^^
+^^^^^^^^
+^^^^^^^^

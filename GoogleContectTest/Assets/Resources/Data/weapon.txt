@@ -1,0 +1,31 @@
+﻿Class^Name^Type^Rarity^AP^AS^AR^AC^Active Num^Image Name^MD^Description
+0^Rusty sword^Sword^Normal^0^0^0^0^0^Rust_Wea_Nor^Empty^None
+1^Old bow^Bow^Normal^0^0^0^0^1^Oldb_Wea_Nor^Empty^None
+2^Rotten wand^Wand^Normal^0^0^0^0^2^Rott_Wea_Nor^Empty^None
+3^Training sword^Sword^Rare^0^0^0^0^3^Trsw_Wea_Rar^Empty^None
+4^Soldiers sword^Sword^Rare^0^0^0^0^3^Sosw_Wea_Rar^Empty^None
+5^Training axe^Sword^Rare^0^0^0^0^4^Trax_Wea_Rar^Empty^None
+6^Soldiers axe^Sword^Rare^0^0^0^0^4^Soax_Wea_Rar^Empty^None
+7^Training bow^Bow^Rare^0^0^0^0^5^Trbo_Wea_Rar^Empty^None
+8^Soldiers bow^Bow^Rare^0^0^0^0^5^Sobo_Wea_Rar^Empty^None
+9^Training crossbow^Bow^Rare^0^0^0^0^6^Trcr_Wea_Rar^Empty^None
+10^Soldiers crossbow^Bow^Rare^0^0^0^0^6^Socr_Wea_Rar^Empty^None
+11^Training wand^Wand^Rare^0^0^0^0^7^Trwa_Wea_Rar^Empty^None
+12^Soldiers wand^Wand^Rare^0^0^0^0^7^Sowa_Wea_Rar^Empty^None
+13^Training crystal^Wand^Rare^0^0^0^0^8^Trcr_Wea_Rar^Empty^None
+14^Soldiers crystal^Wand^Rare^0^0^0^0^8^Socr_Wea_Rar^Empty^None
+15^Empty^Sword^Unique^0^0^0^0^9^EmEm_Wea_Uni^Empty^None
+16^Empty^Sword^Unique^0^0^0^0^10^EmEm_Wea_Uni^Empty^None
+17^Empty^Sword^Unique^0^0^0^0^11^EmEm_Wea_Uni^Empty^None
+18^Empty^Bow^Unique^0^0^0^0^12^EmEm_Wea_Uni^Empty^None
+19^Empty^Bow^Unique^0^0^0^0^13^EmEm_Wea_Uni^Empty^None
+20^Empty^Bow^Unique^0^0^0^0^14^EmEm_Wea_Uni^Empty^None
+21^Empty^Wand^Unique^0^0^0^0^15^EmEm_Wea_Uni^Empty^None
+22^Empty^Wand^Unique^0^0^0^0^16^EmEm_Wea_Uni^Empty^None
+23^Empty^Wand^Unique^0^0^0^0^17^EmEm_Wea_Uni^Empty^None
+24^Empty^Sword^Legend^0^0^0^0^18^EmEm_Wea_Leg^Empty^None
+25^Empty^Sword^Legend^0^0^0^0^19^EmEm_Wea_Leg^Empty^None
+26^Empty^Bow^Legend^0^0^0^0^20^EmEm_Wea_Leg^Empty^None
+27^Empty^Bow^Legend^0^0^0^0^21^EmEm_Wea_Leg^Empty^None
+28^Empty^Wand^Legend^0^0^0^0^22^EmEm_Wea_Leg^Empty^None
+29^Empty^Wand^Legend^0^0^0^0^23^EmEm_Wea_Leg^Empty^None

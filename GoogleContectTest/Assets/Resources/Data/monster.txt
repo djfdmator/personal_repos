@@ -1,0 +1,53 @@
+﻿Class^Name^Category^Region^Rarity^Size^HP^AP^AS^CR^AR^MS^Image Name^DI
+0^Spotted lanternfly^Fly^Jungle^Common^S^0^0^0^0^0^0^Spot_Mon_Com^Empty
+1^Blaze ant^Move^Jungle^Common^S^0^0^0^0^0^0^Blaz_Mon_Com^Empty
+2^Red eared slider^Move^Jungle^Common^S^0^0^0^0^0^0^Rede_Mon_Com^Empty
+3^Bullfrog^Move^Jungle^Common^S^0^0^0^0^0^0^Bull_Mon_Com^Empty
+4^Clown mushroom^Hold^Jungle^Common^S^0^0^0^0^0^0^Clow_Mon_Com^Empty
+5^Slime^Move^Jungle^Named^M^0^0^0^0^0^0^Slim_Mon_Nam^Empty
+6^Swamp monster^Hold^Jungle^Named^M^0^0^0^0^0^0^Swam_Mon_Nam^Empty
+7^Golem^Move^Jungle^Boss^M^0^0^0^0^0^0^Gole_Mon_Bos^Empty
+8^Jellyfish^Fly^DeepSea^Common^S^0^0^0^0^0^0^Jell_Mon_Com^Empty
+9^Piranha^Move^DeepSea^Common^S^0^0^0^0^0^0^Pira_Mon_Com^Empty
+10^Bass^Move^DeepSea^Common^S^0^0^0^0^0^0^Bass_Mon_Com^Empty
+11^Blue gill^Move^DeepSea^Common^S^0^0^0^0^0^0^Blue_Mon_Com^Empty
+12^Water mushroom^Hold^DeepSea^Common^S^0^0^0^0^0^0^Wate_Mon_Com^Empty
+13^King crab^Move^DeepSea^Named^M^0^0^0^0^0^0^King_Mon_Nam^Empty
+14^Shark^Fly^DeepSea^Named^M^0^0^0^0^0^0^Shar_Mon_Nam^Empty
+15^Kraken^Hold^DeepSea^Boss^L^0^0^0^0^0^0^Krak_Mon_Bos^Empty
+16^Eagle^Fly^HighMountain^Common^S^0^0^0^0^0^0^Eagl_Mon_Com^Empty
+17^Scorpion^Move^HighMountain^Common^S^0^0^0^0^0^0^Scor_Mon_Com^Empty
+18^Spider^Move^HighMountain^Common^S^0^0^0^0^0^0^Spid_Mon_Com^Empty
+19^Salamander^Move^HighMountain^Common^S^0^0^0^0^0^0^Sala_Mon_Com^Empty
+20^Fire mushroom^Hold^HighMountain^Common^S^0^0^0^0^0^0^Fire_Mon_Com^Empty
+21^Specter^Fly^HighMountain^Named^S^0^0^0^0^0^0^Spec_Mon_Nam^Empty
+22^Minotauros^Move^HighMountain^Named^M^0^0^0^0^0^0^Mino_Mon_Nam^Empty
+23^Dragon^Fly^HighMountain^Boss^L^0^0^0^0^0^0^Drag_Mon_Bos^Empty
+24^Bat ^Fly^Prison^Common^S^0^0^0^0^0^0^Bat__Mon_Com^Empty
+25^Skeleton warrior^Move^Prison^Common^S^0^0^0^0^0^0^Skwa_Mon_Com^Empty
+26^Skeleton archer^Move^Prison^Common^S^0^0^0^0^0^0^Skar_Mon_Com^Empty
+27^Skeleton wizard^Move^Prison^Common^S^0^0^0^0^0^0^Skwi_Mon_Com^Empty
+28^Poison mushroom^Hold^Prison^Common^S^0^0^0^0^0^0^Pois_Mon_Com^Empty
+29^Brown bear^Move^Prison^Named^M^0^0^0^0^0^0^Brow_Mon_Nam^Empty
+30^Wyvern^Fly^Prison^Named^M^0^0^0^0^0^0^Wyve_Mon_Nam^Empty
+31^Kerberos^Move^Prison^Boss^L^0^0^0^0^0^0^Kerb_Mon_Bos^Empty
+32^Gargoyle^HoldandFly^Castle^Common^M^0^0^0^0^0^0^Garg_Mon_Com^Empty
+33^Trap^Hold^Castle^Common^S^0^0^0^0^0^0^Trap_Mon_Com^Empty
+34^Guard dog^Move^Castle^Common^S^0^0^0^0^0^0^Gudo_Mon_Com^Empty
+35^Guard man^Move^Castle^Common^S^0^0^0^0^0^0^Guma_Mon_Com^Empty
+36^Guard archer^Move^Castle^Common^S^0^0^0^0^0^0^Guar_Mon_Com^Empty
+37^Acidlime^Move^Castle^Named^M^0^0^0^0^0^0^Acid_Mon_Nam^Empty
+38^Swamp king^Hold^Castle^Named^M^0^0^0^0^0^0^Swki_Mon_Nam^Empty
+39^Mana Golem^Move^Castle^Boss^M^0^0^0^0^0^0^MaGo_Mon_Bos^Empty
+40^Emperor crab^Move^Castle^Named^M^0^0^0^0^0^0^Empe_Mon_Nam^Empty
+41^Manark^Fly^Castle^Named^M^0^0^0^0^0^0^Mana_Mon_Nam^Empty
+42^Manaken^Hold^Castle^Boss^L^0^0^0^0^0^0^Make_Mon_Bos^Empty
+43^Hero specter^Fly^Castle^Named^S^0^0^0^0^0^0^Hesp_Mon_Nam^Empty
+44^Captain minotauros^Move^Castle^Named^M^0^0^0^0^0^0^Cami_Mon_Nam^Empty
+45^Mana dragon^Fly^Castle^Boss^L^0^0^0^0^0^0^Madr_Mon_Bos^Empty
+46^Mana bear^Move^Castle^Named^M^0^0^0^0^0^0^Mabe_Mon_Nam^Empty
+47^Zett vern^Fly^Castle^Named^M^0^0^0^0^0^0^Zett_Mon_Nam^Empty
+48^Cerberu^Move^Castle^Boss^L^0^0^0^0^0^0^Cerb_Mon_Bos^Empty
+49^Deacon^Move^Castle^Named^M^0^0^0^0^0^0^Deac_Mon_Nam^Empty
+50^Angry deacon^Move^Castle^Named^L^0^0^0^0^0^0^Ande_Mon_Nam^Empty
+51^Mana king^Move^Castle^Boss^M^0^0^0^0^0^0^Maki_Mon_Bos^Empty
