@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
+public class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
 {
     private static T m_Instance = null;
     private static bool applicationIsQuitting = false;
