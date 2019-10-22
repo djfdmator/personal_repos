@@ -48,6 +48,9 @@ public class Room : MonoBehaviour
                 case RoomType.Begin:
                     miniMapPos.GetComponent<UISprite>().color = Color.cyan;
                     break;
+                case RoomType.NPC:
+                    miniMapPos.GetComponent<UISprite>().color = Color.yellow;
+                    break;
                 case RoomType.Stair:
                     miniMapPos.GetComponent<UISprite>().color = Color.green;
                     break;
@@ -85,6 +88,7 @@ public class Room : MonoBehaviour
     {
         roomState = RoomState.Clear;
         OpenAllDoor();
+        roomManager.miniMap.gameObject.SetActive(true);
         MiniMapPos.SetActive(true);
         //CollectAll_Items();
 
@@ -142,13 +146,33 @@ public class Room : MonoBehaviour
         }
     }
 
-    public void SetData(Vector2 _gridPos, RoomType _roomType, RoomManager _roomManager, int _depth)
+    public void SetData(Vector2 _gridPos, RoomType _roomType, RoomManager _roomManager, int _depth, bool[] _door)
     {
         gridPos = _gridPos;
         roomType = _roomType;
         roomManager = _roomManager;
         depth = _depth;
+        doorBot = _door[0];
+        doorLeft = _door[1];
+        doorRight = _door[2];
+        doorTop = _door[3];
         if (!_roomType.Equals(RoomType.Begin))
+        {
+            gameObject.SetActive(false);
+        }
+    }
+
+    public void SetData(Room _room)
+    {
+        gridPos = _room.gridPos;
+        roomType = _room.roomType;
+        roomManager = _room.roomManager;
+        depth = _room.depth;
+        doorBot = _room.doorBot;
+        doorLeft = _room.doorLeft;
+        doorRight = _room.doorRight;
+        doorTop = _room.doorTop;
+        if (!roomType.Equals(RoomType.Begin))
         {
             gameObject.SetActive(false);
         }

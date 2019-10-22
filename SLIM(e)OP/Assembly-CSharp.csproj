@@ -271,6 +271,7 @@
     <Compile Include="Assets\Script\Map\Loading.cs" />
     <Compile Include="Assets\Script\Map\MapCreator.cs" />
     <Compile Include="Assets\Script\Map\MiniMap.cs" />
+    <Compile Include="Assets\Script\Map\NpcBehavior.cs" />
     <Compile Include="Assets\Script\Map\Room.cs" />
     <Compile Include="Assets\Script\Map\RoomManager.cs" />
     <Compile Include="Assets\Script\Map\Stair.cs" />

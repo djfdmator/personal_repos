@@ -319,17 +319,15 @@ public class MapCreator : MonoBehaviour
             int x = (int)room.gridPos.x;
             int y = (int)room.gridPos.y;
 
-            #region 맵 생성될 때 특수 방이면 스크립트 붙이는 것과 생성되는 오브젝트 바꾸기
-
-            map_Data[x + gridSizeX_Cen, y + gridSizeY_Cen] = Instantiate(map_Base, drawPos, Quaternion.identity);
+            map_Data[x + gridSizeX_Cen, y + gridSizeY_Cen] = Instantiate(map_Base, drawPos, Quaternion.identity, Map_Root.transform);
             map_Data[x + gridSizeX_Cen, y + gridSizeY_Cen].AddComponent<Room>();
 
             GameObject map = map_Data[x + gridSizeX_Cen, y + gridSizeY_Cen];
-            map.transform.parent = Map_Root.transform;
 
-            Room roomManager = map.GetComponent<Room>();
+            Room roomManager = map.GetComponent<Room>(); //Room
             //방마다 데이터 저장
-            roomManager.SetData(room.gridPos, room.type, Manager, room.depth);
+            bool[] door_dir  = { room.doorBot, room.doorLeft, room.doorRight, room.doorTop};
+            roomManager.SetData(room.gridPos, room.type, Manager, room.depth, door_dir); //Room Data Set
 
             GameObject doorWall = map.transform.Find("DoorWall").gameObject;
             GameObject North = doorWall.transform.Find("North").gameObject;
@@ -379,9 +377,9 @@ public class MapCreator : MonoBehaviour
                 East.transform.Find("Door").gameObject.GetComponent<Door>().Name = DoorName.East;
                 East.SetActive(false);
             }
-            #endregion
         }
         SetStairRoom(); //setting the stair room
+        SetNpcRoom(Map_Root.transform);
         Manager.Map_Data = map_Data;
         Manager.SetPlayerPos(0, 0);
     }
@@ -473,5 +471,87 @@ public class MapCreator : MonoBehaviour
         GameObject stairTemp = GameObject.Instantiate(stair, temp[temp.Count - 1].transform.position, Quaternion.identity, temp[temp.Count - 1].transform);
         stairTemp.name = "Stair";
         stairTemp.transform.localPosition = new Vector3(stair_LocalPosition.x, stair_LocalPosition.y, 0.0f);
+    }
+
+    //NPC방 생성
+    void SetNpcRoom(Transform _parent)
+    {
+        SetNpc_Market(_parent);
+        
+        //다른 npc방 추가
+    }
+
+    void SetNpc_Market(Transform _parent)
+    {
+        List<GameObject> temp = new List<GameObject>();
+        foreach (GameObject obj in map_Data)
+        {
+            if (obj == null) continue;
+            if (obj.GetComponent<Room>().depth <= 2) continue;
+            if (!obj.GetComponent<Room>().roomType.Equals(RoomType.Normal)) continue;
+
+            temp.Add(obj);
+        }
+
+        int rand = Random.Range(0, temp.Count - 1);
+
+        GameObject map_Market = Resources.Load("Map_Market") as GameObject;
+        GameObject map_MarketTemp = GameObject.Instantiate(map_Market, temp[rand].transform.position, Quaternion.identity, _parent);
+        map_MarketTemp.AddComponent<Room>();
+
+        Room map = map_MarketTemp.GetComponent<Room>();
+        map.SetData(temp[rand].GetComponent<Room>());
+        map.roomType = RoomType.NPC;
+        
+        //door setting
+        GameObject doorWall = map_MarketTemp.transform.Find("DoorWall").gameObject;
+        GameObject North = doorWall.transform.Find("North").gameObject;
+        GameObject South = doorWall.transform.Find("South").gameObject;
+        GameObject West = doorWall.transform.Find("West").gameObject;
+        GameObject East = doorWall.transform.Find("East").gameObject;
+
+        int i = 0;
+        if (!map.doorTop) Destroy(North);
+        else
+        {
+            map.door_All[i] = North;
+            i++;
+            North.transform.Find("Door").gameObject.AddComponent<Door>();
+            North.transform.Find("Door").gameObject.GetComponent<Door>().Name = DoorName.North;
+            North.SetActive(false);
+        }
+        if (!map.doorBot) Destroy(South);
+        else
+        {
+            map.door_All[i] = South;
+            i++;
+            South.transform.Find("Door").gameObject.AddComponent<Door>();
+            South.transform.Find("Door").gameObject.GetComponent<Door>().Name = DoorName.South;
+            South.SetActive(false);
+        }
+        if (!map.doorLeft) Destroy(West);
+        else
+        {
+            map.door_All[i] = West;
+            i++;
+            West.transform.Find("Door").gameObject.AddComponent<Door>();
+            West.transform.Find("Door").gameObject.GetComponent<Door>().Name = DoorName.West;
+            West.SetActive(false);
+        }
+        if (!map.doorRight) Destroy(East);
+        else
+        {
+            map.door_All[i] = East;
+            i++;
+            East.transform.Find("Door").gameObject.AddComponent<Door>();
+            East.transform.Find("Door").gameObject.GetComponent<Door>().Name = DoorName.East;
+            East.SetActive(false);
+        }
+
+        //map_Data change
+        int x = (int)map.gridPos.x + gridSizeX_Cen;
+        int y = (int)map.gridPos.y + gridSizeY_Cen;
+        Destroy(map_Data[x, y].gameObject);
+        map_Data[x, y] = map_MarketTemp;
     }
 }

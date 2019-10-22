@@ -21,7 +21,7 @@ public class RoomManager : MonoBehaviour
     public int player_PosX, player_PosY;
     public int gridSizeX_Cen, gridSizeY_Cen;
 
-    private MiniMap miniMap;
+    public MiniMap miniMap;
 
     private void Awake()
     {

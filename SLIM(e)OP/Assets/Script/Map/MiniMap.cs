@@ -19,6 +19,12 @@ public class MiniMap : MonoBehaviour
         int x = RoomManager.player_PosX;
         int y = RoomManager.player_PosY;
         roomRoot.localPosition = new Vector3(-x * 32.0f, -y * 32.0f, 0.0f);
+
+        //이동한 방이 클리어되지 않았다면 미니맵을 끈다.
+        if(!RoomManager.Map_Data[x + RoomManager.gridSizeX_Cen, y + RoomManager.gridSizeY_Cen].GetComponent<Room>().roomState.Equals(RoomState.Clear))
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     public void InitMiniMap()
