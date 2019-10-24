@@ -12,6 +12,11 @@ public class Loading : MonoBehaviour
     // Start is called before the first frame update
     public GameObject next_Button;
 
+    private void Awake()
+    {
+        //다음 씬이 뭔지 판단해야 한다.
+        nextScene = "Battle";
+    }
     void Start()
     {
         next_Button = GameObject.Find("NextButton");
