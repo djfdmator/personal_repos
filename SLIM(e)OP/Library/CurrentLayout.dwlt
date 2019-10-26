@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -20
-    y: 281
+    x: 0
+    y: 43
     width: 1920
-    height: 821
+    height: 997
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
@@ -44,7 +44,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1920
-    height: 821
+    height: 997
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 801
+    y: 977
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -110,11 +110,11 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1920
-    height: 771
+    height: 947
   m_MinSize: {x: 613, y: 398}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 55
+  controlID: 51
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,11 +135,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1368
-    height: 771
+    height: 947
   m_MinSize: {x: 336, y: 398}
   m_MaxSize: {x: 14006, y: 14048}
   vertical: 1
-  controlID: 144
+  controlID: 52
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,11 +161,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1368
-    height: 497
+    height: 610
   m_MinSize: {x: 310, y: 124}
   m_MaxSize: {x: 12010, y: 4024}
   vertical: 0
-  controlID: 145
+  controlID: 53
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,7 +184,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 540
-    height: 497
+    height: 610
   m_MinSize: {x: 102, y: 124}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 18}
@@ -212,7 +212,7 @@ MonoBehaviour:
     x: 540
     y: 0
     width: 621
-    height: 497
+    height: 610
   m_MinSize: {x: 104, y: 124}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 17}
@@ -238,7 +238,7 @@ MonoBehaviour:
     x: 1161
     y: 0
     width: 207
-    height: 497
+    height: 610
   m_MinSize: {x: 104, y: 124}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 21}
@@ -264,13 +264,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 497
+    y: 610
     width: 1368
-    height: 274
+    height: 337
   m_MinSize: {x: 336, y: 274}
   m_MaxSize: {x: 14006, y: 10024}
   vertical: 0
-  controlID: 168
+  controlID: 179
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,7 +289,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 472
-    height: 274
+    height: 337
   m_MinSize: {x: 232, y: 274}
   m_MaxSize: {x: 10002, y: 10024}
   m_ActualView: {fileID: 22}
@@ -315,7 +315,7 @@ MonoBehaviour:
     x: 472
     y: 0
     width: 896
-    height: 274
+    height: 337
   m_MinSize: {x: 104, y: 124}
   m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 23}
@@ -344,11 +344,11 @@ MonoBehaviour:
     x: 1368
     y: 0
     width: 552
-    height: 771
+    height: 947
   m_MinSize: {x: 277, y: 298}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 56
+  controlID: 149
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -367,7 +367,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 552
-    height: 547
+    height: 672
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 25}
@@ -393,9 +393,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 547
+    y: 672
     width: 552
-    height: 224
+    height: 275
   m_MinSize: {x: 242, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 28}
@@ -424,10 +424,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 520
-    y: 311
+    x: 540
+    y: 73
     width: 617
-    height: 477
+    height: 590
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -461,9 +461,9 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 617
-      height: 460
+      height: 573
     m_Scale: {x: 0.32135418, y: 0.32135418}
-    m_Translation: {x: 308.49997, y: 230}
+    m_Translation: {x: 308.49997, y: 286.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -471,14 +471,14 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -959.9999
-      y: -715.7212
+      y: -891.5397
       width: 1919.9999
-      height: 1431.4424
+      height: 1783.0793
     m_MinimalGUI: 1
   m_defaultScale: 0.32135418
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 617, y: 477}
+  m_LastWindowPixelSize: {x: 617, y: 590}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -503,10 +503,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -20
-    y: 311
+    x: 0
+    y: 73
     width: 538
-    height: 477
+    height: 590
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: de852b474006e65498517e1ea6ddaf55
   m_SceneLighting: 1
@@ -843,31 +843,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1141
-    y: 311
+    x: 1161
+    y: 73
     width: 203
-    height: 477
+    height: 590
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 1ee6ffffd6fbffff2e5200008452000032560000405600004a56000054560000
+      m_SelectedIDs: b4530000
+      m_LastClickedID: 21428
+      m_ExpandedIDs: 68faffffd6fbffffb0530000b4530000ec530000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: warning
-        m_OriginalName: warning
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -28610
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -898,10 +898,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -20
-    y: 808
+    x: 0
+    y: 683
     width: 470
-    height: 254
+    height: 317
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -926,9 +926,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 136}
-    m_SelectedIDs: 6a4c0000
-    m_LastClickedID: 19562
-    m_ExpandedIDs: 00000000682900008a290000f6400000f6430000864f000020500000ae530000b053000000ca9a3b
+    m_SelectedIDs: 744c0000
+    m_LastClickedID: 19572
+    m_ExpandedIDs: 00000000682900008a2900000041000000440000924f00002c500000225300002453000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -956,7 +956,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000682900008a290000f6400000f6430000864f000020500000ae530000b0530000
+    m_ExpandedIDs: 00000000682900008a2900000041000000440000924f00002c5000002253000024530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1032,10 +1032,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 452
-    y: 808
+    x: 472
+    y: 683
     width: 892
-    height: 254
+    height: 317
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &24
 MonoBehaviour:
@@ -1067,8 +1067,8 @@ MonoBehaviour:
   logPanelAutoScroll: 1
   currentFrame: 1129067
   logs:
-    lastGrabbedIndex: 2
-    lastGrabbedCount: 3
+    lastGrabbedIndex: 0
+    lastGrabbedCount: 1
     proEntries: []
     newEntries:
     - logType: 2
@@ -1121,412 +1121,13 @@ MonoBehaviour:
       namespaceName: 
       lineCount: 3
       hasSourceCode: 0
-      timeStamp: 0.019999999552965164
-      timeFrame: 2
+      timeStamp: -1
+      timeFrame: -1
       instanceID: 9780
       collapsedCount: 1
       cachedHeight: -1
       cachedHeightLogWidth: 0
       stackEntries: []
-      ignoredStackEntries: []
-      lastMatchedCount: 0
-      belongsToFilters: []
-      belongsToStandardFilters: []
-      assignedTempFilter:
-        name: 
-        isEnabled: 1
-        collapsed: 0
-        itemGUID: 
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 0
-        isTempFilter: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: -1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list: []
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-    - logType: 3
-      ignore: 0
-      processed: 1
-      tempFilterProcessed: 1
-      remoteEndPoint: Local
-      logPanelVisible: 1
-      logPanelIndex: 0
-      logOutputHeight: -1
-      listIndex: 0
-      nativeIndex: 1
-      nativeIdentifier: 0
-      originalLog: 'Scene ''Battle'' couldn''t be loaded because it has not been added
-        to the build settings or the AssetBundle has not been loaded.
-
-        To add a scene to the build settings use the menu File->Build Settings...'
-      originalStackTrace: 'Scene ''Battle'' couldn''t be loaded because it has not
-        been added to the build settings or the AssetBundle has not been loaded.
-
-        To add a scene to the build settings use the menu File->Build Settings...
-
-        UnityEngine.SceneManagement.SceneManager:LoadSceneAsync(String)
-
-        <LoadSceneAsync>d__6:MoveNext() (at Assets/Script/Map/Loading.cs:30)
-
-        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-
-'
-      nativeFileName: Assets/Script/Map/Loading.cs
-      nativeLineNumber: 30
-      watchName: 
-      logText: 'Scene ''Battle'' couldn''t be loaded because it has not been added
-        to the build settings or the AssetBundle has not been loaded.
-
-        To add a scene to the build settings use the menu File->Build Settings...'
-      logTruncatedText: 'Scene ''Battle'' couldn''t be loaded because it has not been
-        added to the build settings or the AssetBundle has not been loaded.
-
-        To add a scene to the build settings use the menu File->Build Settings...'
-      logColumnText: 
-      fileName: 
-      className: 
-      namespaceName: 
-      lineCount: 2
-      hasSourceCode: 0
-      timeStamp: 0.019999999552965164
-      timeFrame: 2
-      instanceID: 0
-      collapsedCount: 1
-      cachedHeight: -1
-      cachedHeightLogWidth: 0
-      stackEntries:
-      - fileName: Assets/Script/Map/Loading.cs
-        fileNameWithoutAssets: Script/Map/Loading.cs
-        fileNameWithoutAssetsPlusLineNumber: Script/Map/Loading.cs:30
-        fileNameWithoutPath: Loading.cs
-        fileNameWithoutPathPlusLineNumber: Loading.cs:30
-        instanceID: -1
-        className: <LoadSceneAsync>d__6
-        methodName: MoveNext
-        namespaceName: None
-        lineNumber: 30
-        charNumber: 0
-        stackLabel: <LoadSceneAsync>d__6.MoveNext()
-        stackLabel2: '    Assets/Script/Map/Loading.cs:30'
-        stackLabelContent:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 0
-        stackLabelHeight: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: None
-        fileNameWithoutAssets: None
-        fileNameWithoutAssetsPlusLineNumber: None
-        fileNameWithoutPath: None
-        fileNameWithoutPathPlusLineNumber: None
-        instanceID: -1
-        className: SetupCoroutine
-        methodName: InvokeMoveNext
-        namespaceName: UnityEngine
-        lineNumber: 0
-        charNumber: 0
-        stackLabel: SetupCoroutine.InvokeMoveNext()
-        stackLabel2: 
-        stackLabelContent:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 0
-        stackLabelHeight: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      ignoredStackEntries: []
-      lastMatchedCount: 0
-      belongsToFilters: []
-      belongsToStandardFilters: []
-      assignedTempFilter:
-        name: 
-        isEnabled: 1
-        collapsed: 0
-        itemGUID: 
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 0
-        isTempFilter: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: -1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list: []
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-    - logType: 4
-      ignore: 0
-      processed: 1
-      tempFilterProcessed: 1
-      remoteEndPoint: Local
-      logPanelVisible: 1
-      logPanelIndex: 0
-      logOutputHeight: -1
-      listIndex: 0
-      nativeIndex: 2
-      nativeIdentifier: 0
-      originalLog: 'NullReferenceException: Object reference not set to an instance
-        of an object'
-      originalStackTrace: 'NullReferenceException: Object reference not set to an
-        instance of an object
-
-        Loading+<LoadSceneAsync>d__6.MoveNext () (at Assets/Script/Map/Loading.cs:31)
-
-        UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator
-        enumerator, System.IntPtr returnValueAddress) (at C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17)
-
-'
-      nativeFileName: Assets/Script/Map/Loading.cs
-      nativeLineNumber: 31
-      watchName: 
-      logText: 'NullReferenceException: Object reference not set to an instance of
-        an object'
-      logTruncatedText: 'NullReferenceException: Object reference not set to an instance
-        of an object'
-      logColumnText: 
-      fileName: 
-      className: 
-      namespaceName: 
-      lineCount: 1
-      hasSourceCode: 0
-      timeStamp: 0.019999999552965164
-      timeFrame: 2
-      instanceID: 22070
-      collapsedCount: 1
-      cachedHeight: -1
-      cachedHeightLogWidth: 0
-      stackEntries:
-      - fileName: Assets/Script/Map/Loading.cs
-        fileNameWithoutAssets: Script/Map/Loading.cs
-        fileNameWithoutAssetsPlusLineNumber: Script/Map/Loading.cs:31
-        fileNameWithoutPath: Loading.cs
-        fileNameWithoutPathPlusLineNumber: Loading.cs:31
-        instanceID: -1
-        className: Loading+<LoadSceneAsync>d__6
-        methodName: MoveNext
-        namespaceName: None
-        lineNumber: 31
-        charNumber: 0
-        stackLabel: Loading+<LoadSceneAsync>d__6.MoveNext()
-        stackLabel2: '    Assets/Script/Map/Loading.cs:31'
-        stackLabelContent:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 0
-        stackLabelHeight: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
-      - fileName: C:/buildslave/unity/build/Runtime/Export/Coroutines.cs
-        fileNameWithoutAssets: C:/buildslave/unity/build/Runtime/Export/Coroutines.cs
-        fileNameWithoutAssetsPlusLineNumber: C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17
-        fileNameWithoutPath: Coroutines.cs
-        fileNameWithoutPathPlusLineNumber: Coroutines.cs:17
-        instanceID: -1
-        className: SetupCoroutine
-        methodName: InvokeMoveNext
-        namespaceName: UnityEngine
-        lineNumber: 17
-        charNumber: 0
-        stackLabel: SetupCoroutine.InvokeMoveNext()
-        stackLabel2: '    C:/buildslave/unity/build/Runtime/Export/Coroutines.cs:17'
-        stackLabelContent:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabelWidth: 0
-        stackLabelHeight: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
       ignoredStackEntries: []
       lastMatchedCount: 0
       belongsToFilters: []
@@ -1659,10 +1260,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1348
-    y: 311
+    x: 1368
+    y: 73
     width: 550
-    height: 527
+    height: 652
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -1750,10 +1351,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1348
-    y: 858
+    x: 1368
+    y: 745
     width: 550
-    height: 204
+    height: 255
   m_PersistentViewDataDictionary: {fileID: 0}
   m_PreviewResizer:
     m_CachedPref: -126
