@@ -40,9 +40,11 @@ public class TableTemplate<T>  : CSVParser
     }
     public override void Parse(string[] inputData)
     {
+        Debug.Log("inputData : " + inputData);
         Type type = typeof( T );
         T temp = (T)Activator.CreateInstance( type, new object[]{ inputData } );
         int id = (int)type.InvokeMember( "num", BindingFlags.Instance|BindingFlags.Public|BindingFlags.GetField,null, temp, null );
+        Debug.Log("id : " + id);
         m_Map.Add(id, temp);
     }
     

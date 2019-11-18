@@ -25,10 +25,10 @@ public class CSVParser
     public void LoadFile(string filePath)
     {
 
-        TextAsset	_txtFile = (TextAsset)Resources.Load("Data/"+filePath);
+        TextAsset _txtFile = (TextAsset)Resources.Load("Data/"+filePath);
         		
-		StringReader _reader = new StringReader(_txtFile.text); 		
-		
+		StringReader _reader = new StringReader(_txtFile.text);
+   
 		int lineCount = 0;
         string inputData = _reader.ReadLine();
 		
@@ -37,7 +37,7 @@ public class CSVParser
             //don't realize new-line("\\n") in ngui UILabel
             inputData = inputData.Replace("\\n", "\n");
             string[] stringList = inputData.Split('^');
-            Debug.Log(stringList);
+            Debug.Log(stringList[0]);
             if (stringList.Length == 0)
             {
                 continue;
