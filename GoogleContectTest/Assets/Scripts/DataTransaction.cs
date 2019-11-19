@@ -166,7 +166,7 @@ public class DataTransaction : MonoSingleton<DataTransaction>
     }
 
     //인벤토리에서 아이템을 삭제한다.
-    public void Delete_Inventory_Item(int _item_Inventory_Index) 
+    public void Delete_Inventory_Item(int _item_Inventory_Index)
     {
         if (_item_Inventory_Index > 2)
         {
@@ -213,34 +213,6 @@ public class DataTransaction : MonoSingleton<DataTransaction>
         }
 
         return jem_Amount[_EquipItem.upgrade_Level - 1];
-    }
-    //아이템 레벨을 스탯으로 변환
-    public int Convert_ItemLeveltoStat(Database.Inventory _EquipItem)
-    {
-        if(_EquipItem.upgrade_Level.Equals(1))
-        {
-            return 0;
-        }
-
-        int[] stat = new int[9];
-
-        switch (_EquipItem.item_Class)
-        {
-                //0
-            case Item_CLASS.검:
-                break;
-                //4
-            case Item_CLASS.활:
-                break;
-                //8
-            case Item_CLASS.지팡이:
-                break;
-                //12
-            case Item_CLASS.갑옷:
-                break;
-        }
-
-        return stat[_EquipItem.upgrade_Level];
     }
 
     //2019.08.19 - 김동하
@@ -520,22 +492,26 @@ public class DataTransaction : MonoSingleton<DataTransaction>
         reader.Close();
         reader = null;
     }
-    //수정필요 - 
-    void Load_Item_Table()
-    {
-        string sqlQuery = "SELECT * FROM ItemStat";
-        DEB_dbcmd.CommandText = sqlQuery;
-        IDataReader reader = DEB_dbcmd.ExecuteReader();
-        while (reader.Read())
-        {
-            int Num = reader.GetInt32(0);
-            int statPerLevel = reader.
 
-            database.items.Add(new Database.Item(Num, Name, Item_Value, Rarity, item_Class, Description));
-        }
-        reader.Close();
-        reader = null;
-    }
+    //void Load_Item_Table()
+    //{
+    //    string sqlQuery = "SELECT * FROM ItemTable";
+    //    DEB_dbcmd.CommandText = sqlQuery;
+    //    IDataReader reader = DEB_dbcmd.ExecuteReader();
+    //    while (reader.Read())
+    //    {
+    //        int Num = reader.GetInt32(0);
+    //        string Name = reader.GetString(1);
+    //        int Item_Value = reader.GetInt32(2);
+    //        RARITY Rarity = (RARITY)(reader.GetInt32(3));
+    //        Item_CLASS item_Class = (Item_CLASS)(reader.GetInt32(4));
+    //        string Description = reader.GetString(5);
+
+    //        database.items.Add(new Database.Item(Num, Name, Item_Value, Rarity, item_Class, Description));
+    //    }
+    //    reader.Close();
+    //    reader = null;
+    //}
 
     void Load_ActiveSkill_Table()
     {
