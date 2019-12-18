@@ -1,0 +1,31 @@
+﻿Num^Name^종류 (Type)^Rarity^AP^AS^AR^AT^AC^Active Num^Image Name^Description
+0^Rusty sword^검^노말^4^0.8^1^Range^2^0^Rust_Wea_Nor^Empty
+1^Old bow^활^노말^5^1^3^Pass^1^1^Oldb_Wea_Nor^Empty
+2^Rotten wand^지팡이^노말^15^0.5^5^Single^1^2^Rott_Wea_Nor^Empty
+3^Training sword^검^레어^10^0.8^1^Range^2^3^Trsw_Wea_Rar^Empty
+4^Soldiers sword^검^레어^10^0.8^1^Range^2^3^Sosw_Wea_Rar^Empty
+5^Training axe^검^레어^10^0.8^1^Range^2^4^Trax_Wea_Rar^Empty
+6^Soldiers axe^검^레어^10^0.8^1^Range^2^4^Soax_Wea_Rar^Empty
+7^Training bow^활^레어^14^1^3^Pass^1^5^Trbo_Wea_Rar^Empty
+8^Soldiers bow^활^레어^14^1^3^Pass^1^5^Sobo_Wea_Rar^Empty
+9^Training crossbow^활^레어^14^1^3^Pass^1^6^Trcr_Wea_Rar^Empty
+10^Soldiers crossbow^활^레어^14^1^3^Pass^1^6^Socr_Wea_Rar^Emptys
+11^Training wand^지팡이^레어^30^0.5^5^Single^1^7^Trwa_Wea_Rar^Empty
+12^Soldiers wand^지팡이^레어^30^0.5^5^Single^1^7^Sowa_Wea_Rar^Empty
+13^Training crystal^지팡이^레어^30^0.5^5^Single^1^8^Trcr_Wea_Rar^Empty
+14^Soldiers crystal^지팡이^레어^30^0.5^5^Single^1^8^Socr_Wea_Rar^Empty
+15^Empty^검^유니크^30^0.8^1^Range^2^9^EmEm_Wea_Uni^Empty
+16^Empty^검^유니크^30^0.8^1^Range^2^10^EmEm_Wea_Uni^Empty
+17^Empty^검^유니크^30^0.8^1^Range^2^11^EmEm_Wea_Uni^Empty
+18^Empty^활^유니크^50^1^4^Pass^1^12^EmEm_Wea_Uni^Empty
+19^Empty^활^유니크^50^1^4^Pass^1^13^EmEm_Wea_Uni^Empty
+20^Empty^활^유니크^50^1^4^Pass^1^14^EmEm_Wea_Uni^Empty
+21^Empty^지팡이^유니크^80^0.5^6^Single^1^15^EmEm_Wea_Uni^Empty
+22^Empty^지팡이^유니크^80^0.5^6^Single^1^16^EmEm_Wea_Uni^Empty
+23^Empty^지팡이^유니크^80^0.5^6^Single^1^17^EmEm_Wea_Uni^Empty
+24^Empty^검^레전드^50^0.8^2^Range^2^18^EmEm_Wea_Leg^Empty
+25^Empty^검^레전드^50^0.8^2^Range^2^19^EmEm_Wea_Leg^Empty
+26^Empty^활^레전드^60^1^5^Pass^1^20^EmEm_Wea_Leg^Empty
+27^Empty^활^레전드^60^1^5^Pass^1^21^EmEm_Wea_Leg^Empty
+28^Empty^지팡이^레전드^100^0.5^7^Single^1^22^EmEm_Wea_Leg^Empty
+29^Empty^지팡이^레전드^100^0.5^7^Single^1^23^EmEm_Wea_Leg^Empty

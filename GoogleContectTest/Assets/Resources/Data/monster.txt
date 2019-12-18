@@ -1,0 +1,53 @@
+﻿Num^Name^Category^Region^Rarity^Size^HP^AP^AS^AT^CR^AR^MS^Image Name^Description
+0^Spotted lanternfly^Fly^Jungle^Common^S^15^10^0.5^Single^5^1^1^Spot_Mon_Com^Empty
+1^Blaze ant^Move^Jungle^Common^S^20^10^0.5^Single^3^1^0.5^Blaz_Mon_Com^Empty
+2^Red eared slider^Move^Jungle^Common^S^25^10^0.5^Single^3^1^0.5^Rede_Mon_Com^Empty
+3^Bullfrog^Move^Jungle^Common^S^30^10^0.5^Single^5^3^0.5^Bull_Mon_Com^Empty
+4^Clown mushroom^Hold^Jungle^Common^S^25^10^0.5^Single^6^6^0^Clow_Mon_Com^Empty
+5^Slime^Move^Jungle^Named^M^60^20^1^Range^10^5^1^Slim_Mon_Nam^Empty
+6^Swamp monster^Hold^Jungle^Named^M^80^30^1^Range^10^10^0^Swam_Mon_Nam^Empty
+7^Golem^Move^Jungle^Boss^M^150^30^1^Range^100^100^1^Gole_Mon_Bos^Empty
+8^Jellyfish^Fly^DeepSea^Common^S^25^15^0.5^Single^5^1^1^Jell_Mon_Com^Empty
+9^Piranha^Move^DeepSea^Common^S^30^10^0.7^Pass^8^1^0.5^Pira_Mon_Com^Empty
+10^Bass^Move^DeepSea^Common^S^40^15^0.6^Single^4^1^0.5^Bass_Mon_Com^Empty
+11^Blue gill^Move^DeepSea^Common^S^40^15^0.5^Single^4^1^0.5^Blue_Mon_Com^Empty
+12^Water mushroom^Hold^DeepSea^Common^S^30^10^0.5^Single^6^6^0^Wate_Mon_Com^Empty
+13^King crab^Move^DeepSea^Named^M^500^20^1^Single^10^2^1^King_Mon_Nam^Empty
+14^Shark^Fly^DeepSea^Named^M^350^40^2^Pass^10^5^3^Shar_Mon_Nam^Empty
+15^Kraken^Hold^DeepSea^Boss^L^1000^50^0.25^Range^100^100^0^Krak_Mon_Bos^Empty
+16^Bat ^Fly^Prison^Common^S^40^20^0.5^Single^5^1^2^Bat__Mon_Com^Empty
+17^Skeleton warrior^Move^Prison^Common^S^100^20^1^Range^4^1^0.5^Skwa_Mon_Com^Empty
+18^Skeleton archer^Move^Prison^Common^S^80^10^0.7^Pass^5^5^0.5^Skar_Mon_Com^Empty
+19^Skeleton wizard^Move^Prison^Common^S^60^20^0.5^Single^6^6^0.5^Skwi_Mon_Com^Empty
+20^Poison mushroom^Hold^Prison^Common^S^70^20^0.5^Single^5^5^0^Pois_Mon_Com^Empty
+21^Brown bear^Move^Prison^Named^M^1200^50^1^Single^10^2^1^Brow_Mon_Nam^Empty
+22^Wyvern^Fly^Prison^Named^M^900^70^0.7^Range^10^10^2^Wyve_Mon_Nam^Empty
+23^Kerberos^Move^Prison^Boss^L^1800^50^1^Range^100^100^1^Kerb_Mon_Bos^Empty
+24^Eagle^Fly^HighMountain^Common^S^80^30^1^Single^7^1^2^Eagl_Mon_Com^Empty
+25^Scorpion^Move^HighMountain^Common^S^100^40^1^Single^5^1^0.5^Scor_Mon_Com^Empty
+26^Spider^Move^HighMountain^Common^S^120^50^1^Single^5^1^0.5^Spid_Mon_Com^Empty
+27^Salamander^Move^HighMountain^Common^S^150^60^0.7^Pass^6^6^0.5^Sala_Mon_Com^Empty
+28^Fire mushroom^Hold^HighMountain^Common^S^100^40^0.5^Single^7^7^0^Fire_Mon_Com^Empty
+29^Specter^Fly^HighMountain^Named^S^1000^100^2^Single^100^100^3^Spec_Mon_Nam^Empty
+30^Minotauros^Move^HighMountain^Named^M^1500^70^1^Range^10^3^1^Mino_Mon_Nam^Empty
+31^Dragon^Fly^HighMountain^Boss^L^2000^100^1^Range^100^100^2^Drag_Mon_Bos^Empty
+32^Gargoyle^HoldandFly^Castle^Common^M^400^50^0.5^Single^5^1^0^Garg_Mon_Com^Empty
+33^Trap^Hold^Castle^Common^S^300^30^0.5^Single^3^1^0^Trap_Mon_Com^Empty
+34^Guard dog^Move^Castle^Common^S^150^30^1^Single^8^1^1^Gudo_Mon_Com^Empty
+35^Guard man^Move^Castle^Common^S^200^50^0.8^Range^5^1^1^Guma_Mon_Com^Empty
+36^Guard archer^Move^Castle^Common^S^150^30^0.5^Single^5^5^1^Guar_Mon_Com^Empty
+37^Acidlime^Move^Castle^Named^M^1000^100^0.5^Range^10^5^1^Acid_Mon_Nam^Empty
+38^Swamp king^Hold^Castle^Named^M^2000^100^0.3^Range^10^10^0^Swki_Mon_Nam^Empty
+39^Mana Golem^Move^Castle^Boss^M^3000^100^1^Range^100^100^1^MaGo_Mon_Bos^Empty
+40^Emperor crab^Move^Castle^Named^M^2000^80^0.5^Single^10^2^1^Empe_Mon_Nam^Empty
+41^Manark^Fly^Castle^Named^M^1500^140^2^Pass^10^5^2^Mana_Mon_Nam^Empty
+42^Manaken^Hold^Castle^Boss^L^3000^120^1^Range^100^100^0^Make_Mon_Bos^Empty
+43^Hero specter^Fly^Castle^Named^S^1500^80^2^Single^100^100^3^Hesp_Mon_Nam^Empty
+44^Captain minotauros^Move^Castle^Named^M^1800^200^0.5^Range^10^4^1^Cami_Mon_Nam^Empty
+45^Mana dragon^Fly^Castle^Boss^L^3000^150^1^Range^100^100^2^Madr_Mon_Bos^Empty
+46^Mana bear^Move^Castle^Named^M^1700^100^0.8^Range^10^2^1^Mabe_Mon_Nam^Empty
+47^Zett vern^Fly^Castle^Named^M^1800^130^2^Range^10^10^2^Zett_Mon_Nam^Empty
+48^Cerberu^Move^Castle^Boss^L^3000^170^1^Range^100^100^1^Cerb_Mon_Bos^Empty
+49^Deacon^Move^Castle^Named^M^2000^100^0.5^Single^10^3^1^Deac_Mon_Nam^Empty
+50^Angry deacon^Move^Castle^Named^L^2500^150^1^Single^10^5^2^Ande_Mon_Nam^Empty
+51^Mana king^Move^Castle^Boss^M^5000^200^1^Range^100^100^2^Maki_Mon_Bos^Empty

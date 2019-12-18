@@ -1,0 +1,12 @@
+﻿Num^Name^Rarity^HP^Image Name^MD
+0^A^노말^10^A_Arm_Nor^Empty
+1^B^레어^50^B_Arm_Rar^Empty
+2^C^레어^50^C_Arm_Rar^Empty
+3^D^레어^50^D_Arm_Rar^Empty
+4^E^유니크^100^E_Arm_Uni^Empty
+5^F^유니크^100^F_Arm_Uni^Empty
+6^G^유니크^100^G_Arm_Uni^Empty
+7^H^유니크^100^H_Arm_Uni^Empty
+8^I^레전드^300^I_Arm_Leg^Empty
+9^J^레전드^300^J_Arm_Leg^Empty
+10^K^레전드^300^K_Arm_Leg^Empty
