@@ -291,7 +291,7 @@ public class GoogleConnect : MonoSingleton<GoogleConnect>
 
     public void UpdateLeaderboar(int score)
     {
-        Social.ReportScore(score, GPGSIds.leaderboard_test, null);
+        Social.ReportScore(score, GPGSIds.leaderboard_score, null);
     }
 
     //리더보드을 보여줍니다.
@@ -345,7 +345,6 @@ public class GoogleConnect : MonoSingleton<GoogleConnect>
         {
             //됨
             LoginUI.SetActive(false);
-            mStatusText = "Success";
             //TODO : 데이터 로드
             //TODO : 게임 스타트 붙이기
         }
@@ -353,7 +352,6 @@ public class GoogleConnect : MonoSingleton<GoogleConnect>
         {
             //안됨
             LoginUI.SetActive(true);
-            mStatusText = "Failed";
         }
     }
 
