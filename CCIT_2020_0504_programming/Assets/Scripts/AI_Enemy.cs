@@ -164,21 +164,21 @@ public class AI_Enemy : MonoBehaviour, IListener
 		CanSeePlayer = false;
 
 		//If player not inside bounds then exit
-		if(!ThisCollider.bounds.Contains(PlayerTransform.position)) return;
+		//if(!ThisCollider.bounds.Contains(PlayerTransform.position)) return;
 
 		//Player is inside bounds, update line of sight
 		CanSeePlayer = HaveLineSightToPlayer(PlayerTransform);
 	}
 	//--------------------------------------------------
 	//Called when object exits this collider
-	void OnTriggerExit(Collider other)
-	{
-		//if object is not player, then exit
-		if(!other.CompareTag("Player")) return;
+	//void OnTriggerExit(Collider other)
+	//{
+	//	//if object is not player, then exit
+	//	if(!other.CompareTag("Player")) return;
 
-		//Is player and they have left line of sight
-		CanSeePlayer = false;
-	}
+	//	//Is player and they have left line of sight
+	//	CanSeePlayer = false;
+	//}
 	//--------------------------------------------------
 	//Event called health changed
 	public void ChangeHealth(float Amount)
@@ -190,7 +190,8 @@ public class AI_Enemy : MonoBehaviour, IListener
 		if(Health <= 0)
 		{
 			StopAllCoroutines();
-			Destroy(gameObject);
+            GameObject.FindGameObjectWithTag("MonsterGenerator").GetComponent<MonsterGenerator>().monsterCount--;
+			Destroy(transform.parent.gameObject);
 			return;
 		}
 

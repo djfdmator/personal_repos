@@ -19,17 +19,19 @@ public class Player : MonoBehaviour
     //List of enemies in level
     private AI_Enemy[] Enemies = null;
 
-    #region
+    #region Move
     public Rigidbody rigid;
     public Vector3 MoveDirection;
     public float MoveSpeed;
     #endregion
 
-    #region 
-    public GameObject Bullet;
+    #region Gun
+    //public GameObject Bullet;
     public Transform Muzzle;
     public ParticleSystem MuzzleFlash;
-    public float Bullet_Speed = 10.0f;
+    public Object BulletHitHole;
+    public LayerMask BulletMask;
+    //public float Bullet_Speed = 10.0f;
     public float ShootingRadius = 0.1f;
     #endregion
 
@@ -64,9 +66,10 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         rigid = GetComponent<Rigidbody>();
-        Bullet = Resources.Load("Bullet") as GameObject;
+        //Bullet = Resources.Load("Bullet") as GameObject;
         Muzzle = Camera.main.transform.Find("Gun").Find("Muzzle");
         MuzzleFlash = Muzzle.GetChild(0).GetComponent<ParticleSystem>();
+        BulletHitHole = Resources.Load("BulletHitHole");
         MoveDirection = new Vector3(0f, 0f, 0f);
     }
     //--------------------------------------------------
@@ -80,30 +83,38 @@ public class Player : MonoBehaviour
     //Called every frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("Mouse Button Down");
-            //Bullet Direction = Camera.main.transform.forward + (Random.insideUnitSphere * ShootingRadius)
-
-            GameObject obj = GameObject.Instantiate(Bullet, Muzzle.position, Quaternion.identity);
+            RaycastHit hit;
             MuzzleFlash.Play();
-            obj.GetComponent<Rigidbody>().velocity = (Camera.main.transform.forward + (Random.insideUnitSphere * ShootingRadius)) * Bullet_Speed;
+            if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward + (Random.insideUnitSphere * ShootingRadius), out hit, 100.0f, BulletMask))
+            {
+                if(hit.collider.CompareTag("Enemy"))
+                {
+                    hit.collider.GetComponent<AI_Enemy>().ChangeHealth(-AttackDamage);
+                    Debug.Log("hit Enemy");
+                }
+                else
+                {
+                    GameObject hitHole = Instantiate(BulletHitHole, hit.point, Quaternion.FromToRotation(Vector3.forward, hit.normal)) as GameObject;
+                    Destroy(hitHole, 1.0f);
+                }
+            }
         }
-        //Should we attack?
-        //if (Input.GetKeyDown(KeyCode.RightControl))
+        //if(Input.GetMouseButtonDown(0))
         //{
-        //    //Damage enemies in range
-        //    foreach (AI_Enemy En in Enemies)
-        //    {
-        //        //If within attack distance then attack
-        //        if (Vector3.Distance(transform.position, En.transform.position) < AttackRange)
-        //        {
-        //            En.SendMessage("ChangeHealth", AttackDamage, SendMessageOptions.DontRequireReceiver);
-        //        }
-        //    }
+        //    Debug.Log("Mouse Button Down");
+        //    //Bullet Direction = Camera.main.transform.forward + (Random.insideUnitSphere * ShootingRadius)
+
+        //    GameObject obj = GameObject.Instantiate(Bullet, Muzzle.position, Quaternion.identity);
+        //    MuzzleFlash.Play();
+        //    obj.GetComponent<Rigidbody>().velocity = (Camera.main.transform.forward + (Random.insideUnitSphere * ShootingRadius)) * Bullet_Speed;
         //}
+
         MoveDirection = Vector3.zero;
 
+        //Move
         if (Input.GetKey(KeyCode.W))
         {
             MoveDirection = transform.forward * MoveSpeed;
@@ -121,10 +132,12 @@ public class Player : MonoBehaviour
             MoveDirection += transform.right * MoveSpeed;
         }
 
+        //Run
         if(Input.GetKey(KeyCode.LeftShift))
         {
             MoveDirection *= 1.5f;
         }
+
         rigid.velocity = MoveDirection;
     }
     //--------------------------------------------------
