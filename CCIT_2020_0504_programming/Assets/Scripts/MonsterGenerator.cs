@@ -4,7 +4,8 @@ using System.Linq;
 
 public class MonsterGenerator : MonoBehaviour
 {
-    public int monsterCount;
+    public int curMonsterCount;
+    public int maxMonsterCount;
     public Object monster;
     private Transform[] WayPoints = null;
 
@@ -27,18 +28,17 @@ public class MonsterGenerator : MonoBehaviour
 
     IEnumerator MonsterGenerate()
     {
-        int count = 0;
 
         while(true)
         {
-            if(count >= monsterCount)
+            if(maxMonsterCount <= curMonsterCount)
             {
                 yield return null;
                 continue;
             }
 
             Instantiate(monster, WayPoints[Random.Range(0, WayPoints.Length)].position, Quaternion.identity, transform);
-            monsterCount++;
+            curMonsterCount++;
             yield return new WaitForSeconds(Random.Range(0.5f, 2.0f));
         }
     }

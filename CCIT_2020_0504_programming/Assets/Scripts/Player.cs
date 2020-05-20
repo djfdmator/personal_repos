@@ -33,19 +33,30 @@ public class Player : MonoBehaviour
     public LayerMask BulletMask;
     //public float Bullet_Speed = 10.0f;
     public float ShootingRadius = 0.1f;
+    public int maxAmmoCount = 180;
+    public int curAmmo = 30;
+    public bool isReload = false;
+    public float ReloadTime = 2.0f;
+    public bool isShot = false;
+    public float ShotTerm = 0.2f;
     #endregion
 
+    private UIManager uiManager;
 
     //--------------------------------------------------
     //Event called on health changed
     public void ChangeHealth(float Amount)
     {
         //Reduce health
-        Health += Amount;
+        Health = Mathf.Clamp(Health + Amount, 0f, 100.0f);
 
         //Show blood vision and then hide
-        BloodVision.SetActive(true);
-        Invoke("HideBloodVision", 0.5f);
+        if (Amount < 0)
+        {
+            BloodVision.SetActive(true);
+            Invoke("HideBloodVision", 0.5f);
+        }
+        uiManager.ChangeHP(Health);
 
         //Should we die?
         if (Health <= 0)
@@ -54,6 +65,11 @@ public class Player : MonoBehaviour
             EditorApplication.isPlaying = false;
             return;
         }
+    }
+    public void AddAmmo(int _ammoCount)
+    {
+        maxAmmoCount += _ammoCount;
+        uiManager.ChangeBulletCount(curAmmo, maxAmmoCount);
     }
     //--------------------------------------------------
     //Hides blood
@@ -71,6 +87,7 @@ public class Player : MonoBehaviour
         MuzzleFlash = Muzzle.GetChild(0).GetComponent<ParticleSystem>();
         BulletHitHole = Resources.Load("BulletHitHole");
         MoveDirection = new Vector3(0f, 0f, 0f);
+        uiManager = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIManager>();
     }
     //--------------------------------------------------
     //Called at level start-up
@@ -83,34 +100,51 @@ public class Player : MonoBehaviour
     //Called every frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (!isReload)
         {
-            Debug.Log("Mouse Button Down");
-            RaycastHit hit;
-            MuzzleFlash.Play();
-            if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward + (Random.insideUnitSphere * ShootingRadius), out hit, 100.0f, BulletMask))
+            if (curAmmo > 0)
             {
-                if(hit.collider.CompareTag("Enemy"))
+                if (!isShot && Input.GetMouseButton(0))
                 {
-                    hit.collider.GetComponent<AI_Enemy>().ChangeHealth(-AttackDamage);
-                    Debug.Log("hit Enemy");
-                }
-                else
-                {
-                    GameObject hitHole = Instantiate(BulletHitHole, hit.point, Quaternion.FromToRotation(Vector3.forward, hit.normal)) as GameObject;
-                    Destroy(hitHole, 1.0f);
+                    Debug.Log("Mouse Button Down");
+                    isShot = true;
+                    Invoke("FinishShot", ShotTerm);
+                    curAmmo--;
+                    uiManager.ChangeBulletCount(curAmmo, maxAmmoCount);
+                    MuzzleFlash.Play();
+                    RaycastHit hit;
+                    //Vector3 camera = Camera.main.transform.localEulerAngles;
+                    //Camera.main.transform.localEulerAngles = new Vector3(camera.x - 10.0f, camera.y, 0);
+                    if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward + (Random.insideUnitSphere * ShootingRadius), out hit, 100.0f, BulletMask))
+                    {
+                        if (hit.collider.CompareTag("Enemy"))
+                        {
+                            hit.transform.SendMessage("ChangeHealth", -AttackDamage, SendMessageOptions.DontRequireReceiver);
+                            //hit.collider.GetComponent<AI_Enemy>().ChangeHealth(-AttackDamage);
+                            Debug.Log("hit Enemy");
+                        }
+                        else
+                        {
+                            GameObject hitHole = Instantiate(BulletHitHole, hit.point, Quaternion.FromToRotation(Vector3.forward, hit.normal)) as GameObject;
+                            Destroy(hitHole, 1.0f);
+                        }
+                    }
                 }
             }
-        }
-        //if(Input.GetMouseButtonDown(0))
-        //{
-        //    Debug.Log("Mouse Button Down");
-        //    //Bullet Direction = Camera.main.transform.forward + (Random.insideUnitSphere * ShootingRadius)
+            else
+            {
+                //reload
+                if (maxAmmoCount > 0)
+                {
+                    Reload();
+                }
+            }
 
-        //    GameObject obj = GameObject.Instantiate(Bullet, Muzzle.position, Quaternion.identity);
-        //    MuzzleFlash.Play();
-        //    obj.GetComponent<Rigidbody>().velocity = (Camera.main.transform.forward + (Random.insideUnitSphere * ShootingRadius)) * Bullet_Speed;
-        //}
+            if(Input.GetKey(KeyCode.R))
+            {
+                Reload();
+            }
+        }
 
         MoveDirection = Vector3.zero;
 
@@ -141,4 +175,23 @@ public class Player : MonoBehaviour
         rigid.velocity = MoveDirection;
     }
     //--------------------------------------------------
+
+    void FinishReload()
+    {
+        isReload = false;
+    }
+
+    void Reload()
+    {
+        isReload = true;
+        Invoke("FinishReload", ReloadTime);
+        maxAmmoCount -= 30 - curAmmo;
+        curAmmo = 30;
+        uiManager.Reload(ReloadTime, maxAmmoCount);
+    }
+
+    void FinishShot()
+    {
+        isShot = false;
+    }
 }

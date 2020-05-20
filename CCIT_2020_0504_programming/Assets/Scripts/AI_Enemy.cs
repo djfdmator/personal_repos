@@ -190,7 +190,7 @@ public class AI_Enemy : MonoBehaviour, IListener
 		if(Health <= 0)
 		{
 			StopAllCoroutines();
-            GameObject.FindGameObjectWithTag("MonsterGenerator").GetComponent<MonsterGenerator>().monsterCount--;
+            GameObject.FindGameObjectWithTag("MonsterGenerator").GetComponent<MonsterGenerator>().curMonsterCount--;
 			Destroy(transform.parent.gameObject);
 			return;
 		}

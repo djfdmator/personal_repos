@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Map
   - MonsterGenerator
+  - UIManager
   layers:
   - Default
   - TransparentFX
