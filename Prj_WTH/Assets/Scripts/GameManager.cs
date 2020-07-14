@@ -4,19 +4,74 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    //플레이 중인 날짜
-    public int playDay;
-    
+    private static GameManager m_Instance;
 
-    // Start is called before the first frame update
-    void Start()
+    public static GameManager Instance
     {
-        
+        get
+        {
+            if(m_Instance == null)
+            {
+                m_Instance = new GameManager();
+            }
+            return m_Instance;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public enum SceneStatus { TITLE, PLAY }
+    public GameObject TitleScene;
+    public GameObject PlayScene;
+
+    public SceneStatus curScene
     {
-        
+        get { return m_curScene; }
+        set
+        {
+            if (m_curScene != value)
+            {
+                m_curScene = value;
+                TitleScene.SetActive(false);
+                PlayScene.SetActive(false);
+
+                switch (m_curScene)
+                {
+                    case SceneStatus.TITLE:
+                        TitleScene.SetActive(true);
+                        break;
+                    case SceneStatus.PLAY:
+                        PlayScene.SetActive(true);
+                        break;
+                    default:
+                        TitleScene.SetActive(true);
+                        break;
+                }
+            }
+        }
+    }
+    private SceneStatus m_curScene = SceneStatus.TITLE;
+
+    //플레이 중인 날짜
+    public int playDay;
+
+    private void Awake()
+    {
+        m_Instance = this;
+
+        TitleScene = transform.Find("Title").gameObject;
+        PlayScene = transform.Find("Play").gameObject;
+    }
+
+    public void GotoScene(SceneStatus sceneStatus)
+    {
+        curScene = sceneStatus;
+    }
+
+    public void Exit()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 }
