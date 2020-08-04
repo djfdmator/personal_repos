@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public enum SceneStatus { TITLE, PLAY }
+    public enum SceneStatus { NONE, TITLE, PLAY }
     public GameObject TitleScene;
     public GameObject PlayScene;
 
@@ -48,10 +48,18 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-    private SceneStatus m_curScene = SceneStatus.TITLE;
+    private SceneStatus m_curScene = SceneStatus.NONE;
 
+    #region Database
     //플레이 중인 날짜
     public int playDay;
+    public int curPlayDay;
+
+    public string[] purposeList;
+    public string[] addressList;
+    public string[] manNames;
+    public string[] wemenNames;
+    #endregion
 
     private void Awake()
     {
@@ -59,6 +67,11 @@ public class GameManager : MonoBehaviour
 
         TitleScene = transform.Find("Title").gameObject;
         PlayScene = transform.Find("Play").gameObject;
+    }
+
+    private void Start()
+    {
+        curScene = SceneStatus.TITLE;
     }
 
     public void GotoScene(SceneStatus sceneStatus)

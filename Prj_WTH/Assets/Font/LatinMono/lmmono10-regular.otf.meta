@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 6c6063ba3c436c347a2ca8d7595b1675
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Latin Modern Mono
+  fontNames:
+  - Latin Modern Mono
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0374450a3bdead34ea4a8922ee5e9ee6, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
