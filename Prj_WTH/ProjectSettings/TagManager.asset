@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Desk
   - PlayDesk
+  - Document
   layers:
   - Default
   - TransparentFX

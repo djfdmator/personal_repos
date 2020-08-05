@@ -9,7 +9,7 @@ public class Play : MonoBehaviour
     private Coroutine Loop;
 
     public DialogWindow dialogWindow;
-    bool existNpc = false;
+    private bool existNpc = false;
 
     private void Awake()
     {
@@ -53,5 +53,10 @@ public class Play : MonoBehaviour
             mPlayTime += Time.deltaTime;
         }
         yield return null;
+    }
+
+    public void DisableNPC()
+    {
+        existNpc = false;
     }
 }

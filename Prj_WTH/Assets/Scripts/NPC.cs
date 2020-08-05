@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
+    private enum NPCState { None, Start, Stay, End };
+    private NPCState state;
+
+    public UISprite uiSprite;
     public Animator animator;
 
     public bool isMan;
@@ -15,19 +19,48 @@ public class NPC : MonoBehaviour
     public int stayDay;
     public string purpose;
 
+    public Object DocPrefab;
+
+    public GameObject doc;
+    public GameObject coin;
+    public GameObject key;
+
+    private Coroutine CO_StateMachine;
+
     public void Awake()
     {
+        DocPrefab = Resources.Load("DOC");
+        uiSprite = GetComponent<UISprite>();
         animator = GetComponent<Animator>();
         gameObject.SetActive(false);
+    }
+
+    private void OnEnable()
+    {
+        if (CO_StateMachine != null)
+        {
+            StopCoroutine(CO_StateMachine);
+            CO_StateMachine = null;
+        }
+
+        CO_StateMachine = StartCoroutine(StateMachine());
+    }
+
+    private void OnDisable()
+    {
+        if (CO_StateMachine != null)
+        {
+            StopCoroutine(CO_StateMachine);
+            CO_StateMachine = null;
+        }
     }
 
     public void Init()
     {
         Initialize();
         transform.localPosition = new Vector3(-760.0f, 0f, 0f);
-
+        state = NPCState.Start;
         gameObject.SetActive(true);
-        Debug.Log("gma");
     }
 
     private void Initialize()
@@ -40,8 +73,61 @@ public class NPC : MonoBehaviour
         phoneNumber = PhoneNumber();
         stayDay = Random.Range(1, 3);
         purpose = Purpose();
+
+        uiSprite.spriteName = imageName;
     }
-    #region aaa
+
+    IEnumerator StateMachine()
+    {
+        while (true)
+        {
+            switch (state)
+            {
+                case NPCState.None:
+                    yield return null;
+                    break;
+                case NPCState.Start:
+                    animator.Play("Appear");
+                    yield return new WaitForSeconds(1.5f);
+                    SubmitObj();
+                    state = NPCState.Stay;
+                    break;
+                case NPCState.Stay:
+                    yield return null;
+                    break;
+                case NPCState.End:
+                    yield return null;
+                    break;
+                default:
+                    yield return null;
+                    break;
+            }
+        }
+    }
+
+    private void SubmitObj()
+    {
+        doc = Instantiate(DocPrefab) as GameObject;
+        doc.GetComponent<DOC>().SetData(name, address, phoneNumber, stayDay, purpose);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //TODO : 아이템 받았을때의 처리
+        if (collision.GetComponent<DragObject>() != null)
+        {
+            if (collision.GetComponent<DragObject>().isSmall)
+            {
+                if (collision.CompareTag("Document"))
+                {
+                    doc = collision.gameObject;
+                    Debug.Log("Document Collision");
+                }
+            }
+        }
+    }
+
+    #region setting variable
     string Image()
     {
         string image = string.Empty;
@@ -64,7 +150,7 @@ public class NPC : MonoBehaviour
     {
         string name = string.Empty;
         int rand;
-        if(isMan)
+        if (isMan)
         {
             rand = Random.Range(0, GameManager.Instance.manNames.Length);
             name = GameManager.Instance.manNames[rand];
