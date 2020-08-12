@@ -23,7 +23,7 @@ public class DOC : DragObject
         purpose = big.transform.Find("Purpose").GetComponent<UILabel>();
         stamp = big.transform.Find("Stamp").GetComponent<UISprite>();
 
-        stamp.gameObject.SetActive(false);
+        stamp.enabled = false;
 
         if (transform.parent != desk)
         {

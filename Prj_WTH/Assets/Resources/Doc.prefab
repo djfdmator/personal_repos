@@ -507,7 +507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7183948500121498215
 Transform:
   m_ObjectHideFlags: 0
@@ -758,6 +758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa738ecf3d880fe4d8106484936dcdfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isStopDrag: 0
   isDrag: 0
   isSmall: 1
   name: {fileID: 0}
@@ -826,6 +827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7183948500533622550}
   - component: {fileID: 7183948500533622545}
+  - component: {fileID: 4676460639341887482}
   m_Layer: 5
   m_Name: Stamp
   m_TagString: Untagged
@@ -878,14 +880,14 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 66
-  mHeight: 46
+  mWidth: 56
+  mHeight: 54
   mDepth: 5
   mMat: {fileID: 0}
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.4347826
+  aspectRatio: 1.037037
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -903,3 +905,29 @@ MonoBehaviour:
   mSpriteName: Admission
   mFixedAspect: 0
   mFillCenter: 1
+--- !u!61 &4676460639341887482
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183948500533622551}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 100, y: 50}
+  m_EdgeRadius: 0

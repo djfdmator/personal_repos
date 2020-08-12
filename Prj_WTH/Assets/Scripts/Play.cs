@@ -4,17 +4,17 @@ using UnityEngine;
 public class Play : MonoBehaviour
 {
 
-    public float playTime = 300.0f;
+    public float playTime = 61.0f;
+    public Timer timer;
     public GameObject NpcObject;
     private Coroutine Loop;
 
-    public DialogWindow dialogWindow;
-    private bool existNpc = false;
+    public bool existNpc = false;
 
     private void Awake()
     {
+        timer = transform.Find("Timer").GetComponent<Timer>();
         NpcObject = transform.Find("NPC").gameObject;
-        dialogWindow = transform.Find("Background").Find("dialogWindow").GetComponent<DialogWindow>();
     }
 
     private void OnEnable()
@@ -41,6 +41,7 @@ public class Play : MonoBehaviour
     IEnumerator PlayLoop()
     {
         float mPlayTime = 0f;
+        timer.SetTimer(playTime, mPlayTime);
         yield return new WaitForSeconds(1.0f);
         while (mPlayTime <= playTime)
         {
@@ -48,9 +49,10 @@ public class Play : MonoBehaviour
             {
                 existNpc = true;
                 NpcObject.GetComponent<NPC>().Init();
-
             }
             mPlayTime += Time.deltaTime;
+            timer.SetTimer(playTime, mPlayTime);
+            yield return null;
         }
         yield return null;
     }

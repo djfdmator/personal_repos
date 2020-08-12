@@ -18,9 +18,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public enum SceneStatus { NONE, TITLE, PLAY }
+    public enum SceneStatus { NONE, TITLE, PLAY, LOAD }
     public GameObject TitleScene;
     public GameObject PlayScene;
+    public GameObject LoadScene;
 
     public SceneStatus curScene
     {
@@ -32,11 +33,15 @@ public class GameManager : MonoBehaviour
                 m_curScene = value;
                 TitleScene.SetActive(false);
                 PlayScene.SetActive(false);
+                LoadScene.SetActive(false);
 
                 switch (m_curScene)
                 {
                     case SceneStatus.TITLE:
                         TitleScene.SetActive(true);
+                        break;
+                    case SceneStatus.LOAD:
+                        LoadScene.SetActive(true);
                         break;
                     case SceneStatus.PLAY:
                         PlayScene.SetActive(true);
@@ -49,6 +54,8 @@ public class GameManager : MonoBehaviour
         }
     }
     private SceneStatus m_curScene = SceneStatus.NONE;
+
+    private UILabel debugLabel;
 
     #region Database
     //플레이 중인 날짜
@@ -65,13 +72,27 @@ public class GameManager : MonoBehaviour
     {
         m_Instance = this;
 
+        Screen.SetResolution(1280, 720, false);
+
         TitleScene = transform.Find("Title").gameObject;
         PlayScene = transform.Find("Play").gameObject;
+        LoadScene = transform.Find("Loading").gameObject;
+
+        debugLabel = transform.Find("Debug").Find("Label").GetComponent<UILabel>();
+        debugLabel.text = "";
     }
 
     private void Start()
     {
         curScene = SceneStatus.TITLE;
+    }
+
+    private void Update()
+    {
+        if(Screen.width != 1280 || Screen.height != 720)
+        {
+            Screen.SetResolution(1280, 720, false);
+        }
     }
 
     public void GotoScene(SceneStatus sceneStatus)
@@ -86,5 +107,10 @@ public class GameManager : MonoBehaviour
 #else
         Application.Quit();
 #endif
+    }
+
+    public void DebugLabel(string debug)
+    {
+        debugLabel.text = debug;
     }
 }

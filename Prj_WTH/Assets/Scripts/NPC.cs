@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NPC : MonoBehaviour
 {
+    public DialogWindow dialogWindow;
+
     private enum NPCState { None, Start, Stay, End };
     private NPCState state;
 
@@ -21,9 +23,9 @@ public class NPC : MonoBehaviour
 
     public Object DocPrefab;
 
-    public GameObject doc;
-    public GameObject coin;
-    public GameObject key;
+    public GameObject doc = null;
+    public GameObject coin = null;
+    public GameObject key = null;
 
     private Coroutine CO_StateMachine;
 
@@ -33,6 +35,7 @@ public class NPC : MonoBehaviour
         uiSprite = GetComponent<UISprite>();
         animator = GetComponent<Animator>();
         gameObject.SetActive(false);
+        dialogWindow = transform.parent.Find("Background").Find("dialogWindow").GetComponent<DialogWindow>();
     }
 
     private void OnEnable()
@@ -61,10 +64,16 @@ public class NPC : MonoBehaviour
         transform.localPosition = new Vector3(-760.0f, 0f, 0f);
         state = NPCState.Start;
         gameObject.SetActive(true);
+        dialogWindow.Message = "1^어서오세요.";
+        dialogWindow.Message = "0^안녕하세요.";
     }
 
     private void Initialize()
     {
+        doc = null;
+        coin = null;
+        key = null;
+
         isMan = Random.Range(0, 2) == 0 ? true : false;
         imageName = Image();
         name = Name();
@@ -93,6 +102,7 @@ public class NPC : MonoBehaviour
                     state = NPCState.Stay;
                     break;
                 case NPCState.Stay:
+                    StayCheck();
                     yield return null;
                     break;
                 case NPCState.End:
@@ -107,23 +117,66 @@ public class NPC : MonoBehaviour
 
     private void SubmitObj()
     {
-        doc = Instantiate(DocPrefab) as GameObject;
-        doc.GetComponent<DOC>().SetData(name, address, phoneNumber, stayDay, purpose);
+        GameObject docTemp = Instantiate(DocPrefab) as GameObject;
+        docTemp.GetComponent<DOC>().SetData(name, address, phoneNumber, stayDay, purpose);
+
+        //TODO : Coin
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void StayCheck()
+    {
+        if (doc != null && doc.GetComponent<DOC>().stamp.enabled)
+        {
+            dialogWindow.Message = "1^안녕히 가세요.";
+            if (doc.GetComponent<DOC>().stamp.spriteName == "Negative")
+            {
+                state = NPCState.End;
+                animator.Play("Out");
+                Debug.Log("손님 내쫒음");
+                dialogWindow.Message = "0^이런....";
+            }
+            else
+            {
+                //if (key != null)
+                //{
+                state = NPCState.End;
+                animator.Play("In");
+                Debug.Log("손님 받음");
+                dialogWindow.Message = "0^네~";
+                //}
+            }
+
+        }
+    }
+
+    public void AnimEnding()
+    {
+        Debug.Log("AnimEnding");
+        Destroy(doc);
+        doc = null;
+        gameObject.SetActive(false);
+        transform.parent.GetComponent<Play>().DisableNPC();
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
         //TODO : 아이템 받았을때의 처리
-        if (collision.GetComponent<DragObject>() != null)
+        if (collision.GetComponent<DragObject>() != null && collision.GetComponent<DragObject>().isSmall && !collision.GetComponent<DragObject>().isDrag)
         {
-            if (collision.GetComponent<DragObject>().isSmall)
+            if (collision.CompareTag("Document"))
             {
-                if (collision.CompareTag("Document"))
+                Debug.Log("Document Collision");
+                if (collision.GetComponent<DOC>().stamp.enabled)
                 {
                     doc = collision.gameObject;
-                    Debug.Log("Document Collision");
+                    doc.SetActive(false);
+                }
+                else
+                {
+                    collision.GetComponent<TweenPosition>().PlayForward();
                 }
             }
+
         }
     }
 

@@ -97,6 +97,7 @@ public class DialogWindow : MonoBehaviour
                             {
                                 Destroy(dialogs[i]);
                                 dialogs.RemoveAt(i);
+                                diaCount--;
                             }
                         }
                         yield return null;
