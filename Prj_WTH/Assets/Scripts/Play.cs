@@ -5,8 +5,11 @@ public class Play : MonoBehaviour
 {
 
     public float playTime = 61.0f;
+    public float fadeTime = 0f;
     public Timer timer;
     public GameObject NpcObject;
+    public GameObject dayStart;
+    TypewriterEffect typewriterEffect;
     private Coroutine Loop;
 
     public bool existNpc = false;
@@ -15,17 +18,32 @@ public class Play : MonoBehaviour
     {
         timer = transform.Find("Timer").GetComponent<Timer>();
         NpcObject = transform.Find("NPC").gameObject;
+        dayStart = transform.Find("DayStart").gameObject;
+        typewriterEffect = dayStart.GetComponentInChildren<TypewriterEffect>();
     }
 
     private void OnEnable()
     {
-        Initiallize();
+        typewriterEffect.GetComponent<UILabel>().text = "호텔 카운터 업무 " + GameManager.Instance.curPlayDay + "일차....";
+    }
+
+    public void GameStart()
+    {
+        if (!typewriterEffect.isActive)
+        {
+            Initiallize();
+        }
     }
 
     private void OnDisable()
     {
-        StopCoroutine(Loop);
-        Loop = null;
+        if (Loop != null)
+        {
+            StopCoroutine(Loop);
+            Loop = null;
+        }
+        dayStart.GetComponent<UIPanel>().alpha = 1.0f;
+        dayStart.SetActive(true);
     }
 
     private void Initiallize()
@@ -40,6 +58,16 @@ public class Play : MonoBehaviour
 
     IEnumerator PlayLoop()
     {
+        float mFadeTime = 0f;
+        UIPanel dayStartPanel = dayStart.GetComponent<UIPanel>();
+        while(mFadeTime <= fadeTime)
+        {
+            mFadeTime += Time.deltaTime;
+            dayStartPanel.alpha = (fadeTime - mFadeTime) / fadeTime;
+            yield return null;
+        }
+        dayStart.SetActive(false);
+
         float mPlayTime = 0f;
         timer.SetTimer(playTime, mPlayTime);
         yield return new WaitForSeconds(1.0f);
