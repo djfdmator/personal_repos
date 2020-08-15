@@ -9,6 +9,8 @@ public class Play : MonoBehaviour
     public Timer timer;
     public GameObject NpcObject;
     public GameObject dayStart;
+    public GameObject dayStartButton;
+
     TypewriterEffect typewriterEffect;
     private Coroutine Loop;
 
@@ -19,6 +21,7 @@ public class Play : MonoBehaviour
         timer = transform.Find("Timer").GetComponent<Timer>();
         NpcObject = transform.Find("NPC").gameObject;
         dayStart = transform.Find("DayStart").gameObject;
+        dayStartButton = dayStart.transform.Find("Button").gameObject;
         typewriterEffect = dayStart.GetComponentInChildren<TypewriterEffect>();
     }
 
@@ -31,6 +34,7 @@ public class Play : MonoBehaviour
     {
         if (!typewriterEffect.isActive)
         {
+            dayStartButton.SetActive(false);
             Initiallize();
         }
     }

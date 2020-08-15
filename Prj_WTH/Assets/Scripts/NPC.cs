@@ -15,13 +15,14 @@ public class NPC : MonoBehaviour
     public bool isMan;
     public string imageName;
     public int id;
-    public string name;
+    public string mName;
     public int phoneNumber;
     public string address;
     public int stayDay;
     public string purpose;
 
     public Object DocPrefab;
+    public Object CoinPrefab;
 
     public GameObject doc = null;
     public GameObject coin = null;
@@ -32,6 +33,7 @@ public class NPC : MonoBehaviour
     public void Awake()
     {
         DocPrefab = Resources.Load("DOC");
+        CoinPrefab = Resources.Load("Token");
         uiSprite = GetComponent<UISprite>();
         animator = GetComponent<Animator>();
         gameObject.SetActive(false);
@@ -76,7 +78,7 @@ public class NPC : MonoBehaviour
 
         isMan = Random.Range(0, 2) == 0 ? true : false;
         imageName = Image();
-        name = Name();
+        mName = Name();
         address = Address();
         id = Id();
         phoneNumber = PhoneNumber();
@@ -118,9 +120,11 @@ public class NPC : MonoBehaviour
     private void SubmitObj()
     {
         GameObject docTemp = Instantiate(DocPrefab) as GameObject;
-        docTemp.GetComponent<DOC>().SetData(name, address, phoneNumber, stayDay, purpose);
+        docTemp.GetComponent<DOC>().SetData(mName, address, phoneNumber, stayDay, purpose);
 
-        //TODO : Coin
+        GameObject tokenTemp = Instantiate(CoinPrefab) as GameObject;
+        tokenTemp.GetComponent<Token>().SetIdNumber(id);
+
     }
 
     private void StayCheck()

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DOC : DragObject
 {
-    public UILabel name;
+    public UILabel mName;
     public UILabel address;
     public UILabel phoneNumber;
     public UILabel stayDate;
@@ -16,7 +16,7 @@ public class DOC : DragObject
     {
         base.Awake();
 
-        name = big.transform.Find("Name").GetComponent<UILabel>();
+        mName = big.transform.Find("Name").GetComponent<UILabel>();
         address = big.transform.Find("Address").GetComponent<UILabel>();
         phoneNumber = big.transform.Find("PhoneNumber").GetComponent<UILabel>();
         stayDate = big.transform.Find("StayDay").GetComponent<UILabel>();
@@ -45,7 +45,7 @@ public class DOC : DragObject
 
     public void SetData(string _name, string _address, int _phoneNumber, int _stayDate, string _purpose)
     {
-        name.text = _name;
+        mName.text = _name;
         address.text = _address;
         phoneNumber.text = _phoneNumber.ToString();
         stayDate.text = _stayDate == 1 ? "1박 2일" : "2박 3일";

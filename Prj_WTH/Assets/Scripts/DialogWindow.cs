@@ -106,7 +106,6 @@ public class DialogWindow : MonoBehaviour
             }
             yield return new WaitForSeconds(1.0f);
         }
-        yield return null;
     }
 
     IEnumerator ElevateDialog()

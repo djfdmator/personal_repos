@@ -71,7 +71,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 5
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 1e109930ad8c5b64297a9d273daa6bd7, type: 3}
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   mFont: {fileID: 0}
   mText: New Label
   mFontSize: 20
@@ -172,7 +172,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 5
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 1e109930ad8c5b64297a9d273daa6bd7, type: 3}
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   mFont: {fileID: 0}
   mText: New Label
   mFontSize: 20
@@ -273,7 +273,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 5
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 1e109930ad8c5b64297a9d273daa6bd7, type: 3}
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   mFont: {fileID: 0}
   mText: New Label
   mFontSize: 20
@@ -374,7 +374,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 5
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 1e109930ad8c5b64297a9d273daa6bd7, type: 3}
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   mFont: {fileID: 0}
   mText: New Label
   mFontSize: 20
@@ -655,7 +655,7 @@ MonoBehaviour:
   keepAspectRatio: 0
   aspectRatio: 5
   keepCrispWhenShrunk: 1
-  mTrueTypeFont: {fileID: 12800000, guid: 1e109930ad8c5b64297a9d273daa6bd7, type: 3}
+  mTrueTypeFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   mFont: {fileID: 0}
   mText: New Label
   mFontSize: 20
@@ -761,7 +761,7 @@ MonoBehaviour:
   isStopDrag: 0
   isDrag: 0
   isSmall: 1
-  name: {fileID: 0}
+  mName: {fileID: 0}
   address: {fileID: 0}
   phoneNumber: {fileID: 0}
   stayDate: {fileID: 0}

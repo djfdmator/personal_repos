@@ -58,7 +58,7 @@ public class Loading : MonoBehaviour
 
     public void SkipButton()
     {
-        GameManager.Instance.playDay++;
+        GameManager.Instance.curPlayDay++;
         GameManager.Instance.GotoScene(GameManager.SceneStatus.PLAY);
     }
 }
