@@ -1,3 +1,3 @@
 # personal_repos
 
-테스트
+NPRCR(Number of People Requesting Cash Receipt)
