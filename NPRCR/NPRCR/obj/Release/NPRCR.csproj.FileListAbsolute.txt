@@ -1,0 +1,9 @@
+E:\GitHub\personal_repos\NPRCR\NPRCR\bin\Release\NPRCR.exe.config
+E:\GitHub\personal_repos\NPRCR\NPRCR\bin\Release\NPRCR.exe
+E:\GitHub\personal_repos\NPRCR\NPRCR\bin\Release\NPRCR.pdb
+E:\GitHub\personal_repos\NPRCR\NPRCR\obj\Release\NPRCR.Form1.resources
+E:\GitHub\personal_repos\NPRCR\NPRCR\obj\Release\NPRCR.Properties.Resources.resources
+E:\GitHub\personal_repos\NPRCR\NPRCR\obj\Release\NPRCR.csproj.GenerateResource.cache
+E:\GitHub\personal_repos\NPRCR\NPRCR\obj\Release\NPRCR.csproj.CoreCompileInputs.cache
+E:\GitHub\personal_repos\NPRCR\NPRCR\obj\Release\NPRCR.exe
+E:\GitHub\personal_repos\NPRCR\NPRCR\obj\Release\NPRCR.pdb
