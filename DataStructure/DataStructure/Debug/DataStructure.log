@@ -1,0 +1,10 @@
+﻿  CGraph.cpp
+  CList.cpp
+c:\users\home\source\repos\datastructure\datastructure\clist.h(8): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Node' 왼쪽은 무시됩니다.
+  CSort.cpp
+c:\users\home\source\repos\datastructure\datastructure\ctree.h(19): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Tree::Node' 왼쪽은 무시됩니다.
+  CTree.cpp
+c:\users\home\source\repos\datastructure\datastructure\ctree.h(19): warning C4091: 'typedef ': 변수를 선언하지 않으면 'Tree::Node' 왼쪽은 무시됩니다.
+  코드를 생성하고 있습니다...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
+C:\Users\Home\source\repos\DataStructure\Debug\DataStructure.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
