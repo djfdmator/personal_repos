@@ -79,3 +79,38 @@ int Search::BinarySearch(int * arr, int begin, int end, int findkey)
 	else result = -1;
 	return result;
 }
+
+int Search::Hash_ModMethod(int key, int tablesize)
+{
+	return key % tablesize;
+}
+
+void Search::Hash_Insert(int key)
+{
+	HashTable[Hash_ModMethod(key)].list.push_back(key);
+}
+
+Search::HashAddress Search::Hash_Search(int key)
+{
+	HashAddress result;
+	int bucketAddress = Hash_ModMethod(key);
+
+	int i = 0;
+	while (i < HashTable[bucketAddress].list.size() && HashTable[bucketAddress].list[i] != key)
+	{
+		i++;
+	}
+
+	if (i < HashTable[bucketAddress].list.size())
+	{
+		result.bucketAddress = bucketAddress;
+		result.slotAddress = i;
+	}
+	else
+	{
+		result.bucketAddress = -1;
+		result.slotAddress = -1;
+	}
+
+	return result;
+}
