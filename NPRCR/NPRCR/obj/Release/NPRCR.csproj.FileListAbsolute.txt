@@ -7,3 +7,4 @@ E:\GitHub\personal_repos\NPRCR\NPRCR\obj\Release\NPRCR.csproj.GenerateResource.c
 E:\GitHub\personal_repos\NPRCR\NPRCR\obj\Release\NPRCR.csproj.CoreCompileInputs.cache
 E:\GitHub\personal_repos\NPRCR\NPRCR\obj\Release\NPRCR.exe
 E:\GitHub\personal_repos\NPRCR\NPRCR\obj\Release\NPRCR.pdb
+E:\GitHub\personal_repos\NPRCR\NPRCR\obj\Release\NPRCR.csprojAssemblyReference.cache

@@ -294,7 +294,7 @@ namespace NPRCR
             Dictionary<int, CashReceiptApplicantDatum> result = new Dictionary<int, CashReceiptApplicantDatum>();
             for (int i = 2; i <= range.Rows.Count; i++)
             {
-                int count = 2;
+                int count = 1;
                 CashReceiptApplicantDatum data;
                 data.name = (range.Cells[i, count++] as Range).Value2.ToString();
                 data.employeeNumber = (range.Cells[i, count++] as Range).Value2.ToString();
@@ -367,6 +367,11 @@ namespace NPRCR
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
